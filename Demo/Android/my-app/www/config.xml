@@ -7,7 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         MonApp Team
     </author>
-    <content src="https://monapp-dentiste-c9-jewelz.c9.io/index.html" />
+    <content src="https://monapp-dentiste-c9-jewelz.c9.io/1/" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
