@@ -14,6 +14,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //routes / mapping controller
 app.get('/:appId/', layoutController.initialize);
+app.get('/index.html', function(req, res){
+    res.redirect(301, '/1/');
+});
 app.get('/', function(req, res){
     //debug only route - redirect to dev app id
     res.redirect(301, '/1/');
