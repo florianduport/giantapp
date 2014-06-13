@@ -1,0 +1,17 @@
+extends ../layout
+block conditionnalHeader
+    link(href="/css/signIn.css" rel="stylesheet")
+block content
+    div(class="login-wrapper")
+        h1 Giant App
+        div(class="box")
+            div(class="content-wrap")
+                h6 Connectez-vous
+                form(class="form-signin" name="signin" role="form" action="signin/" method="post")
+                    if(model  !== undefined &&  model.error !== undefined && model.error)
+                        div(class="alert alert-danger")
+                            p Votre email ou votre mot de passe entré n'est pas correct.
+                    input(type="email" name="username" class="form-control" placeholder="Adresse email" required autofocus)
+                    input(type="password" name="password" class="form-control" placeholder="Mot de passe")
+                    a(href="#" class="forgot") Mot de passe oublié?
+                    button(class="btn btn-lg btn-primary btn-block" type="submit") Se connecter
