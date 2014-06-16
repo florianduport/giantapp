@@ -1,0 +1,22 @@
+extends ../dashboard
+block dashboardContent
+    div(class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-1 main")
+        h2(class="sub-header") Nous contacter
+        div(class="alert alert-warning") 
+            span La réponse à votre question se trouve peut-être dans notre section Aide   
+            a(href="/help") - Cliquez ici pour y accéder
+
+        form(name="contact" role="form" action="contact/" method="post")
+            label(for="object") Objet :
+            br
+            select(name="object" class="form-control")
+                option(value="1") Votre application
+                option(value="1") Interface de gestion
+                option(value="2") Abonnement / Facturation 
+                option(value="3") Autre
+            br
+            label(for="content") Message :
+            br
+            textarea(name="content" class="form-control" rows="10")
+            br
+            button(class="btn btn-lg btn-primary pull-right" type="button") Envoyer

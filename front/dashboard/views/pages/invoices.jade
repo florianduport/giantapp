@@ -1,0 +1,33 @@
+extends ../dashboard
+block dashboardContent
+    div(class="col-md-1")
+    div(class="col-md-10 main")
+        h2(class="sub-header") Mes factures
+        if model.invoices !== undefiend && model.invoices.length > 0
+            -var index = model.invoices.length
+            -var displayIndex = function(element){var returned = element; while(returned.length < 5){ returned = "0"+returned; } return returned;}
+            div(class="table-responsive")
+                table(class="table table-striped")
+                    thead
+                        tr
+                            th #
+                            th Date de facturation
+                            th Objet de la facture
+                            th Montant
+                            th Etat
+                            th Télécharger
+                    tbody
+                        each invoice in model.invoices
+                            -var state = invoice.state == true ? "Payée" : "En attente";
+                            -var currentIndex = displayIndex(index.toString());
+                            tr
+                                td #{currentIndex}
+                                -index = index-1;
+                                td #{invoice.date}
+                                td #{invoice.name}
+                                td #{invoice.total} €
+                                td #{state}
+                                td 
+                                    span Cliquez ici 
+                                        img(src="/img/icons/small/pdf.png" height="20px")
+    div(class="col-md-1")                    

@@ -1,0 +1,39 @@
+
+/*
+* Th�me bleu clair
+*/
+.bluetheme #header
+{
+	background-color: #83b9e2;
+	color: #ffffff;
+}
+.bluetheme .clear
+{
+	background-color: #83b9e2;
+}
+
+/*
+* Th�me vert clair
+*/
+.greentheme #header
+{
+	background-color: #34b196;
+	color: #ffffff;
+}
+.greentheme .clear
+{
+	background-color: #34b196;
+}
+
+/*
+* Th�me rouge clair
+*/
+.redtheme #header
+{
+	background-color: #ea5f42;
+	color: #ffffff;
+}
+.redtheme .clear
+{
+	background-color: #ea5f42;
+}

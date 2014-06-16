@@ -1,0 +1,10 @@
+extends ../dashboard
+block dashboardContent
+    div(class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main")
+        h2(class="sub-header") Mon abonnement
+        div(class="row placeholders")
+            div(class="col-xs-6 col-sm-9 placeholder")
+                p Texte un, correctement abonné
+            div(class="col-xs-6 col-sm-3 placeholder")
+                form(class="form-signin" name="signin" role="form" action="/unsubscribe" method="post")
+                    button(type="button" class="btn btn-lg btn-default") Se désabonner

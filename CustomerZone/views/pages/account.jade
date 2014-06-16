@@ -1,0 +1,58 @@
+extends ../dashboard
+block pageHeader
+    script(src="/js/pages/account.front.js" type="text/javascript")
+    
+block dashboardContent
+
+    div(class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main")
+        h2(class="sub-header") Mon compte
+        
+        if model.error !== undefined && model.error
+            div(class="alert alert-danger") Une erreur a été détectée dans le formulaire
+        else if model.accountUpdated !== undefined && model.accountUpdated
+            div(class="alert alert-success") Votre modification a bien été prise en compte
+        
+        form(class="form-account form-horizontal" name="account" role="form" action="/account" method="post")
+            
+            -var email = model.user.username !== undefined ? model.user.username : ""
+            label(for="email") Identifiant : 
+            input(type="text" name="email" value="#{email}" class="form-control" required disabled)
+            br
+            
+            label(for="mdp") Mot de passe :
+            br
+            a(id="displayUpdatePassword" href="#")  Modifier mon mot de passe
+            div(class="hidden")
+                input(type="hidden" name="updatePassword" value="false")
+                input(type="password" class="form-control" name="newPassword" placeholder="Votre nouveau mot de passe")
+            br
+            br
+            
+            -var firstName = model.user.account.firstName !== undefined ? model.user.account.firstName : ""
+            label(for="firstName") Prénom :
+            br
+            input(type="text" name="firstName" value="#{firstName}" placeholder="Entrez votre prénom" class="form-control" required)
+            br
+            
+            -var lastName = model.user.account.lastName !== undefined ? model.user.account.lastName : ""
+            label(for="lastName") Nom :
+            br
+            input(type="text" name="lastName" value="#{lastName}" class="form-control" placeholder="Entrez votre nom" required)
+            br
+            
+            -var phoneNumber = model.user.account.phoneNumber !== undefined ? model.user.account.phoneNumber : ""
+            label(for="phoneNumber") Numéro de téléphone (optionnel) :  
+            input(type="text" name="phoneNumber" value="#{phoneNumber}" placeholder="Entrez votre numéro de téléphone" class="form-control")
+            br
+            
+            label(for="invoiceAddress") Adresse de facturation :
+            textarea(name="invoiceAddress" class="form-control" required) #{model.user.account.address.invoice}
+            br
+            
+            label(for="shippingAddress") Adresse de livraison :
+            textarea(name="shippingAddress" class="form-control" required) #{model.user.account.address.shipping}
+            br
+            
+            div(class="form-actions pull-right")
+                button(type="submit" class="btn btn-primary") Enregistrer
+            

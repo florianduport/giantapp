@@ -1,0 +1,87 @@
+header(class="navbar navbar-inverse" role="banner")
+        div(class="navbar-header")
+            button(class="navbar-toggle" type="button" data-toggle="collapse" id="menu-toggler")
+                span(class="sr-only") Toggle navigation
+                span(class="icon-bar")
+                span(class="icon-bar")
+                span(class="icon-bar")
+            a(class="navbar-brand" href="index.html")
+                span Giant App
+        ul(class="nav navbar-nav pull-right hidden-xs")
+            li(class="hidden-xs hidden-sm")
+            li(class="notification-dropdown hidden-xs hidden-sm")
+                a(href="#" class="trigger")
+                    i(class="fa fa-warning fa-lg")
+                    span(class="count") 8
+                div(class="pop-dialog")
+                    div(class="pointer right")
+                        div(class="arrow")
+                            div(class="arrow_border")
+                    div(class="body")
+                        a(href="#" class="close-icon")
+                            i(class="icon-remove-sign")
+                        div(class="notifications")
+                            h3 You have 6 new notifications
+                            a(href="#" class="item")
+                                i(class="icon-signin") 
+                                span New user registration
+                                span(class="time")
+                                    i(class="icon-time")
+                                    span 13 min
+                            a(href="#" class="item")
+                                i(class="icon-envelope-alt") New message from Alejandra
+                                span(class="time")
+                                    i(class="icon-time")
+                                    span 28 min.
+                            a(href="#" class="item")
+                                i(class="icon-signin") New user registration
+                                span(class="time")
+                                    i(class="icon-time") 49 min.
+                            a(href="#" class="item")
+                                i(class="icon-download-alt") New order placed
+                                span(class="time")
+                                    i(class="icon-time") 1 day.
+                            div(class="footer")
+                                a(href="#" class="logout") View all notification
+            li(class="notification-dropdown hidden-xs hidden-sm")
+                a(href="#" class="trigger")
+                    i(class="fa fa-envelope fa-lg")
+                div(class="pop-dialog")
+                    div(class="pointer right")
+                        div(class="arrow")
+                        div(class="arrow_border")
+                    div(class="body")
+                        a(href="#" class="close-icon")
+                            i(class="icon-remove-sign")
+                        div(class="messages")
+                            a(href="#" class="item")
+                                img(src="img/contact-img.png" class="display" alt="user")
+                                div(class="name") Alejandra Galván
+                                div(class="msg") There are many variations of available, but the majority have suffered alterations.
+                                span(class="time")
+                                    i(class="icon-time") 13 min.
+                            a(href="#" class="item last")
+                                img(src="img/contact-img.png" class="display" alt="user")
+                                div(class="name") Alejandra Galván
+                                div(class="msg") There are many variations of available, but the majority have suffered alterations.
+                                span(class="time")
+                                    i(class="icon-time") 48 min.
+                            div(class="footer")
+                                a(href="#" class="logout") View all messages
+            li(class="dropdown")
+                a(href="#" class="dropdown-toggle hidden-xs hidden-sm" data-toggle="dropdown")
+                    span Mon compte
+                    b(class="caret")
+                ul(class="dropdown-menu")
+                    li 
+                        a(href="/account") Mes informations
+                    li
+                        a(href="/invoices") Mes factures
+                    li
+                        a(href="/help") Aide
+                    li
+                        a(href="/signout") Se déconnecter
+            li(class="settings hidden-xs hidden-sm")
+            li(class="settings hidden-xs hidden-sm")
+                a(href="/signout" role="button")
+                    i(class="fa fa-share fa-lg")

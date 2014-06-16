@@ -1,0 +1,10 @@
+extends layout
+block conditionnalHeader
+    link(href="/css/dashboard.css" rel="stylesheet")
+    block pageHeader
+block content
+    include blocks/header.jade
+    include blocks/menu.jade         
+    div(class="content")
+        block dashboardContent
+                    

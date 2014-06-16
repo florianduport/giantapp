@@ -1,0 +1,11 @@
+extends ../dashboard
+block dashboardContent
+    div(id="pad-wrapper")
+        h1(class="page-header") Bienvenue #{model.account.firstName} #{model.account.lastName}
+        div(class="row placeholders")
+            div(class="col-xs-6 col-sm-4 placeholder")
+                p Vous n'avez pas de nouveau message
+            div(class="col-xs-6 col-sm-4 placeholder")
+                p Votre compte est correctement configuré
+            div(class="col-xs-6 col-sm-4 placeholder")
+                p Votre abonnement est actif : Prochain prélèvement le 12/05/2014
