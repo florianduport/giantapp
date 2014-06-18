@@ -2,7 +2,7 @@ var MongoClient = require('mongodb').MongoClient;
 
 function GetDatabase(ToExecute){
 
-    MongoClient.connect("mongodb://MonApp:MonApp@94.23.203.174:27017/monapp", function(err, db) {
+    MongoClient.connect("mongodb://giantapp:Answer&&Pigeon2010@94.23.203.174:27017/giantapp", function(err, db) {
         ToExecute(db);
     }); 
 

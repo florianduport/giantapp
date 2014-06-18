@@ -28,6 +28,7 @@ exports.logMessage = function(application, message, params){
 };
 
 function log(log){
+    console.log("logger called !");
     GetDb(function(db){
         db.collection("Logs", function(err, logsCollection){
             if (err || !logsCollection)
@@ -35,7 +36,7 @@ function log(log){
                 //logger une erreur ici
                 return done(false);
             }
-            logsCollection.save(log, function(err, inserted){});
+            logsCollection.insert(log, { w: 0 });
         });
     });
 };
