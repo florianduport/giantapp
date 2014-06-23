@@ -24,14 +24,16 @@ var Main = {
         
        var app = Express();
        app.use(BodyParser.json());
-       
+       var routes = this._routes;
        ConfigurationHelper.getConfig({application : 'services', done : function(configuration){
         	app.set('port',  configuration.port);
         
         	//load all routes
-        	for(var i = 0; i < this._routes.length; i++){
-        		this._routes[i].loadRoutes(app, configuration);
+        	for(var i = 0; i < routes.length; i++){
+        		routes[i].loadRoutes(app, configuration);
         	}
+
+            //technical routes here : 404, 500
         
         	//lancement du serveur
         	app.listen(configuration.port, function(){

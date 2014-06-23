@@ -32,7 +32,7 @@ var HmacHelper = {
     * _getHmac contient l'algo de génération du hmac
     * @return le hmac généré
     */
-    VerifyRequest : function(req, res, next){
+    verifyRequest : function(req, res, next){
     	var hmac = "";
     	if(req.body !== undefined && req.body.hmac !== undefined)
     		hmac = req.body.hmac;

@@ -5,7 +5,8 @@
 var LocalConfig = {
 
 	//override attributes form db config here
-	newConfAttribute : 1337
+	newConfAttribute : 1337,
+	hmacEnabled : false
 	
 };
 

@@ -1,6 +1,6 @@
 var customerService = require('./customer.service');
 var loggerService = require('../logger/logger.service');
-var VerifyRequest = require('../../helpers/hmac.helper').VerifyRequest;
+var HmacHelper = require('./../../helpers/hmac.helper').HmacHelper;
 
 /**
  * Routes du service Customer
@@ -17,7 +17,7 @@ var CustomerRoutes = {
 
     	// get logs : /customer/authenticateCustomer
     
-    	app.post(configuration.routes.customer.authenticateCustomer, VerifyRequest, function(req, res){
+    	app.post(configuration.routes.customer.authenticateCustomer, HmacHelper.verifyRequest, function(req, res){
     		//check parameters
     		if(req.body === undefined || !req.body || req.body.username === undefined || !req.body.username || req.body.password === undefined || !req.body.password){
     			loggerService.logError("services", "Wront customer authenticate parameters", {username : req.body.username !== undefined ? req.body.username : ""});

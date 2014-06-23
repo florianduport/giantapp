@@ -1,5 +1,5 @@
-var loggerService = require('./logger.service');
-var VerifyRequest = require('./../../helpers/hmac.helper').VerifyRequest;
+var LoggerService = require('./logger.service').LoggerService;
+var HmacHelper = require('./../../helpers/hmac.helper').HmacHelper;
 
 /**
  * Routes du service Customer
@@ -13,15 +13,15 @@ var LoggerRoutes = {
     * @param configuration : la configuration de l'application (contient le chemin de l'url)
     */
     loadRoutes : function(app, configuration){
-    
+        
     	// get logs : /logger/
     
-    	app.get(configuration.routes.logger.getLogs, VerifyRequest, function(req, res){
+    	app.get(configuration.routes.logger.getLogs, HmacHelper.verifyRequest, function(req, res){
     		var application = "";
     		if(req.body !== undefined && req.body.application !== undefined)
     			application = req.body.application;
     		//get 100 last logs
-    		loggerService.getLogs(application, function(logs){
+    		LoggerService.getLogs(application, function(logs){
     			res.json(logs);
     		});
     	});
