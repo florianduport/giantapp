@@ -1,15 +1,23 @@
-var GetDb = require('./database.helper').GetDatabase;
+var DatabaseHelper = require('./database.helper').DatabaseHelper;
 
-function LogError(application, message, params, errorObject){
-    var log = {application : application, type : "error", message : message, params : params, errorObject : errorObject}
-    GetDb(function(db){
-        db.collection("Logs", function(err, logsCollection){
-            if (err || !logsCollection)
-            {
-                console.log("Error while logging : DB is probably down");
-            }
-            logsCollection.insert(log, { w: 0 });
+/**
+ * Outil de log en base
+ * @class LoggerHelper
+ */
+var LoggerHelper = {
+    
+    logError : function(application, message, params, errorObject){
+        var log = {application : application, type : "error", message : message, params : params, errorObject : errorObject}
+        DatabaseHelper.getDatabase(function(db){
+            db.collection("Logs", function(err, logsCollection){
+                if (err || !logsCollection)
+                {
+                    console.log("Error while logging : DB is probably down");
+                }
+                logsCollection.insert(log, { w: 0 });
+            });
         });
-    });
+    }
+
 }
-module.exports.LogError = LogError;
+module.exports.LoggerHelper = LoggerHelper;

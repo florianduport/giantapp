@@ -1,11 +1,12 @@
-var localConfig = {
+/**
+ * Surcharge de la configuration en BDD
+ * @class LocalConfig 
+ */
+var LocalConfig = {
 
 	//override attributes form db config here
 	newConfAttribute : 1337
+	
 };
 
-var GetLocalConfig = function(done){
-	return done(localConfig);
-};
-
-module.exports.GetLocalConfig = GetLocalConfig;
+module.exports.LocalConfig = LocalConfig;
