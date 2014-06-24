@@ -40,8 +40,9 @@ var HmacHelper = {
     		hmac = req.params.hmac;
     	else if(req.query !== undefined && req.query.hmac !== undefined)
     		hmac = req.query.hmac;
+
     	ConfigurationHelper.getConfig({application : 'services', attribute : "hmacEnabled", done : function(hmacEnabled){
-    		if((hmac !== "" && hmac === this._getHmac()) || (hmacEnabled !== null && hmacEnabled === false))
+    		if((hmac !== "" && hmac === HmacHelper._getHmac()) || (hmacEnabled !== null && hmacEnabled === false))
     			return next();
     		else {
     			res.send(404);
@@ -50,6 +51,6 @@ var HmacHelper = {
     	});
     	
     }
-}
+};
 
 module.exports.HmacHelper = HmacHelper;

@@ -6,6 +6,13 @@ var DatabaseHelper = require('./database.helper').DatabaseHelper;
  */
 var LoggerHelper = {
     
+    /**
+    * logError : log une erreur en base
+    * @param application : l'application concernée
+    * @param message : le message d'erreur
+    * @param params : les paramètres de l'appel
+    * @param errorObject : l'erreur retournée
+    */
     logError : function(application, message, params, errorObject){
         var log = {application : application, type : "error", message : message, params : params, errorObject : errorObject}
         DatabaseHelper.getDatabase(function(db){
@@ -19,5 +26,6 @@ var LoggerHelper = {
         });
     }
 
-}
+};
+
 module.exports.LoggerHelper = LoggerHelper;

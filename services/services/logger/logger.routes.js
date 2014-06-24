@@ -1,11 +1,14 @@
-var LoggerService = require('./logger.service').LoggerService;
-var HmacHelper = require('./../../helpers/hmac.helper').HmacHelper;
+var Base = require('../base/base.routes').BaseRoutes,
+LoggerService = require('./logger.service').LoggerService,
+HmacHelper = require('./../../helpers/hmac.helper').HmacHelper;
 
 /**
  * Routes du service Customer
  * @class LoggerRoutes
  */
 var LoggerRoutes = {
+
+    Base : Base,
 
     /**
     * loadRoutes : Charge les routes dans Express pour les rendre accessible
@@ -22,7 +25,7 @@ var LoggerRoutes = {
     			application = req.body.application;
     		//get 100 last logs
     		LoggerService.getLogs(application, function(logs){
-    			res.json(logs);
+    			Base.send(req, res, logs);
     		});
     	});
     

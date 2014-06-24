@@ -6,7 +6,6 @@ var DatabaseHelper = require('../../helpers/database.helper').DatabaseHelper;
  */
 var CustomerService = {
 
-
     /**
     * authenticateCustomer : Vérifie si le couple user / mdp existe en base
     * @param username : le nom d'utilisateur'

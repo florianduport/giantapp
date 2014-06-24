@@ -1,11 +1,20 @@
-var MongoClient = require('mongodb').MongoClient;
+var MongoClient = require('mongodb').MongoClient,
+LocalConfig = require('./../configuration.local').LocalConfig;
+/**
+ * Connexion à la BDD
+ * @class DatabaseHelper
+ */
+var DatabaseHelper = {
 
-function GetDatabase(ToExecute){
-
-    MongoClient.connect("mongodb://giantapp:Answer&&Pigeon2010@94.23.203.174:27017/giantapp", function(err, db) {
-        ToExecute(db);
-    }); 
+    getDatabase : function(ToExecute){
+        MongoClient.connect(LocalConfig.database.address, function(err, db) {
+            if(err)
+            	console.log(err);
+            ToExecute(db);
+        });
+    }
 
 };
 
-module.exports.GetDatabase = GetDatabase;
+
+module.exports.DatabaseHelper = DatabaseHelper;

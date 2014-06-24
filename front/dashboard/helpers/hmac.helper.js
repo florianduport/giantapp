@@ -1,21 +1,32 @@
-var crypto = require('crypto');
-var LogError = require('./logger.helper').LogError;
+var crypto = require('crypto'),
+ConfigurationHelper = require('./configuration.helper').ConfigurationHelper;
 
-var GetHmac = function(){
-	var date = new Date();
-	var text      = 'giantapp'+date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear()+'giantapp';
-	var key       = 'giantapp';
-	var algorithm = 'sha1';
-	var hmac = "";
+/**
+ * Sécurisation des appels services
+ * @class HmacHelper
+ */
+var HmacHelper = {
 
-	//improve with a better conditionnal hmac 
-	//store it in db and check it instead of recaculate here
-
-	hmac = crypto.createHmac(algorithm, key);
-	hmac.setEncoding('hex');
-	hmac.write(text);
-	hmac.end();
-	return hmac.read();
+    /**
+    * _getHmac contient l'algo de génération du hmac
+    * @return le hmac généré
+    */
+    getHmac : function(){
+        var date = new Date(),
+        text = 'giantapp'+date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear()+'giantapp',
+        key       = 'giantapp',
+        algorithm = 'sha1',
+        hmac = "";
+    
+        //improve with a better conditionnal hmac 
+        //store it in db and check it instead of recaculate here
+    
+        hmac = crypto.createHmac(algorithm, key);
+        hmac.setEncoding('hex');
+    	hmac.write(text);
+    	hmac.end();
+    	return hmac.read();
+    }
 };
 
-module.exports.GetHmac = GetHmac;
+module.exports.HmacHelper = HmacHelper;

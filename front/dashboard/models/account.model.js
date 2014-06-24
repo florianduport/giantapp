@@ -1,22 +1,24 @@
 var sha1 = require('sha1');
-var base = require('./base.model');
-var customerHelper = require('../helpers/customer.helper');
+base = require('./base.model'),
+ServiceHelper = require('./../helpers/service.helper').ServiceHelper;
 
-var Model = function(){
+var AccountModel = function(){
+
     this.initialize = function(req, callback){
 
-        customerHelper.findOneByUsername({username: req.session.user}, function(user){
+        ServiceHelper.getService("customer", "findOneByUsername", {data: {username: req.session.user}}, function(user){
             base.common.call(this, req);
             this.user = user;
             callback(this);
         });
         
     },
+
     this.updateAccount = function(req, data, callback){
         base.common.call(this, req);
         
-        customerHelper.findOneByUsername({username: req.session.user}, function(user){
-            this.user = user;
+        ServiceHelper.getService("customer", "updateAccount", {data: data}, function(user){
+            /*this.user = user;
             console.log(this.user);
             var updatedUser = user;
             
@@ -31,11 +33,28 @@ var Model = function(){
             
             customerHelper.save(updatedUser, function(){
                 callback(this);
-            });
-            
+            });*/
+            callback(this);
         });
         
     },
+
+    this.signIn = function(username, password, req, done){
+
+        ServiceHelper.getService("customer", "authenticateCustomer", {data : {username : username, password : sha1(password)}, method: "POST"}, function(resp){
+            if(resp === undefined || !resp || resp !== true)
+            {
+                req.session.error = true;
+                return done(false);
+            }
+            req.session.error = false;
+            req.session.user = username;
+
+            return done(true);
+        });
+
+    },
+
     this.displaySignIn = function(req, callback){
         base.common.call(this, req);
         if(req.session.error)
@@ -43,6 +62,7 @@ var Model = function(){
         else
             this.error = false;
         callback(this);
-    };
+    }
 };
-exports.getModel = function(){ return new Model(); };
+
+module.exports.AccountModel = function(){ return new AccountModel(); };

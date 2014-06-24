@@ -1,48 +1,58 @@
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var session = require('express-session');
-var customerHelper = require('./helpers/customer.helper');
-var bodyParser = require('body-parser');
+var express = require('express'),
+path = require('path'),
+cookieParser = require('cookie-parser'),
+session = require('express-session'),
+customerHelper = require('./helpers/customer.helper'),
+bodyParser = require('body-parser'),
 
-var homepageController = require('./controllers/homepage.controller');
-var applicationController = require('./controllers/application.controller');
-var communicationKitController = require('./controllers/communicationKit.controller');
-var accountController = require('./controllers/account.controller');
-var invoicesController = require('./controllers/invoices.controller');
-var messagesController = require('./controllers/messages.controller');
-var subscriptionController = require('./controllers/subscription.controller');
-var helpController = require('./controllers/help.controller');
+homepageController = require('./controllers/homepage.controller'),
+applicationController = require('./controllers/application.controller'),
+communicationKitController = require('./controllers/communicationKit.controller'),
+AccountController = require('./controllers/account.controller').AccountController,
+invoicesController = require('./controllers/invoices.controller'),
+messagesController = require('./controllers/messages.controller'),
+subscriptionController = require('./controllers/subscription.controller'),
+helpController = require('./controllers/help.controller');
 
-var app = express();
-app.use(cookieParser());
-app.use(session({ secret: 'monapp'}));
-app.set('port', 3000);
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser());
+var Main = {
 
-//routes / mapping controller
-app.get('/', accountController.checkSignIn, homepageController.initialize);
+	start : function(){
 
-app.post('/signin', accountController.signIn);
-app.get('/signout', accountController.signOut);
+		var app = express();
 
-app.get('/application', accountController.checkSignIn, applicationController.initialize);
-app.get('/application/edit', accountController.checkSignIn, applicationController.edit);
+		app.use(cookieParser());
+		app.use(session({ secret: 'monapp'}));
+		app.set('port', 3000);
+		app.set('views', __dirname + '/views');
+		app.set('view engine', 'jade');
+		app.use(express.static(path.join(__dirname, 'public')));
+		app.use(bodyParser());
 
-app.get('/communicationkit', accountController.checkSignIn, communicationKitController.initialize);
+		//routes / mapping controller
+		app.get('/', AccountController.checkSignIn, homepageController.initialize);
 
-app.get('/account', accountController.checkSignIn, accountController.initialize);
-app.post('/account', accountController.checkSignIn, accountController.updateAccount);
+		app.post('/signin', AccountController.signIn);
+		app.get('/signout', AccountController.signOut);
 
-app.get('/invoices', accountController.checkSignIn, invoicesController.initialize);
-app.get('/messages', accountController.checkSignIn, messagesController.initialize);
-app.get('/subscription', accountController.checkSignIn, subscriptionController.initialize);
+		app.get('/application', AccountController.checkSignIn, applicationController.initialize);
+		app.get('/application/edit', AccountController.checkSignIn, applicationController.edit);
 
-app.get('/help', accountController.checkSignIn, helpController.initialize);
-app.get('/contact', accountController.checkSignIn, helpController.contactUs);
+		app.get('/communicationkit', AccountController.checkSignIn, communicationKitController.initialize);
+
+		app.get('/account', AccountController.checkSignIn, AccountController.initialize);
+		app.post('/account', AccountController.checkSignIn, AccountController.updateAccount);
+
+		app.get('/invoices', AccountController.checkSignIn, invoicesController.initialize);
+		app.get('/messages', AccountController.checkSignIn, messagesController.initialize);
+		app.get('/subscription', AccountController.checkSignIn, subscriptionController.initialize);
+
+		app.get('/help', AccountController.checkSignIn, helpController.initialize);
+		app.get('/contact', AccountController.checkSignIn, helpController.contactUs);
 
 
-app.listen(3000);
+		app.listen(3000);
+	}
+
+};
+
+Main.start();
