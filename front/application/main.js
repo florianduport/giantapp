@@ -1,28 +1,44 @@
-var express = require('express');
-var path = require('path');
+var express = require('express'),
+path = require('path'),
+Routes = require('./routes/routes').Routes,
+ConfigurationHelper = require('./helpers/configuration.helper').ConfigurationHelper,
 
 //import de tous les controllers utilisés
-var indexController = require('./controllers/index.controller');
-var layoutController = require('./controllers/layout.controller');
+HomepageController = require('./controllers/homepage.controller').HomepageController,
+LayoutController = require('./controllers/layout.controller').LayoutController;
 
-// Ne pas toucher ce bloc
-var app = express();
-app.set('port', process.env.PORT || 3000);
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
-app.use(express.static(path.join(__dirname, 'public')));
 
-//routes / mapping controller
-app.get('/:appId/', layoutController.initialize);
-app.get('/index.html', function(req, res){
-    res.redirect(301, '/1/');
-});
-app.get('/', function(req, res){
-    //debug only route - redirect to dev app id
-    res.redirect(301, '/1/');
-});
+/**
+ * Classe principale - Keep it simple in here
+ * @class Main 
+ */
+var Main = {
 
-//lancement du serveur
-app.listen(process.env.PORT, function(){
-    console.log('application started');    
-});
+    /**
+    * start : lance l'application express
+    */
+    start : function(){
+
+    	ConfigurationHelper.getConfig({application : 'application', done : function(configuration){
+
+			// Ne pas toucher ce bloc
+			var app = express();
+			app.set('port', configuration.port);
+			app.set('views', __dirname + '/views');
+			app.set('view engine', 'jade');
+			app.use(express.static(path.join(__dirname, 'public')));
+
+			Routes.loadRoutes(app, configuration);
+
+			//lancement du serveur
+			app.listen(configuration.port, function(){
+			    console.log('application started on '+(configuration.addressBasePath+":"+configuration.port));      
+			});
+
+		}});
+
+	}
+
+};
+
+Main.start();

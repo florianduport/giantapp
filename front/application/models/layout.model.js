@@ -1,9 +1,11 @@
-var GetDatabase = require('../helper/database').GetDatabase();
+var LayoutModel = {
 
-exports.initialize = function(req, callback){
-    GetDatabase(function(db){
-        console.log(db);
-    });
-    //récupérer toutes les infos du layout / menu
-    callback(this);
-}
+	initialize : function(req, callback){
+
+	    //récupérer toutes les infos du layout / menu
+	    callback(this);
+	}
+
+};
+
+module.exports.LayoutModel = LayoutModel;

@@ -1,7 +1,13 @@
-var model = require('../models/layout.model');
+var model = require('../models/layout.model').LayoutModel;
 
-exports.initialize = function(req, res){
-    model.initialize(req, function(model){
-        res.render('./layout', {model: model});
-    });
-}
+var LayoutController = {
+
+	initialize : function(req, res){
+	    model.initialize(req, function(model){
+	        res.render('./layout', {model: model});
+	    });
+	}
+
+};
+
+module.exports.LayoutController = LayoutController;
