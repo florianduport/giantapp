@@ -20,13 +20,13 @@ var ConfigurationHelper = {
             	
             	if (err || !configurations)
                 {
-                    LogError("Services", "Configuration collection couldn't be found", options, err);
+                    LogError("services", "Configuration collection couldn't be found", options, err);
                     return options.done(LocalConfig);
                 }
                 configurations.findOne({ application: options.application}, function(err, applicationConfig){
                     if (err || !applicationConfig)
                     {
-                    	LogError("Services", "Application configuration document couldn't be found", options, err);
+                    	LogError("services", "Application configuration document couldn't be found", options, err);
                         return options.done(LocalConfig);
                     }
                     

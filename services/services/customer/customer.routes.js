@@ -18,12 +18,12 @@ var CustomerRoutes = {
     */
     loadRoutes : function(app, configuration){
 
-    	// get logs : /customer/authenticateCustomer
+    	// authenticate customer : /customer/authenticateCustomer
     
     	app.post(configuration.routes.customer.authenticateCustomer, HmacHelper.verifyRequest, function(req, res){
     		//check parameters
             if(req.body === undefined || !req.body || req.body.username === undefined || !req.body.username || req.body.password === undefined || !req.body.password){
-    			LoggerService.logError("services", "Wront customer authenticate parameters", {username : req.body.username !== undefined ? req.body.username : ""});
+    			LoggerService.logError("services", "Wrong customer authenticate parameters", {username : req.body.username !== undefined ? req.body.username : ""});
     			Base.send(req, res, false);
     		}
     
@@ -31,6 +31,32 @@ var CustomerRoutes = {
     			Base.send(req, res, result);
     		});
     	});
+
+        // get customer by username : /customer/getByUsername
+
+        app.post(configuration.routes.customer.getCustomerByUsername, HmacHelper.verifyRequest, function(req, res){
+            //check parameters
+            if(req.body === undefined || !req.body || req.body.username === undefined || !req.body.username){
+                LoggerService.logError("services", "Wrong customer get by username parameters", {});
+                Base.send(req, res, false);
+            }
+            CustomerService.getCustomerByUsername(req.body.username, function(result){
+                Base.send(req, res, result);
+            });
+        });
+
+        // update : /customer/update
+
+        app.post(configuration.routes.customer.updateCustomer, HmacHelper.verifyRequest, function(req, res){
+            //check parameters
+            if(req.body === undefined || !req.body || req.body.username === undefined || !req.body.username || req.body.account === undefined || !req.body.account){
+                LoggerService.logError("services", "Wrong update customer parameters", {});
+                Base.send(req, res, false);
+            }
+            CustomerService.updateCustomer(req.body.username, req.body.account, function(result){
+                Base.send(req, res, result);
+            });
+        });
     	
     }
     

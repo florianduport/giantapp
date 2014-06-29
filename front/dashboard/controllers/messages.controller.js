@@ -1,7 +1,13 @@
-var model = require('../models/messages.model').getModel();
+var model = require('../models/messages.model').MessagesModel;
 
-exports.initialize = function(req, res){
-    model.initialize(req, function(model){
-        res.render('./pages/messages', {model: model});
-    });
+var MessagesController = {
+
+	initialize : function(req, res){
+	    model.initialize(req, function(model){
+	        res.render('./pages/messages', {model: model});
+	    });
+	}
+
 };
+
+module.exports.MessagesController = MessagesController;

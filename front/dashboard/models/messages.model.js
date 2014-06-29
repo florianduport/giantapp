@@ -1,13 +1,13 @@
-var base = require('./base.model');
+var base = require('./base.model').Base;
 
-var Model = function(){
+var MessagesModel = {
     
-    this.initialize = function(req, callback){
+    initialize : function(req, callback){
         base.common.call(this, req);
         callback(this);
-    };
+    }
 
 };
 
-exports.getModel = function(){ return new Model(); };
+module.exports.MessagesModel = MessagesModel;
 

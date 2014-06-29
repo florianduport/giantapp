@@ -1,14 +1,20 @@
-var base = require('./base.model');
-var customerHelper = require('../helpers/customer.helper');
+var base = require('./base.model').Base,
+ServiceHelper = require('./../helpers/service.helper').ServiceHelper;
 
-var Model = function(){
-    this.initialize = function(req, callback){
-        customerHelper.findOneByUsername({username: req.session.user, property: "invoices"}, function(invoices){
+var InvoicesModel = {
+    
+    initialize : function(req, callback){
+
+        //WARNING
+        //TO CHANGE => call invoices service
+		ServiceHelper.getService("customer", "getCustomerByUsername", {data: {username: req.session.user}}, function(user){
             base.common.call(this, req);
-            this.invoices = invoices;
+            this.account = user.invoices;
             callback(this);
         });
-    };
+
+    }
+
 };
 
-exports.getModel = function(){ return new Model(); };
+module.exports.InvoicesModel = InvoicesModel;

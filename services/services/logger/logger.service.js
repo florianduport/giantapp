@@ -63,6 +63,9 @@ var LoggerService = {
     * @param log : l'objet log à enregistrer
     */
     _log : function(log){
+        
+        log.date = new Date().getTime();
+
         DatabaseHelper.getDatabase(function(db){
             db.collection("Logs", function(err, logsCollection){
                 if (err || !logsCollection)

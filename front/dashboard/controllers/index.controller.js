@@ -1,4 +1,5 @@
 var model = require('../models/index.model');
+
 exports.initialize = function(req, res){
     //if not signed in
     model.initialize(req, function(model){

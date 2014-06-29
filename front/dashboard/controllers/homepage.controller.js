@@ -1,8 +1,14 @@
-var model = require('../models/homepage.model').getModel();
-var customerHelper = require('../helpers/customer.helper');
+var model = require('../models/homepage.model').HomepageModel;
 
-exports.initialize = function(req, res){
-    model.initialize(req, function(model){
-        res.render('./pages/homepage', {model: model});
-    });
+var HomepageController = {
+
+	initialize : function(req, res){
+	    model.initialize(req, function(model){
+	    	console.log(model);
+	        res.render('./pages/homepage', {model: model});
+	    });
+	}
+
 };
+
+module.exports.HomepageController = HomepageController;

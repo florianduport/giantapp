@@ -1,5 +1,4 @@
-var model = require('../models/account.model').AccountModel();
-var customerHelper = require('../helpers/customer.helper');
+var model = require('../models/account.model').AccountModel;
 
 /**
 * Gestion du compte utilisateur du dashboard

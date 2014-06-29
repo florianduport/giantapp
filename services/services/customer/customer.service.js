@@ -34,7 +34,7 @@ var CustomerService = {
     * @param done : la méthode de retour
     * @return objet contenant les informations de l'utilisateur
     */
-    getCustomer : function(username, done){
+    getCustomerByUsername : function(username, done){
         DatabaseHelper.getDatabase(function(db){
             db.collection("Customers", function(err, customers){
                 //password should be sent with sha1 encryption
@@ -48,6 +48,44 @@ var CustomerService = {
                 });
             });
         });   
+    },
+
+    /**
+    * updateCustomer : Modifie les informations de l'utilisateur
+    * @param username : le nom d'utilisateur
+    * @param data : les données du compte mis à jour
+    * @param done : la méthode de retour
+    * @return objet contenant les informations de l'utilisateur
+    */
+    updateCustomer : function(username, data, done){
+        try{
+            DatabaseHelper.getDatabase(function(db){
+                db.collection("Customers", function(err, customers){
+                    //password should be sent with sha1 encryption
+                    customers.findOne({ username: username}, function(err, user){
+
+                        var updatedUser = user;
+                        
+                        if(data.password !== undefined)
+                            updatedUser.password = sha1(data.password);
+                        
+                        updatedUser.account.firstName = data.firstName;
+                        updatedUser.account.lastName = data.lastName;
+                        updatedUser.account.address.invoice = data.invoiceAddress;
+                        updatedUser.account.address.shipping = data.shippingAddress;
+                        updatedUser.account.phoneNumber = data.phoneNumber !== undefined ? data.phoneNumber : "";
+                        
+                        customerHelper.save(updatedUser, function(){
+                            done(true);
+                        });
+                    });
+                });
+            });
+        }
+        catch(err){
+            done(false);
+        }
+        
     },
     
     /**

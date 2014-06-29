@@ -1,15 +1,18 @@
 var instance;
 
-var getInstance = function(instanceName){
-    if(instance === undefined)
-        instance = new instanceName();
-    return instance;
-};
+var Base = {
 
-var common = function(req){
-    if(req !== undefined && req.route !== undefined && req.route.path !== undefined)
-        this.activeMenu = req.route.path;
-};
+	getInstance : function(instanceName){
+	    if(instance === undefined)
+	        instance = new instanceName();
+	    return instance;
+	},
 
-exports.common = common;
-exports.getInstance = getInstance;
+	common : function(req){
+	    if(req !== undefined && req.route !== undefined && req.route.path !== undefined)
+	        this.activeMenu = req.route.path;
+	}
+
+}
+
+module.exports.Base = Base;

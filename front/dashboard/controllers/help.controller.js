@@ -1,13 +1,19 @@
-var model = require('../models/help.model').getModel();
+var model = require('../models/help.model').HelpModel;
 
-exports.initialize = function(req, res){
-    model.initialize(req, function(model){
-        res.render('./pages/help', {model: model});
-    });
+var HelpController = {
+
+	initialize : function(req, res){
+	    model.initialize(req, function(model){
+	        res.render('./pages/help', {model: model});
+	    });
+	},
+
+	contactUs : function(req, res){
+	    model.initialize(req, function(model){
+	        res.render('./pages/contact', {model: model});
+	    });
+	}
+
 };
 
-exports.contactUs = function(req, res){
-    model.initialize(req, function(model){
-        res.render('./pages/contact', {model: model});
-    });
-};
+module.exports.HelpController = HelpController;

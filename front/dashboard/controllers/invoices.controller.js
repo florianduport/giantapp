@@ -1,7 +1,13 @@
-var model = require('../models/invoices.model').getModel();
+var model = require('../models/invoices.model').InvoicesModel;
 
-exports.initialize = function(req, res){
-    model.initialize(req, function(model){
-        res.render('./pages/invoices', {model: model});
-    });
+var InvoicesController = {
+
+	initialize : function(req, res){
+	    model.initialize(req, function(model){
+	        res.render('./pages/invoices', {model: model});
+	    });
+	}
+
 };
+
+module.exports.InvoicesController = InvoicesController;
