@@ -3,11 +3,6 @@ path = require('path'),
 Routes = require('./routes/routes').Routes,
 ConfigurationHelper = require('./helpers/configuration.helper').ConfigurationHelper,
 
-//import de tous les controllers utilisés
-HomepageController = require('./controllers/homepage.controller').HomepageController,
-LayoutController = require('./controllers/layout.controller').LayoutController;
-
-
 /**
  * Classe principale - Keep it simple in here
  * @class Main 
