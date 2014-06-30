@@ -4,7 +4,7 @@ var HomepageController = {
 
 	initialize : function(req, res){
 	    model.initialize(req, function(model){
-	        res.render('./layout', {model: model, test: "testezz"});
+	        res.render('./pages/homepage', {model: model, test: "testezz"});
 	    });
 	}
 

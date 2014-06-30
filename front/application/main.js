@@ -1,7 +1,7 @@
 var express = require('express'),
 path = require('path'),
 Routes = require('./routes/routes').Routes,
-ConfigurationHelper = require('./helpers/configuration.helper').ConfigurationHelper,
+ConfigurationHelper = require('./helpers/configuration.helper').ConfigurationHelper;
 
 /**
  * Classe principale - Keep it simple in here
