@@ -1,4 +1,4 @@
-./front/application/configuration.local.js
-./front/dashboard/configuration.local.js
-./front/titan/configuration.local.js
-./services/configuration.local.js
+front/application/configuration.local.js
+front/dashboard/configuration.local.js
+front/titan/configuration.local.js
+services/configuration.local.js
