@@ -6,15 +6,19 @@ html
         meta(name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height")
         link(rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css")
         link(href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css')
-        link(media="screen" rel="stylesheet" type="text/css" href="/css/index.css")
+        
+        link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css")
+        link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css")
+        script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+
+        link(media="screen" rel="stylesheet" type="text/css" href="/css/global.css")
         link(media="screen" rel="stylesheet" type="text/css" href="/css/theme.css")
-        link(media="screen" rel="stylesheet" type="text/css" href="/css/menu.css")
-        title GiantApp
-    body.bluetheme
-        include pages/menu
-        aside(id="wrapper")
-            section(id="container")
-                block content
+        block conditionnalHeader
+    body
+        div.container-fluid
+            include blocks/navbar
+            include pages/menu
+                    block content
         script(type="text/javascript" src="/js/libs/jquery.min.js")
         script(type="text/javascript" src="/js/libs/response.min.js")
         script(type="text/javascript" src="/js/libs/menu.js")

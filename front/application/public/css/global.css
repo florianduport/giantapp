@@ -1,0 +1,11 @@
+.navbar-inverse{
+	background-image : none !important;
+}
+.navbar-toggle{
+	display: block;
+	border: none;
+}
+.navbar-brand{
+	text-align: center;
+	float: none;
+}

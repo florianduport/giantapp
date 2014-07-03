@@ -18,6 +18,8 @@ var Routes = {
 		app.get('/index.html', function(req, res){
 		    res.redirect(301, '/1/');
 		});
+
+		app.get('/css/theme.css', LayoutController.getCssTheme)
 		
 		app.get('/', function(req, res){
 		    //debug only route - redirect to dev app id

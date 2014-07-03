@@ -6,6 +6,15 @@ var LayoutController = {
 	    model.initialize(req, function(model){
 	        res.render('./layout', {model: model});
 	    });
+	},
+
+	getCssTheme : function(req, res){
+		model.getCssTheme(req, function(model){
+			res.set('Content-Type', 'text/css');
+	        //res.send("body{ background-color:#000000 !important; }");
+
+	        res.render('./theme', {model: model});
+	    });
 	}
 
 };
