@@ -16,14 +16,14 @@ var Routes = {
 		app.get('/:appId/', HomepageController.initialize);
 
 		app.get('/index.html', function(req, res){
-		    res.redirect(301, '/1/');
+		    res.redirect(301, '/53b70cfdb0937f4e48af3a3c/');
 		});
 
-		app.get('/css/theme.css', LayoutController.getCssTheme)
+		app.get('/:appId/css/theme.css', LayoutController.getCssTheme)
 		
 		app.get('/', function(req, res){
 		    //debug only route - redirect to dev app id
-		    res.redirect(301, '/1/');
+		    res.redirect(301, '/53b70cfdb0937f4e48af3a3c/');
 		});
 
     }

@@ -1,3 +1,6 @@
+body{
+	background-color : "#ffffff";
+}
 .navbar-inverse{
 	background-image : none !important;
 }

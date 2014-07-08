@@ -1,3 +1,5 @@
+var ServiceHelper = require('../helpers/service.helper').ServiceHelper;
+
 var LayoutModel = {
 
 	initialize : function(req, callback){
@@ -6,14 +8,16 @@ var LayoutModel = {
 	    callback(this);
 	},
 
-	getCssTheme : function(req, callback){
+	getCssTheme : function(appId, callback){
 		
-		this.backgroundColor = "#ffffff";
-		this.navbar = {};
-		this.navbar.backgroundColor = "#03a9f4";
-		this.navbar.textColor = "#ffffff";
+            console.log("route ok ");
+		ServiceHelper.getService('application', 'getTheme', {data: {"appId" : appId}, method : "POST"}, function(theme){
 
-		callback(this);
+			this.navbar = theme.navbar;
+
+			callback(this);
+
+		})
 	}
 
 };

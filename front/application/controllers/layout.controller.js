@@ -9,7 +9,7 @@ var LayoutController = {
 	},
 
 	getCssTheme : function(req, res){
-		model.getCssTheme(req, function(model){
+		model.getCssTheme(req.params.appId, function(model){
 			res.set('Content-Type', 'text/css');
 	        //res.send("body{ background-color:#000000 !important; }");
 

@@ -15,6 +15,7 @@ var Main = {
     _routes : [
         require('./services/logger/logger.routes').LoggerRoutes,
         require('./services/customer/customer.routes').CustomerRoutes,
+        require('./services/application/application.routes').ApplicationRoutes,
         require('./helpers/error.helper').ErrorHelper //last one
     ],
     
