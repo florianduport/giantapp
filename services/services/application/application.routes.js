@@ -18,7 +18,7 @@ var ApplicationRoutes = {
     */
     loadRoutes : function(app, configuration){
 
-    	// get theme : /application/getTheme/:id
+    	// get theme : /application/getTheme
     
     	app.post(configuration.routes.application.getTheme, HmacHelper.verifyRequest, function(req, res){
     		//check parameters
@@ -31,6 +31,51 @@ var ApplicationRoutes = {
     			Base.send(req, res, result);
     		});
     	});
+
+        // get page infos : /application/getPage
+
+        app.post(configuration.routes.application.getPage, HmacHelper.verifyRequest, function(req, res){
+            //check parameters
+            if(req.body === undefined || req.body.appId === undefined || req.body.page === undefined){
+                LoggerService.logError("services", "Get Page : Missing parameter", {});
+                Base.send(req, res, false);
+            }
+            
+            ApplicationService.getPage(req.body.appId, req.body.page, function(result){
+                Base.send(req, res, result);
+            });
+        });
+
+        // get page infos : /application/getApplicationType
+
+        app.post(configuration.routes.application.getApplicationType, HmacHelper.verifyRequest, function(req, res){
+
+            //check parameters
+            if(req.body === undefined || req.body.appId === undefined){
+                LoggerService.logError("services", "Get Application Type : Missing parameter", {});
+                Base.send(req, res, false);
+            }
+            
+            ApplicationService.getApplicationType(req.body.appId, function(result){
+                Base.send(req, res, result);
+            });
+        });
+        
+        // get navigation : /application/getNavigation
+
+        app.post(configuration.routes.application.getNavigation, HmacHelper.verifyRequest, function(req, res){
+
+            //check parameters
+            if(req.body === undefined || req.body.appId === undefined){
+                LoggerService.logError("services", "Get Navigation : Missing parameter", {});
+                Base.send(req, res, false);
+            }
+            
+            ApplicationService.getNavigation(req.body.appId, function(result){
+                Base.send(req, res, result);
+            });
+        });
+
     	
     }
     

@@ -3,12 +3,14 @@ $(document).ready(function () {
 /* On click menu functions */
 function menuOpen() {
    
-  var width = $("#menu")[0].getBoundingClientRect().width;  
+  var width = $("body > .container-fluid")[0].getBoundingClientRect().width;  
+  width = width - $(".show-menu")[0].getBoundingClientRect().width;
+
   $('#menu').css("transform","translateX(0px)");
-  $('#wrapper').css("left",width+"px");
-  $('#header').css("left",width+"px");
-  $('.menu-icon').addClass('hide-menu');
-  $('.menu-icon').removeClass('show-menu');
+  //$('body > .container-fluid').css("left",width+"px");
+  $('body > .container-fluid').css("transform","translateX("+width+"px)");;
+  $('.navbar-toggle').addClass('hide-menu');
+  $('.navbar-toggle').removeClass('show-menu');
   $('body').css("overflow", "hidden");
   if($("#menu")[0].style.cssText.indexOf("translate") == -1)
   {
@@ -18,12 +20,13 @@ function menuOpen() {
 
 function menuClose() {
 
-  var width = $("#menu")[0].getBoundingClientRect().width;
+  var width = $("body > .container-fluid")[0].getBoundingClientRect().width;
+  width = width - $(".hide-menu")[0].getBoundingClientRect().width;
   $('#menu').css("transform","translateX(-"+width+"px)");
-  $('#wrapper').css("left","0px");
-  $('#header').css("left","0px");
-  $('.menu-icon').addClass('show-menu');
-  $('.menu-icon').removeClass('hide-menu');  
+  $('body > .container-fluid').css("left","0px");
+  $('body > .container-fluid').css("transform","translateX(0px)");;
+  $('.navbar-toggle').addClass('show-menu');
+  $('.navbar-toggle').removeClass('hide-menu');  
   if($("#menu")[0].style.cssText.indexOf("translate") == -1)
   {
 	$("#menu").hide();
@@ -45,8 +48,8 @@ Response.action(function(){
   var width = $("#menu")[0].getBoundingClientRect().width;
 
 $('#menu').css("transform","translateX(-"+width+"px)");
-$('#header').css("left","0px");
-$('#wrapper').css("margin-left","0px");
-$('#header').css("display","block");
+$('body > .container-fluid').css("left","0px");
+$('body > .container-fluid').css("margin-left","0px");
+$('body > .container-fluid').css("display","block");
 
 });

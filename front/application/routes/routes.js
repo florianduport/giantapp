@@ -1,4 +1,4 @@
-var HomepageController = require('./../controllers/homepage.controller').HomepageController,
+var PageController = require('./../controllers/page.controller').PageController,
 LayoutController = require('./../controllers/layout.controller').LayoutController
 /**
 * Charge les routes de account controller
@@ -13,11 +13,14 @@ var Routes = {
     loadRoutes : function(app, configuration){
 
 		//routes / mapping controller
-		app.get('/:appId/', HomepageController.initialize);
-
-		app.get('/index.html', function(req, res){
-		    res.redirect(301, '/53b70cfdb0937f4e48af3a3c/');
+		app.get('/:appId/', function(req, res){
+			res.redirect(301, '/'+req.params.appId+'/homepage');
 		});
+
+		app.get('/:appId/error', PageController.initializeError);
+
+		app.get('/:appId/:page', PageController.initialize);
+
 
 		app.get('/:appId/css/theme.css', LayoutController.getCssTheme)
 		

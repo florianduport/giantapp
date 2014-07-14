@@ -13,7 +13,7 @@ var LayoutController = {
 			res.set('Content-Type', 'text/css');
 	        //res.send("body{ background-color:#000000 !important; }");
 
-	        res.render('./theme', {model: model});
+	        res.render('./dentist/theme', {model: model});
 	    });
 	}
 

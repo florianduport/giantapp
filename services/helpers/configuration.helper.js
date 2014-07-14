@@ -70,7 +70,6 @@ var ConfigurationHelper = {
                 });
             });
         });
-        
     }
 
 };

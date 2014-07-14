@@ -1,0 +1,13 @@
+#coverImg{
+	width: 100%;
+	height: 30%;
+}
+#profileImgContainer{
+	text-align: center;
+}
+#profileImg{
+	width: 35%;
+	border-radius: 50%;
+	border: 4px white solid;
+	margin-top: -18%;
+}

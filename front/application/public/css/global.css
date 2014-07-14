@@ -4,11 +4,22 @@ body{
 .navbar-inverse{
 	background-image : none !important;
 }
+.navbar-toggle:focus,
+.navbar-toggle:hover,
 .navbar-toggle{
 	display: block;
 	border: none;
+	background: none !important;
 }
 .navbar-brand{
 	text-align: center;
 	float: none;
+	margin-right: 15px;
+}
+#menuContainer,
+#contentRow{
+	margin-top: 50px;
+}
+#menu{
+	position: absolute;
 }
