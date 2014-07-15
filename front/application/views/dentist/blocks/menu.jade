@@ -6,7 +6,7 @@
 				div(class="row navbar-brand") 
 	#menuContainer.container-fluid
 		each navElement in model.navigation
-			.row
+			.row-fluid
 				a(href="#{navElement.link}")
 					img(src="/img/content/icons/#{navElement.link}.png" class="menu_icon")
 					span #{navElement.name}
