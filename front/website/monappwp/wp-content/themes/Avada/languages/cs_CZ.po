@@ -1,0 +1,830 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-01 04:45+0500\n"
+"Last-Translator: Haris <info@theme-fusion.com>\n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Next Post"
+msgstr "Další příspěvek"
+
+msgid "Previous Post"
+msgstr "Předchozí příspěvek"
+
+# 'sbg_box',
+# __( 'Sidebar', 'Avada' ),
+# array('sidebar_generator', 'edit_form'),
+# wpml-name: 219ff7705d67d0c798779951dcf82e95
+msgid "Sidebar"
+msgstr ""
+
+msgid "Set Thumbnail"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Icon (use full font awesome name)', 'Avada' ); ?>
+# <input type="text" id="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-icon" name="menu-item-fusion-megamenu-icon[<?php echo $item_id; ?>]" value="<?php echo $item->fusion_megamenu_icon; ?>" />
+# wpml-name: ed337b2d405b51264196ba53c363a9f3
+msgid "Mega Menu Icon (use full font awesome name)"
+msgstr ""
+
+msgid "Select Widget Area"
+msgstr ""
+
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-title-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-title" name="menu-item-fusion-megamenu-title[<?php echo $item_id; ?>]" value="disabled" <?php checked( $item->fusion_megamenu_title, 'disabled' ); ?> />
+# <?php _e( 'Disable Mega Menu Column Title', 'Avada' ); ?>
+# </label>
+# wpml-name: 327be4f1954415dad7cc90cbdffe2ff4
+msgid "Disable Mega Menu Column Title"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Mega Menu Number of Columns"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-width-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-width" name="menu-item-fusion-megamenu-width[<?php echo $item_id; ?>]" value="fullwidth" <?php checked( $item->fusion_megamenu_width, 'fullwidth' ); ?> />
+# <?php _e( 'Full Width Mega Menu', 'Avada' ); ?>
+# </label>
+# wpml-name: 9e2661888f17b075b9ebd47f834268df
+msgid "Full Width Mega Menu"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-status-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-status" name="menu-item-fusion-megamenu-status[<?php echo $item_id; ?>]" value="enabled" <?php checked( $item->fusion_megamenu_status, 'enabled' ); ?> />
+# <strong><?php _e( 'Enable Fusion Mega Menu', 'Avada' ); ?></strong>
+# </label>
+# wpml-name: 1d548d28b4394500d23817f71e43510a
+msgid "Enable Fusion Mega Menu"
+msgstr ""
+
+msgid "terms &amp; conditions"
+msgstr ""
+
+msgid "I have read and accept the"
+msgstr ""
+
+# if( $difference != 1 ) {
+# $periods[$j] .= __( 's', 'Avada' );
+# }
+# wpml-name: 03c7c0ace395d80182db07ae2c30f034
+msgid "s"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 2787910b1b16428d65412fca2718a92e
+msgid "decade"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 84cdc76cabf41bd7c961f6ab12f117d8
+msgid "year"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 7436f942d5ea836cb84f1bb2527d8286
+msgid "month"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 172a8327fcd3685ab3c0f740d031da09
+msgid "week"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 628b7db04235f228d40adc671413a8c8
+msgid "day"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 896c55cc5e46fab38ce9f51ebf7bfcd3
+msgid "hour"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 0a7d55be9d12a369a6a8da0fb517fba4
+msgid "minute"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: a9f0e61a137d86aa9db53465e0801612
+msgid "second"
+msgstr ""
+
+msgid "says"
+msgstr "říká"
+
+msgid "Recent"
+msgstr "Nejnovější"
+
+msgid "Popular"
+msgstr "Oblíbené"
+
+msgid "Web:"
+msgstr "Web:"
+
+msgid "Fax:"
+msgstr "GPS:"
+
+# <?php if($instance['mobile']): ?>
+# <p class="mobile"><?php _e('Mobile:', 'Avada'); ?> <?php echo $instance['mobile']; ?></p>
+# <?php endif; ?>
+msgid "Mobile:"
+msgstr "Mobilní telefon:"
+
+msgid "Phone:"
+msgstr "Telefon:"
+
+msgid "Related Posts"
+msgstr "Podobné příspěvky"
+
+msgid "About the Author:"
+msgstr "O autorovi:"
+
+msgid "Related Projects"
+msgstr "Podobné produkty"
+
+msgid "Share This Story, Choose Your Platform!"
+msgstr "Sdílejte tento příspěvek na sociální síti!"
+
+msgid "Copyright"
+msgstr "Cena"
+
+msgid "Project URL"
+msgstr "Odkaz na produkt"
+
+msgid "Tags"
+msgstr "Tagy"
+
+msgid "Categories"
+msgstr "Typ produktu"
+
+msgid "Skills Needed"
+msgstr "Využití"
+
+msgid "Project Details"
+msgstr "Další informace"
+
+msgid "Project Description"
+msgstr "Popis produktu"
+
+# <?php if(is_page($post_parent)): ?><?php endif; ?>
+# <li <?php if(is_page($post_parent)): ?>class="current_page_item"<?php endif; ?>><a href="<?php echo get_permalink($post_parent); ?>" title="<?php echo __('Back to Parent Page', 'Avada'); ?>"><?php echo get_the_title($post_parent); ?></a></li>
+# <?php
+# wpml-name: 13a1c246a6d1a5ae1a40f5260a99ac1e
+msgid "Back to Parent Page"
+msgstr "Zpět na domovskou stránku"
+
+msgid "If you want to rephrase your query, here is your chance:"
+msgstr "Pokud si přejete změnit Váš dotaz, zadejte jej zde:"
+
+msgid "Try again!"
+msgstr "Zkuste to znovu!"
+
+msgid "Oops!"
+msgstr "Chyba!"
+
+msgid "Couldn't find what you're looking for!"
+msgstr "Nemůže nalézt co hledáte!"
+
+msgid "View Project"
+msgstr "Zobrazit projekt"
+
+msgid "Learn More"
+msgstr "Dozvědět se více"
+
+#
+# .woocommerce-invalid:after { content: '<?php echo __('Please enter correct details for this required field.', 'Avada'); ?>'; display: inline-block; margin-top: 7px; color: red; }
+# </style>
+# wpml-name: 158f1bc10f611d14543e1426abfed743
+msgid "Please enter correct details for this required field."
+msgstr ""
+
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# 'faqs_loading_text' => '<em>'. __('Loading FAQ Items...', 'Avada').'</em>',
+# 'order_actions' =>  __('Details', 'Avada')
+# wpml-name: 3b340ac59e178c70f764a4c1313b6a0a
+msgid "Loading FAQ Items..."
+msgstr ""
+
+msgid "Loading Portfolio Items..."
+msgstr ""
+
+msgid "Loading the next set of posts..."
+msgstr ""
+
+msgid "All posts displayed"
+msgstr ""
+
+msgid "Shopping Cart"
+msgstr "Nákupní košík"
+
+# wp_localize_script('avada', 'js_local_vars', array(
+# 'dropdown_goto' => __('Go to...', 'Avada')
+# )
+msgid "Go to..."
+msgstr "Go to..."
+
+msgid "Theme Options"
+msgstr "Nastavení šablony"
+
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+msgid " - Reply"
+msgstr "- Odpovědět"
+
+msgid " - Edit"
+msgstr " - Upravit"
+
+msgid "%1$s at %2$s"
+msgstr "%1$s v %2$s"
+
+#, fuzzy
+msgid "Edit Account"
+msgstr "Můj účet"
+
+msgid "Change Address"
+msgstr "Změnit adresu"
+
+msgid "View Orders"
+msgstr "Zobrazit objednávky"
+
+#, fuzzy
+msgid "View Downloads"
+msgstr "Zobrazit nastavení"
+
+msgid "Continue"
+msgstr "Pokračovat"
+
+msgid "Review &amp; Payment"
+msgstr "Zkontrolovat &amp; platbu"
+
+msgid "Additional Information"
+msgstr ""
+
+msgid "Shipping Address"
+msgstr "Doručovací adresa"
+
+msgid "Billing Address"
+msgstr "Fakturační adresa"
+
+msgid "Apply"
+msgstr "Použít"
+
+msgid "Have A Promotional Code?"
+msgstr "Máte promo kód?"
+
+msgid "Hello, %s:"
+msgstr "Dobrý den, %s:"
+
+#, fuzzy
+msgid "You Have %d Items In Your Cart"
+msgstr "Máte %d položek ve Vašem nákupním košíku"
+
+# <i class="fontawesome-icon medium circle-yes icon-envelope-alt"></i>
+# <span><?php echo __('Mail This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Mail This"
+msgstr "Poslat emailem"
+
+# <i class="fontawesome-icon medium circle-yes icon-pinterest"></i>
+# <span><?php echo __('Pin This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Pin This"
+msgstr "Připnout"
+
+msgid "Product"
+msgstr "Produkt"
+
+# <i class="fontawesome-icon medium circle-yes icon-twitter"></i>
+# <span><?php echo __('Tweet This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Tweet This"
+msgstr "Tweetovat"
+
+# <i class="fontawesome-icon medium circle-yes icon-facebook"></i>
+# <span><?php echo __('Share On', 'Avada'); ?></span>Facebook
+# </a>
+msgid "Share On"
+msgstr "Sdílet na"
+
+msgid "Products"
+msgstr "Produkty"
+
+msgid " Products"
+msgstr " Produkty"
+
+msgid "Show"
+msgstr "Zobrazit"
+
+msgid "Rating"
+msgstr "Rating"
+
+#, fuzzy
+msgid "Popularity"
+msgstr "Oblíbené"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Name"
+msgstr "Jméno"
+
+msgid "Default Order"
+msgstr "Výchozí objednávka"
+
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+#, fuzzy
+msgid "Search..."
+msgstr "Hledat ..."
+
+msgid "Details"
+msgstr "Detaily"
+
+msgid "Item(s)"
+msgstr "Položka(ky)"
+
+msgid "Cart"
+msgstr "Košík"
+
+msgid "Checkout"
+msgstr "Objednat zboží"
+
+msgid "View Cart"
+msgstr "Zobrazit košík"
+
+msgid "Logout"
+msgstr "Odhlásit"
+
+# <p class="submit">
+# <input type="submit" name="wp-submit" id="wp-submit" class="button small default comment-submit" value="<?php _e('Log In', 'Avada'); ?>">
+# <input type="hidden" name="redirect_to" value="<?php echo $_SERVER['HTTP_REFERER']; ?>">
+msgid "Log In"
+msgstr "Přihlásit se"
+
+msgid "Remember Me"
+msgstr "Zapamatovat si mě"
+
+msgid "My Account"
+msgstr "Můj účet"
+
+msgid "Password"
+msgstr "Heslo"
+
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+# <?php elseif ( is_year() ) : ?>
+# <?php printf( __( 'Yearly Archives: %s', 'Avada' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>' ); ?>
+# <?php elseif ( is_author() ) : ?>
+#, fuzzy
+msgid "Y"
+msgstr "Y"
+
+# <?php elseif ( is_month() ) : ?>
+# <?php printf( __( 'Monthly Archives: %s', 'Avada' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>' ); ?>
+# <?php elseif ( is_year() ) : ?>
+#, fuzzy
+msgid "F Y"
+msgstr "F Y"
+
+msgid "Yearly Archives: %s"
+msgstr "Archiv pro rok: %s"
+
+msgid "Monthly Archives: %s"
+msgstr "Archiv pro měsíc: %s"
+
+msgid "Daily Archives: %s"
+msgstr "Archiv pro den: %s"
+
+msgid "Error 404 Page"
+msgstr "Chyba 404 - Stránka nebyla nalezena"
+
+msgid "Search results for:"
+msgstr "Výsledky vyhledávání pro:"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "404 - Page not Found"
+msgstr "404 - Stránka nebyla nalezena"
+
+msgid "Home"
+msgstr "Úvodní stránka"
+
+msgid "Next"
+msgstr "Další"
+
+msgid "Previous"
+msgstr "Předchozí"
+
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Probíhá instalace pluginu %1$s (%2$d/%3$d)"
+
+msgid "All installations have been completed."
+msgstr "Všechny instalace byly ukončeny."
+
+msgid "%1$s installed successfully."
+msgstr "%1$s úspěšně nainstalován."
+
+msgid "The installation of %1$s failed."
+msgstr "Instalace %1$s selhala."
+
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Nastala chyba během instalace %1$s: <strong>%2$s</strong>."
+
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proces instalace se právě spouští. Vyčkejte prosím na jeho ukončení. Na "
+"některých serverech toto může chvíli trvat, buďte prosím trpělivý."
+
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Probíhá instalace a aktivace pluginu %1$s (%2$d/%3$d)"
+
+msgid "All installations and activations have been completed."
+msgstr "Všechny instalace a aktivace byly ukončeny."
+
+msgid "Hide Details"
+msgstr "Skrýt detaily"
+
+msgid "Show Details"
+msgstr "Zobrazit detaily"
+
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s úspěšně nainstalován a aktivován."
+
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces instalace a aktivace se právě spouští. Vyčkejte prosím na jeho "
+"ukončení. Na některých serverech toto může chvíli trvat, buďte prosím "
+"trpělivý."
+
+msgid "Plugin activation failed."
+msgstr "Aktivace pluginu se nezdařila."
+
+msgid "Plugin installed successfully."
+msgstr "Instalace pluginu proběhla úspěšně."
+
+msgid "Plugin install failed."
+msgstr "Instalace pluginu se nezdařila."
+
+msgid "Installing the plugin&#8230;"
+msgstr "Probíhá instalace pluginu&#8230;"
+
+msgid "Unpacking the package&#8230;"
+msgstr "Probíhá rozbalování instalačního balíčku&#8230;"
+
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Probíhá stahování instalačního balíčku z <span class=\"code\">%s</"
+"span>&#8230;"
+
+msgid "Install package not available."
+msgstr "Instalační balíček není dostupný."
+
+msgid "Activate"
+msgstr "Aktivovat"
+
+msgid "Install"
+msgstr "Nainstalovat"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Source"
+msgstr "Zdroj"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"K dispozici nejsou žádné pluginy k instalaci ani aktivaci. <a href=\"%1$s\" "
+"title=\"Návrat do Nástěnky\">Návrat do Nástěnky</a>"
+
+msgid "Active"
+msgstr "Aktivovat"
+
+# elseif ( version_compare( $installed_plugins[$plugin['file_path']]['Version'], $plugin['version'], '<' ) )
+# $table_data[$i]['status'] = sprintf( '%1$s', __( 'Not Updated', THEMENAME ) );
+# else
+msgid "Not Updated"
+msgstr "Neaktualizováno"
+
+msgid "Installed But Not Activated"
+msgstr "Nainstalováno, ale zatím neaktivováno"
+
+msgid "Not Installed"
+msgstr "Nenainstalováno"
+
+msgid "Recommended"
+msgstr "Doporučeno"
+
+msgid "Required"
+msgstr "Vyžadováno"
+
+msgid "WordPress Repository"
+msgstr "Studnice Wordpressu"
+
+msgid "Pre-Packaged"
+msgstr "Předpřipravený"
+
+msgid "Private Repository"
+msgstr "Privátní úložiště"
+
+msgid "External Link"
+msgstr "Externí link"
+
+msgid "Dismiss this notice"
+msgstr "Zavřít toto upozornění"
+
+msgid "The following plugin was activated successfully: %s."
+msgstr "Následující plugin byl úspěšně aktivován: %s."
+
+msgid "Return to the Dashboard"
+msgstr "Návrat do Nástěnky"
+
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všechny pluginy byly úspěšně nainstalovány a aktivovány. %1$s"
+
+msgid "Plugin activated successfully."
+msgstr "Aktivace pluginu proběhla úspěšně."
+
+msgid "Return to Required Plugins Installer"
+msgstr "Zpět k instalátoru pluginu"
+
+msgid "Something went wrong."
+msgstr "Stala se nějaká nečekaná chyba."
+
+msgid "Installing Plugin: %s"
+msgstr "Probíhá instalace pluginu: %s"
+
+msgid "Install Plugins"
+msgstr "Nainstalujte pluginy"
+
+msgid "Install Required Plugins"
+msgstr "Nainstalujte požadované pluginy"
+
+msgid "All"
+msgstr "Vše"
+
+msgid "Submit Form"
+msgstr "Odeslat formulář"
+
+msgid "Message"
+msgstr "Zpráva"
+
+msgid "Subject"
+msgstr "Předmět"
+
+msgid "for using my contact form! Your email was successfully sent!"
+msgstr ""
+"za využití našeho kontaktního formuláře. Váš email byl úspěšně odeslán!"
+
+msgid "Thank you"
+msgstr "Děkujeme Vám"
+
+msgid ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+"Zkontrolujte prosím, zda jste vyplnili všechna pole správnými údaji. "
+"Děkujeme."
+
+msgid "Comments:"
+msgstr "Komentáře:"
+
+msgid "Subject:"
+msgstr "Předmět:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Name:"
+msgstr "Jméno:"
+
+msgid "Post Comment"
+msgstr "Odeslat komentář"
+
+msgid "Comment..."
+msgstr "Komentář..."
+
+msgid "Log out &raquo;"
+msgstr "Odhlásit se &raquo;"
+
+msgid "Log out of this account"
+msgstr "Odhlásit se z účtu"
+
+msgid "Logged in as"
+msgstr "Jste přihlášeni jako"
+
+msgid "You must be %slogged in%s to post a comment."
+msgstr "Musíte být %slogged in%s, abyste mohli odeslat komentář."
+
+msgid "Leave A Comment"
+msgstr "Napsat komentář"
+
+msgid "Website"
+msgstr "Webová stránka"
+
+msgid "Email (required)"
+msgstr "Emailová adresa (vyžadováno)"
+
+msgid "Name (required)"
+msgstr "Jméno (vyžadováno)"
+
+msgid "Comments are closed."
+msgstr "Komentáře nejsou povoleny."
+
+msgid "One Comment"
+msgstr "Jeden komentář"
+
+msgid "No Comments"
+msgstr "Žádné komentáře"
+
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Tento příspěvek je chráněn heslem. Zadejte heslo, abyste zobrazili komentáře."
+
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# </div>
+msgid "Replies Created:"
+msgstr "Počet odpovědí:"
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+msgid "Topics Started:"
+msgstr "Zahájená témata:"
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+msgid "Forum Role:"
+msgstr "Role ve fóru:"
+
+msgid "Post count: %s"
+msgstr "Počet příspěvků: %s"
+
+#
+# <?php bbp_topic_tag_list( bbp_get_topic_id(), array( 'before' => '<div class="bbp-topic-tags"><p>' . esc_html__( 'Tags:', 'Avada' ) . '&nbsp;', 'sep'    => ', ', 'after'  => '</p></div>' ) ); ?>
+#
+msgid "Tags:"
+msgstr "Tagy:"
+
+msgid "Search the Forum..."
+msgstr "Hledat ..."
+
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr "Pokud jste nenalezli co jste hledali, zkuste nové hledání!"
+
+# <div class="search-page-search-form">
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+msgid "Need a new search?"
+msgstr "Nové hledání?"
+
+# <div class="author_description">
+# <h3 class='author_title'><?php echo __("About",'Avada').' '.$name; ?>
+# <?php if(current_user_can('edit_users') || get_current_user_id() == $author_id): ?>
+msgid "About"
+msgstr "O"
+
+# if(empty($description)) {
+# $description  = __("This author has not yet filled in any details.",'Avada');
+# $description .= '</br>'.sprintf( __( 'So far %s has created %s entries.' ), $name, count_user_posts( $author_id ) );
+msgid "This author has not yet filled in any details."
+msgstr "Tento autor ještě nevyplnil žádné detaily."
+
+msgid "1"
+msgstr "1"
+
+msgid "Read More"
+msgstr "Čtěte dále"
+
+msgid "Comments"
+msgstr "Komentáře"
+
+msgid "1 Comment"
+msgstr "1 komentář"
+
+msgid "0 Comments"
+msgstr "0 komentářů"
+
+#, fuzzy
+msgid "Categories:"
+msgstr "Typ produktu"
+
+msgid "By"
+msgstr "Od"
+
+msgid "Search ..."
+msgstr "Hledat ..."
+
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr "Nemůžete najít co hledáte? Zkuste to níže!"
+
+msgid "Search Our Website"
+msgstr "Hledejte na našich webových stránkách"
+
+msgid "Here are some useful links:"
+msgstr "Užitečné odkazy:"
+
+msgid "Oops, This Page Could Not Be Found!"
+msgstr "Chyba, tato stránka neexistuje!"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Stala se nějaká nečekaná chyba s pluginem API."
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "Následující plugin byl úspěšně aktivován: %s."
+#~ msgstr[1] "Následující plugin byl úspěšně aktivován: %s."
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "Následující plugin byl úspěšně aktivován: %s."
+#~ msgstr[1] "Následující plugin byl úspěšně aktivován: %s."
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "Probíhá instalace pluginu: %s"
+#~ msgstr[1] "Probíhá instalace pluginu: %s"
+
+#~ msgid "Activate installed plugin"
+#~ msgid_plural "Activate installed plugins"
+#~ msgstr[0] "Nainstalujte pluginy"
+#~ msgstr[1] "Nainstalujte pluginy"
+
+#~ msgid "All plugins installed and activated successfully. %s"
+#~ msgstr "Všechny pluginy byly úspěšně nainstalovány a aktivovány. %s"
+
+#~ msgid "Search for:"
+#~ msgstr "Výsledky vyhledávání pro:"
+
+#~ msgid "Submit"
+#~ msgstr "Odeslat formulář"
+
+#~ msgid "You must be logged in to reply to this topic."
+#~ msgstr "Musíte být přihlášení, abyste mohli provést objednávku."
+
+#~ msgid "Destination"
+#~ msgstr "Popis"
+
+#~ msgid "Rename"
+#~ msgstr "Uživatelské jméno"

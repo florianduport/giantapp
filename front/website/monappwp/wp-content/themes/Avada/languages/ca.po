@@ -1,0 +1,999 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-01 04:45+0500\n"
+"Last-Translator: Haris <info@theme-fusion.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: E:\\projects\\Luke Beck\\Avada\\wp-content\\themes"
+"\\Avada\n"
+
+#, fuzzy
+msgid "Next Post"
+msgstr "Llocs relacionats"
+
+#, fuzzy
+msgid "Previous Post"
+msgstr "Anterior"
+
+# 'sbg_box',
+# __( 'Sidebar', 'Avada' ),
+# array('sidebar_generator', 'edit_form'),
+# wpml-name: 219ff7705d67d0c798779951dcf82e95
+msgid "Sidebar"
+msgstr ""
+
+# </p>
+# <a href="#" id="fusion-media-upload-<?php echo $item_id; ?>" class="fusion-open-media button button-primary fusion-megamenu-upload-thumbnail"><?php _e( 'Set Thumbnail', 'Avada' ); ?></a>
+# <p class="field-megamenu-thumbnail description description-wide">
+# wpml-name: 35e9cfa14322e1b3a7d13391e53477ac
+msgid "Set Thumbnail"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Icon (use full font awesome name)', 'Avada' ); ?>
+# <input type="text" id="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-icon" name="menu-item-fusion-megamenu-icon[<?php echo $item_id; ?>]" value="<?php echo $item->fusion_megamenu_icon; ?>" />
+# wpml-name: ed337b2d405b51264196ba53c363a9f3
+msgid "Mega Menu Icon (use full font awesome name)"
+msgstr ""
+
+# <select id="edit-menu-item-megamenu-widgetarea-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-widgetarea" name="menu-item-fusion-megamenu-widgetarea[<?php echo $item_id; ?>]">
+# <option value="0"><?php _e( 'Select Widget Area', 'Avada' ); ?></option>
+# <?php
+# wpml-name: dd45b8e59a8c54710a6cdba027c9e350
+msgid "Select Widget Area"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-widgetarea-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Widget Area', 'Avada' ); ?>
+# <select id="edit-menu-item-megamenu-widgetarea-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-widgetarea" name="menu-item-fusion-megamenu-widgetarea[<?php echo $item_id; ?>]">
+# wpml-name: 035f4cf9c1c508c76ba0f981287f3ce2
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-title-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-title" name="menu-item-fusion-megamenu-title[<?php echo $item_id; ?>]" value="disabled" <?php checked( $item->fusion_megamenu_title, 'disabled' ); ?> />
+# <?php _e( 'Disable Mega Menu Column Title', 'Avada' ); ?>
+# </label>
+# wpml-name: 327be4f1954415dad7cc90cbdffe2ff4
+msgid "Disable Mega Menu Column Title"
+msgstr ""
+
+# <select id="edit-menu-item-megamenu-columns-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-columns" name="menu-item-fusion-megamenu-columns[<?php echo $item_id; ?>]">
+# <option value="auto" <?php selected( $item->fusion_megamenu_columns, 'auto' ); ?>><?php _e( 'Auto', 'Avada' ); ?></option>
+# <option value="1" <?php selected( $item->fusion_megamenu_columns, '1' ); ?>>1</option>
+# wpml-name: 06b9281e396db002010bde1de57262eb
+msgid "Auto"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-columns-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Number of Columns', 'Avada' ); ?>
+# <select id="edit-menu-item-megamenu-columns-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-columns" name="menu-item-fusion-megamenu-columns[<?php echo $item_id; ?>]">
+# wpml-name: 03d959e709ff7835f42c19e71afd281e
+msgid "Mega Menu Number of Columns"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-width-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-width" name="menu-item-fusion-megamenu-width[<?php echo $item_id; ?>]" value="fullwidth" <?php checked( $item->fusion_megamenu_width, 'fullwidth' ); ?> />
+# <?php _e( 'Full Width Mega Menu', 'Avada' ); ?>
+# </label>
+# wpml-name: 9e2661888f17b075b9ebd47f834268df
+msgid "Full Width Mega Menu"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-status-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-status" name="menu-item-fusion-megamenu-status[<?php echo $item_id; ?>]" value="enabled" <?php checked( $item->fusion_megamenu_status, 'enabled' ); ?> />
+# <strong><?php _e( 'Enable Fusion Mega Menu', 'Avada' ); ?></strong>
+# </label>
+# wpml-name: 1d548d28b4394500d23817f71e43510a
+msgid "Enable Fusion Mega Menu"
+msgstr ""
+
+# <input type="checkbox" class="input-checkbox" name="terms" <?php checked( $terms_is_checked, true ); ?> id="terms" />
+# <label for="terms" class="checkbox"><?php _e( 'I have read and accept the', 'Avada' ); ?> <a href="<?php echo esc_url( get_permalink(wc_get_page_id('terms')) ); ?>" target="_blank"><?php _e( 'terms &amp; conditions', 'Avada' ); ?></a></label>
+# <?php // End Avada edit ?>
+# wpml-name: 4ab1891a1bb56bcdc29d3c4238df3027
+msgid "terms &amp; conditions"
+msgstr ""
+
+# <input type="checkbox" class="input-checkbox" name="terms" <?php checked( $terms_is_checked, true ); ?> id="terms" />
+# <label for="terms" class="checkbox"><?php _e( 'I have read and accept the', 'Avada' ); ?> <a href="<?php echo esc_url( get_permalink(wc_get_page_id('terms')) ); ?>" target="_blank"><?php _e( 'terms &amp; conditions', 'Avada' ); ?></a></label>
+# <?php // End Avada edit ?>
+# wpml-name: 9258cdb88f76574c5b600b603315b9e5
+msgid "I have read and accept the"
+msgstr ""
+
+# if( $difference != 1 ) {
+# $periods[$j] .= __( 's', 'Avada' );
+# }
+# wpml-name: 03c7c0ace395d80182db07ae2c30f034
+msgid "s"
+msgstr ""
+
+# $difference = $now - $time;
+# $tense = __( 'ago', 'Avada' );
+#
+# wpml-name: 6d0a578ca2f2c0e792fc923002fccbe3
+msgid "ago"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 2787910b1b16428d65412fca2718a92e
+msgid "decade"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 84cdc76cabf41bd7c961f6ab12f117d8
+msgid "year"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 7436f942d5ea836cb84f1bb2527d8286
+msgid "month"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 172a8327fcd3685ab3c0f740d031da09
+msgid "week"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 628b7db04235f228d40adc671413a8c8
+msgid "day"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 896c55cc5e46fab38ce9f51ebf7bfcd3
+msgid "hour"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 0a7d55be9d12a369a6a8da0fb517fba4
+msgid "minute"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: a9f0e61a137d86aa9db53465e0801612
+msgid "second"
+msgstr ""
+
+# <div class="post-holder">
+# <p><?php echo strip_tags($comment->comment_author); ?> <?php _e('says', 'Avada'); ?>:</p>
+# <div class="meta">
+msgid "says"
+msgstr "diu"
+
+msgid "Recent"
+msgstr "Recent"
+
+msgid "Popular"
+msgstr "Popular"
+
+# <?php if($instance['web']): ?>
+# <p class="web"><?php _e('Web:', 'Avada'); ?> <a href="<?php echo $instance['web']; ?>"><?php if($instance['webtxt']) { echo $instance['webtxt']; } else { echo $instance['web']; } ?></a></p>
+# <?php endif; ?>
+msgid "Web:"
+msgstr "Web:"
+
+# <?php if($instance['fax']): ?>
+# <p class="fax"><?php _e('Fax:', 'Avada'); ?> <?php echo $instance['fax']; ?></p>
+# <?php endif; ?>
+msgid "Fax:"
+msgstr "Fax:"
+
+# <?php if($instance['mobile']): ?>
+# <p class="mobile"><?php _e('Mobile:', 'Avada'); ?> <?php echo $instance['mobile']; ?></p>
+# <?php endif; ?>
+msgid "Mobile:"
+msgstr "Mòbil:"
+
+# <?php if($instance['phone']): ?>
+# <p class="phone"><?php _e('Phone:', 'Avada'); ?> <?php echo $instance['phone']; ?></p>
+# <?php endif; ?>
+msgid "Phone:"
+msgstr "Telèfon:"
+
+msgid "Related Posts"
+msgstr "Llocs relacionats"
+
+msgid "About the Author:"
+msgstr "Sobre l'autor:"
+
+msgid "Related Projects"
+msgstr "Projectes relacionats"
+
+msgid "Share This Story, Choose Your Platform!"
+msgstr "Compartiu aquesta història. Trieu la vostra plataforma!"
+
+# <div class="project-info-box">
+# <h4><?php echo __('Copyright', 'Avada'); ?>:</h4>
+# <span><a href="<?php echo get_post_meta($post->ID, 'pyre_copy_url', true); ?>"><?php echo get_post_meta($post->ID, 'pyre_copy_url_text', true); ?></a></span>
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "Project URL"
+msgstr "URL del projecte"
+
+# <div class="project-info-box">
+# <h4><?php echo __('Tags', 'Avada') ?>:</h4>
+# <div class="project-terms">
+msgid "Tags"
+msgstr "Etiquetes"
+
+# <div class="project-info-box">
+# <h4><?php echo __('Categories', 'Avada') ?>:</h4>
+# <div class="project-terms">
+msgid "Categories"
+msgstr "Categories"
+
+# <div class="project-info-box">
+# <h4><?php echo __('Skills Needed', 'Avada') ?>:</h4>
+# <div class="project-terms">
+msgid "Skills Needed"
+msgstr "Habilitats necessàries"
+
+msgid "Project Details"
+msgstr "Detalls del projecte"
+
+# <div class="project-description post-content" style="<?php echo $project_desc_style; ?>">
+# <h3 style="<?php echo $project_desc_title_style; ?>"><?php echo __('Project Description', 'Avada') ?></h3>
+# <?php the_content(); ?>
+msgid "Project Description"
+msgstr "Descripció del projecte"
+
+# <?php if(is_page($post_parent)): ?><?php endif; ?>
+# <li <?php if(is_page($post_parent)): ?>class="current_page_item"<?php endif; ?>><a href="<?php echo get_permalink($post_parent); ?>" title="<?php echo __('Back to Parent Page', 'Avada'); ?>"><?php echo get_the_title($post_parent); ?></a></li>
+# <?php
+# wpml-name: 13a1c246a6d1a5ae1a40f5260a99ac1e
+msgid "Back to Parent Page"
+msgstr ""
+
+# <h3><?php echo __('Try again!', 'Avada'); ?></a></h3>
+# <p><?php echo __('If you want to rephrase your query, here is your chance:', 'Avada'); ?></p>
+# <?php get_search_form(); ?>
+msgid "If you want to rephrase your query, here is your chance:"
+msgstr "Si voleu reformular la consulta, feu-ho aquí:"
+
+# <div class="one_third last">
+# <h3><?php echo __('Try again!', 'Avada'); ?></a></h3>
+# <p><?php echo __('If you want to rephrase your query, here is your chance:', 'Avada'); ?></p>
+msgid "Try again!"
+msgstr "Torneu a provar-ho!"
+
+# <div class="one_third">
+# <h1 class="oops"><?php echo __('Oops!', 'Avada'); ?></h1>
+# </div>
+msgid "Oops!"
+msgstr "Ups!"
+
+# <div class="title">
+# <h2><?php echo __('Couldn\'t find what you\'re looking for!', 'Avada'); ?></h2><div class="title-sep-container"><div class="title-sep"></div></div>
+# </div>
+msgid "Couldn't find what you're looking for!"
+msgstr "No s'ha pogut trobar el que estàveu buscant!"
+
+msgid "View Project"
+msgstr "Veure el projecte"
+
+msgid "Learn More"
+msgstr "Més informació"
+
+#
+# .woocommerce-invalid:after { content: '<?php echo __('Please enter correct details for this required field.', 'Avada'); ?>'; display: inline-block; margin-top: 7px; color: red; }
+# </style>
+# wpml-name: 158f1bc10f611d14543e1426abfed743
+msgid "Please enter correct details for this required field."
+msgstr ""
+
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# 'faqs_loading_text' => '<em>'. __('Loading FAQ Items...', 'Avada').'</em>',
+# 'order_actions' =>  __('Details', 'Avada')
+# wpml-name: 3b340ac59e178c70f764a4c1313b6a0a
+msgid "Loading FAQ Items..."
+msgstr ""
+
+# 'infinite_blog_text' => '<em>'. __('Loading the next set of posts...', 'Avada').'</em>',
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# 'faqs_loading_text' => '<em>'. __('Loading FAQ Items...', 'Avada').'</em>',
+# wpml-name: e06645be9f00d5cb266104d208c82320
+msgid "Loading Portfolio Items..."
+msgstr ""
+
+# 'infinite_blog_finished_msg' => '<em>'.__('All posts displayed', 'Avada').'</em>',
+# 'infinite_blog_text' => '<em>'. __('Loading the next set of posts...', 'Avada').'</em>',
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# wpml-name: 9a1dc1e92f772868a9fd98b5bf52ad2c
+msgid "Loading the next set of posts..."
+msgstr ""
+
+# 'language_flag' => $language_code,
+# 'infinite_blog_finished_msg' => '<em>'.__('All posts displayed', 'Avada').'</em>',
+# 'infinite_blog_text' => '<em>'. __('Loading the next set of posts...', 'Avada').'</em>',
+# wpml-name: 89d2d6748d3d718e6a99fb666368fb84
+msgid "All posts displayed"
+msgstr ""
+
+# <a href="#shipping">
+# <?php _e('Shipping Address' , 'Avada'); ?>
+# </a>
+msgid "Shopping Cart"
+msgstr "Adreça d'enviament"
+
+# wp_localize_script('avada', 'js_local_vars', array(
+# 'dropdown_goto' => __('Go to...', 'Avada')
+# )
+msgid "Go to..."
+msgstr "Anar a"
+
+msgid "Theme Options"
+msgstr "Opcions del tema"
+
+msgid "Your comment is awaiting moderation."
+msgstr "El vostre comentari està pendent de moderació."
+
+# <strong><?php echo get_comment_author_link() ?></strong>
+# <?php printf(__('%1$s at %2$s', 'Avada'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__(' - Edit', 'Avada'),'  ','') ?><?php comment_reply_link(array_merge( $args, array('reply_text' => __(' - Reply', 'Avada'), 'add_below' => 'comment', 'depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+# </div>
+msgid " - Reply"
+msgstr "- Respondre"
+
+msgid " - Edit"
+msgstr " - Modifica"
+
+msgid "%1$s at %2$s"
+msgstr "%1$s en %2$s"
+
+# <li class="my-account">
+# <a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id')); ?>" class="my-account-link"><?php _e('My Account', 'Avada'); ?></a>
+# <?php if(!is_user_logged_in()): ?>
+#, fuzzy
+msgid "Edit Account"
+msgstr "El meu compte"
+
+# <a href="<?php echo get_permalink(get_option('woocommerce_edit_address_page_id')); ?>">
+# <?php _e('Change Address' , 'Avada'); ?>
+# </a>
+msgid "Change Address"
+msgstr "Canvieu adreça"
+
+msgid "View Orders"
+msgstr "Veieu la comanda"
+
+# <a class="downloads" href="#">
+# <?php _e('View Downloads' , 'Avada'); ?>
+# </a>
+# wpml-name: e85ffc8d4fe76f12e9cca0811fa45461
+msgid "View Downloads"
+msgstr ""
+
+#
+# <a href="<?php echo ($woo_shipping) ? '#shipping' : '#payment-container'; ?>" class="default button small continue-checkout"><?php _e('Continue', 'Avada'); ?></a>
+#
+msgid "Continue"
+msgstr "Continueu"
+
+# <a href="#payment-container">
+# <?php _e('Review &amp; Payment' , 'Avada'); ?>
+# </a>
+msgid "Review &amp; Payment"
+msgstr "Comproveu &amp; el pagament"
+
+# <a data-name="col-2" href="#">
+# <?php _e('Additional Information' , 'Avada'); ?>
+# </a>
+# wpml-name: 092bf78f9c97ba171b8232ddff585392
+msgid "Additional Information"
+msgstr ""
+
+# <a href="#shipping">
+# <?php _e('Shipping Address' , 'Avada'); ?>
+# </a>
+msgid "Shipping Address"
+msgstr "Adreça d'enviament"
+
+# <a href="#billing">
+# <?php _e('Billing Address' , 'Avada'); ?>
+# </a>
+msgid "Billing Address"
+msgstr "Adreça de facturació"
+
+#
+# <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button comment-submit small" name="apply_coupon" value="<?php _e( 'Apply', 'Avada' ); ?>" />
+#
+msgid "Apply"
+msgstr "Aplicar"
+
+#
+# <h2><?php _e( 'Have A Promotional Code?', 'Avada' ); ?></h2>
+# <div class="coupon">
+msgid "Have A Promotional Code?"
+msgstr "Teniu un codi promocional?"
+
+# printf(
+# __( 'Hello, %s:', 'Avada' ),
+# $current_user->display_name
+msgid "Hello, %s:"
+msgstr "Hola, %s:"
+
+#
+# <h2><?php echo sprintf(__('You Have %d items In Your Cart', 'Avada'), $woocommerce->cart->cart_contents_count); ?></h2>
+#
+#, fuzzy
+msgid "You Have %d Items In Your Cart"
+msgstr "Teniu %d articles al vostre carretó electrònic"
+
+# <i class="fontawesome-icon medium circle-yes icon-envelope-alt"></i>
+# <span><?php echo __('Mail This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Mail This"
+msgstr "Envieu per mail"
+
+# <i class="fontawesome-icon medium circle-yes icon-pinterest"></i>
+# <span><?php echo __('Pin This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Pin This"
+msgstr "Envieu a Pinterest"
+
+# <i class="fontawesome-icon medium circle-yes icon-twitter"></i>
+# <span><?php echo __('Tweet This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Product"
+msgstr "Producte"
+
+# <i class="fontawesome-icon medium circle-yes icon-twitter"></i>
+# <span><?php echo __('Tweet This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Tweet This"
+msgstr "Piuleu això"
+
+# <i class="fontawesome-icon medium circle-yes icon-facebook"></i>
+# <span><?php echo __('Share On', 'Avada'); ?></span>Facebook
+# </a>
+msgid "Share On"
+msgstr "Comparteix"
+
+# $html .= '<ul>';
+# $html .= '<li class="'.(($pc == $per_page) ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_count', $per_page).'">'.__('Show', 'Avada').' <strong>'.$per_page.' '.__('Products', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pc == $per_page*2) ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_count', $per_page*2).'">'.__('Show', 'Avada').' <strong>'.($per_page*2).' '.__('Products', 'Avada').'</strong></a></li>';
+msgid "Products"
+msgstr "Productes"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Show', 'Avada').' <strong>'.$per_page.' '.__(' Products', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+msgid " Products"
+msgstr "Productes"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Show', 'Avada').' <strong>'.$per_page.' '.__(' Products', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+msgid "Show"
+msgstr "Mostra"
+
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+# $html .= '</ul>';
+msgid "Rating"
+msgstr "Classificació"
+
+#, fuzzy
+msgid "Popularity"
+msgstr "Popular"
+
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+msgid "Date"
+msgstr "Data"
+
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+msgid "Price"
+msgstr "Preu"
+
+# $html .= '<li class="'.(($pob == 'default') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'default').'">'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+msgid "Name"
+msgstr "Nom"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+msgid "Default Order"
+msgstr "Ordre per defecte"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+msgid "Sort by"
+msgstr "Ordenat per"
+
+#, fuzzy
+msgid "Search..."
+msgstr "Cerca …"
+
+#, fuzzy
+msgid "Details"
+msgstr "Amaga els detalls"
+
+# <?php else: ?>
+# <a href="<?php echo get_permalink(get_option('woocommerce_cart_page_id')); ?>"><?php echo $woocommerce->cart->cart_contents_count; ?> <?php _e('Item(s)', 'Avada'); ?> <?php echo woocommerce_price($woocommerce->cart->subtotal); ?></a>
+# <div class="cart-contents">
+msgid "Item(s)"
+msgstr "Article(s)"
+
+# <?php if(!$woocommerce->cart->cart_contents_count): ?>
+# <a class="empty-cart" href="<?php echo get_permalink(get_option('woocommerce_cart_page_id')); ?>"><?php _e('Cart', 'Avada'); ?></a>
+# <?php else: ?>
+msgid "Cart"
+msgstr "Carretó electrònic"
+
+# <div class="cart-link"><a href="<?php echo get_permalink(get_option('woocommerce_cart_page_id')); ?>"><?php _e('View Cart', 'Avada'); ?></a></div>
+# <div class="checkout-link"><a href="<?php echo get_permalink(get_option('woocommerce_checkout_page_id')); ?>"><?php _e('Checkout', 'Avada'); ?></a></div>
+# </div>
+msgid "Checkout"
+msgstr "Caixa"
+
+msgid "View Cart"
+msgstr "Veieu el carretó electrònic"
+
+# <ul class="sub-menu">
+# <li><a href="<?php echo get_permalink(get_option('woocommerce_logout_page_id')); ?>"><?php _e('Logout', 'Avada'); ?></a></li>
+# </ul>
+msgid "Logout"
+msgstr "Finalitzar la sessió"
+
+# <p class="submit">
+# <input type="submit" name="wp-submit" id="wp-submit" class="button small default comment-submit" value="<?php _e('Log In', 'Avada'); ?>">
+# <input type="hidden" name="redirect_to" value="<?php echo $_SERVER['HTTP_REFERER']; ?>">
+msgid "Log In"
+msgstr "Iniciar la sessió"
+
+# <p class="forgetmenot">
+# <label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <?php _e('Remember Me', 'Avada'); ?></label>
+# </p>
+msgid "Remember Me"
+msgstr "Recordeu-me"
+
+# <li class="my-account">
+# <a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id')); ?>" class="my-account-link"><?php _e('My Account', 'Avada'); ?></a>
+# <?php if(!is_user_logged_in()): ?>
+msgid "My Account"
+msgstr "El meu compte"
+
+# <p>
+# <input type="password" class="input-text" name="pwd" id="pasword" value="" placeholder="<?php echo __('Password', 'Avada'); ?>" />
+# </p>
+msgid "Password"
+msgstr "Contrasenya"
+
+# <p>
+# <input type="text" class="input-text" name="log" id="username" value="" placeholder="<?php echo __('Username', 'Avada'); ?>" />
+# </p>
+msgid "Username"
+msgstr "Nom d'usuari"
+
+# <?php elseif ( is_year() ) : ?>
+# <?php printf( __( 'Yearly Archives: %s', 'Avada' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>' ); ?>
+# <?php elseif ( is_author() ) : ?>
+msgid "Y"
+msgstr "Y"
+
+# <?php elseif ( is_month() ) : ?>
+# <?php printf( __( 'Monthly Archives: %s', 'Avada' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>' ); ?>
+# <?php elseif ( is_year() ) : ?>
+msgid "F Y"
+msgstr "F Y"
+
+# <?php elseif ( is_year() ) : ?>
+# <?php printf( __( 'Yearly Archives: %s', 'Avada' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>' ); ?>
+# <?php elseif ( is_author() ) : ?>
+msgid "Yearly Archives: %s"
+msgstr "Arxius anuals: %s"
+
+# <?php elseif ( is_month() ) : ?>
+# <?php printf( __( 'Monthly Archives: %s', 'Avada' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>' ); ?>
+# <?php elseif ( is_year() ) : ?>
+msgid "Monthly Archives: %s"
+msgstr "Arxius mensuals: %s"
+
+# <?php if ( is_day() ) : ?>
+# <?php printf( __( 'Daily Archives: %s', 'Avada' ), '<span>' . get_the_date() . '</span>' ); ?>
+# <?php elseif ( is_month() ) : ?>
+msgid "Daily Archives: %s"
+msgstr "Arxius diaris: %s"
+
+# <div class="page-title-captions">
+# <h1 class="entry-title"><?php echo __('Error 404 Page', 'Avada'); ?></h1>
+# </div>
+msgid "Error 404 Page"
+msgstr "Pàgina d'error 404"
+
+msgid "Search results for:"
+msgstr "Resultats de la cerca per:"
+
+msgid "Search"
+msgstr "Cerca"
+
+msgid "404 - Page not Found"
+msgstr "404 - Pàgina no trobada"
+
+msgid "Home"
+msgstr "Pàgina inicial"
+
+msgid "Next"
+msgstr "Següent"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instal·lant Extensió %1$s (%2$d/%3$d)"
+
+msgid "All installations have been completed."
+msgstr "Totes les instal·lacions s'han completat."
+
+msgid "%1$s installed successfully."
+msgstr "%1$s instal·lat correctament."
+
+msgid "The installation of %1$s failed."
+msgstr "La instal·lació de %1$s ha fracassat."
+
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"S'ha produït un error durant la instal·lació %1$s: <strong>%2$s</strong>."
+
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"El procés d'instal·lació està iniciant. Aquest procés pot trigar una mica en "
+"alguns allotjadors així que, si us plau, sigueu pacient."
+
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instal·lant i activant l'extensió %1$s (%2$d/%3$d)"
+
+msgid "All installations and activations have been completed."
+msgstr "Totes les instal·lacions i activacions s'han completat."
+
+msgid "Hide Details"
+msgstr "Amaga els detalls"
+
+msgid "Show Details"
+msgstr "Mostra els detalls"
+
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instal·lat i activat correctament."
+
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"El procés d'instal·lació i activació s'està iniciant. Aquest procés pot "
+"trigar una mica en alguns allotjadors, així que si us plau sigues pacient."
+
+msgid "Plugin activation failed."
+msgstr "Ha fallat l'activació de l'extensió."
+
+msgid "Plugin installed successfully."
+msgstr "Instal·lació correcta de l'extensió."
+
+msgid "Plugin install failed."
+msgstr "Ha fallat la instal·lació de l'extensió."
+
+msgid "Installing the plugin&#8230;"
+msgstr "Instal·lant l'extensió&#8230;"
+
+msgid "Unpacking the package&#8230;"
+msgstr "Descomprimint el paquet&#8230;"
+
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Descarregant el paquet d'instal·lació des de <span class=\"code\">%s</"
+"span>&#8230;"
+
+msgid "Install package not available."
+msgstr "Instal·lació de l'extensió no disponible."
+
+msgid "Activate"
+msgstr "Activat"
+
+msgid "Install"
+msgstr "Instal·la"
+
+msgid "Status"
+msgstr "Estat"
+
+msgid "Type"
+msgstr "Tipus"
+
+msgid "Source"
+msgstr "Font"
+
+msgid "Plugin"
+msgstr "Extensió"
+
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No hi ha extensions per instal·lar o activar. <a href=\"%1$s\" title="
+"\"Return to the Dashboard\">Return to the Dashboard</a>"
+
+msgid "Active"
+msgstr "Actiu"
+
+# elseif ( version_compare( $installed_plugins[$plugin['file_path']]['Version'], $plugin['version'], '<' ) )
+# $table_data[$i]['status'] = sprintf( '%1$s', __( 'Not Updated', THEMENAME ) );
+# else
+msgid "Not Updated"
+msgstr "No s'actualitza"
+
+msgid "Installed But Not Activated"
+msgstr "Instal·lat però no activat"
+
+msgid "Not Installed"
+msgstr "No instal·lat"
+
+msgid "Recommended"
+msgstr "Recomanat"
+
+msgid "Required"
+msgstr "Necessari"
+
+msgid "WordPress Repository"
+msgstr "Dipòsit de WordPress"
+
+msgid "Pre-Packaged"
+msgstr "Pre-empaquetat"
+
+msgid "Private Repository"
+msgstr "Dipòsit privat"
+
+msgid "External Link"
+msgstr "Enllaç extern"
+
+msgid "Dismiss this notice"
+msgstr "Ignorar aquest avís"
+
+msgid "The following plugin was activated successfully: %s."
+msgstr "La següent extensió s'ha activat correctament: %s."
+
+msgid "Return to the Dashboard"
+msgstr "Tornar al tauler"
+
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Totes les extensions instal·lades i activades correctament. %1$s"
+
+msgid "Plugin activated successfully."
+msgstr "Extensió activada correctament."
+
+msgid "Return to Required Plugins Installer"
+msgstr "Tornar a instal·lador d'extensió requerida"
+
+msgid "Something went wrong."
+msgstr "Quelcom ha fallat."
+
+msgid "Installing Plugin: %s"
+msgstr "Instal·lant extensió: %s"
+
+msgid "Install Plugins"
+msgstr "Instal·la extensions"
+
+msgid "Install Required Plugins"
+msgstr "Instal·la l'extensió requerida"
+
+msgid "All"
+msgstr "Tot"
+
+msgid "Submit Form"
+msgstr "Envieu formulari"
+
+msgid "Message"
+msgstr "Missatge"
+
+msgid "Subject"
+msgstr "Tema"
+
+msgid "for using my contact form! Your email was successfully sent!"
+msgstr ""
+"per a utilitzar el meu formulari de contacte! El vostre email ha estat "
+"enviat amb èxit!"
+
+msgid "Thank you"
+msgstr "Gràcies"
+
+msgid ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+"Si us plau, comproveu si heu omplert tots els camps amb la informació "
+"vàlida. Gràcies."
+
+msgid "Comments:"
+msgstr "Comentaris"
+
+msgid "Subject:"
+msgstr "Tema"
+
+# <?php if($instance['email']): ?>
+# <p class="email"><?php _e('Email:', 'Avada'); ?> <a href="mailto:<?php echo $instance['email']; ?>"><?php if($instance['emailtxt']) { echo $instance['emailtxt']; } else { echo $instance['email']; } ?></a></p>
+# <?php endif; ?>
+msgid "Email:"
+msgstr "Email:"
+
+# $html .= '<li class="'.(($pob == 'default') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'default').'">'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+msgid "Name:"
+msgstr "Nom"
+
+msgid "Post Comment"
+msgstr "Afegiu un comentari"
+
+msgid "Comment..."
+msgstr "Comentari…"
+
+msgid "Log out &raquo;"
+msgstr "Finalitzeu la sessió &raquo;"
+
+#
+# <p><?php echo __('Logged in as', 'Avada'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php echo __('Log out of this account', 'Avada'); ?>"><?php echo __('Log out &raquo;', 'Avada'); ?></a></p>
+#
+msgid "Log out of this account"
+msgstr "Finalitzeu la sessió en aquest compte"
+
+msgid "Logged in as"
+msgstr "Iniciada la sessió com"
+
+# <?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
+# <p><?php printf(__('You must be %slogged in%s to post a comment.', 'Avada'), '<a href="'.wp_login_url( get_permalink() ).'">', '</a>'); ?></p>
+# <?php else : ?>
+msgid "You must be %slogged in%s to post a comment."
+msgstr "Heu d'iniciar sessió per a publicar un comentari."
+
+msgid "Leave A Comment"
+msgstr "Deixeu un comentari"
+
+msgid "Website"
+msgstr "Pàgina web"
+
+msgid "Email (required)"
+msgstr "Adreça electrònica (requerida)"
+
+msgid "Name (required)"
+msgstr "Nom (requerit)"
+
+msgid "Comments are closed."
+msgstr "Els comentaris estan desactivats."
+
+msgid "One Comment"
+msgstr "Un comentari"
+
+msgid "No Comments"
+msgstr "No hi ha comentaris"
+
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Aquesta pàgina està protegida mitjançant contrasenya. Introduïu-la per a "
+"visualitzar els comentaris."
+
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# </div>
+msgid "Replies Created:"
+msgstr "Respostes creades:"
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+msgid "Topics Started:"
+msgstr "Temes iniciats:"
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+msgid "Forum Role:"
+msgstr "Rols del fòrum:"
+
+msgid "Post count: %s"
+msgstr "Nombre de missatges: %s"
+
+#
+# <?php bbp_topic_tag_list( bbp_get_topic_id(), array( 'before' => '<div class="bbp-topic-tags"><p>' . esc_html__( 'Tags:', 'Avada' ) . '&nbsp;', 'sep'    => ', ', 'after'  => '</p></div>' ) ); ?>
+#
+msgid "Tags:"
+msgstr "Etiquetes:"
+
+msgid "Search the Forum..."
+msgstr "Cerqueu al fòrum…"
+
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+# <form class="seach-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr "Si no heu trobat el que buscàveu, proveu de fer una nova cerca!"
+
+# <div class="search-page-search-form">
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+msgid "Need a new search?"
+msgstr "Necessiteu fer una nova cerca?"
+
+# <div class="author_description">
+# <h3 class='author_title'><?php echo __("About",'Avada').' '.$name; ?>
+# <?php if(current_user_can('edit_users') || get_current_user_id() == $author_id): ?>
+msgid "About"
+msgstr "Sobre"
+
+# if(empty($description)) {
+# $description  = __("This author has not yet filled in any details.",'Avada');
+# $description .= '</br>'.sprintf( __( 'So far %s has created %s entries.' ), $name, count_user_posts( $author_id ) );
+msgid "This author has not yet filled in any details."
+msgstr "Aquest autor encara no ha omplert cap detall."
+
+# <div class="alignright">
+# <?php if(!$smof_data['post_meta_comments']): ?><?php comments_popup_link('<i class="icon-comments"></i>&nbsp;'.__('0', 'Avada'), '<i class="icon-comments"></i>&nbsp;'.__('1', 'Avada'), '<i class="icon-comments"></i>&nbsp;'.'%'); ?><?php endif; ?>
+# </div>
+msgid "1"
+msgstr "1"
+
+msgid "Read More"
+msgstr "Llegeix més"
+
+msgid "Comments"
+msgstr "Comentaris"
+
+msgid "1 Comment"
+msgstr "1 Comentari"
+
+msgid "0 Comments"
+msgstr "0 Comentaris"
+
+# <div class="project-info-box">
+# <h4><?php echo __('Categories', 'Avada') ?>:</h4>
+# <div class="project-terms">
+#, fuzzy
+msgid "Categories:"
+msgstr "Categories"
+
+msgid "By"
+msgstr "Per"
+
+msgid "Search ..."
+msgstr "Cerca …"
+
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr ""
+"No trobes el que necessites? Espera un moment i fes una cerca més avall!"
+
+msgid "Search Our Website"
+msgstr "Cerca al nostre web"
+
+msgid "Here are some useful links:"
+msgstr "Aquí es mostren alguns enllaços d'interès:"
+
+msgid "Oops, This Page Could Not Be Found!"
+msgstr "Ups, Aquesta pàgina no s'ha trobat!"

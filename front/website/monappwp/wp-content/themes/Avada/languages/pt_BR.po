@@ -1,0 +1,1323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avada\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-01 04:46+0500\n"
+"Last-Translator: Haris <info@theme-fusion.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Next Post"
+msgstr "Artigos Relacionados"
+
+msgid "Previous Post"
+msgstr "Anterior"
+
+# 'sbg_box',
+# __( 'Sidebar', 'Avada' ),
+# array('sidebar_generator', 'edit_form'),
+# wpml-name: 219ff7705d67d0c798779951dcf82e95
+msgid "Sidebar"
+msgstr ""
+
+msgid "Set Thumbnail"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Icon (use full font awesome name)', 'Avada' ); ?>
+# <input type="text" id="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-icon" name="menu-item-fusion-megamenu-icon[<?php echo $item_id; ?>]" value="<?php echo $item->fusion_megamenu_icon; ?>" />
+# wpml-name: ed337b2d405b51264196ba53c363a9f3
+msgid "Mega Menu Icon (use full font awesome name)"
+msgstr ""
+
+msgid "Select Widget Area"
+msgstr ""
+
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+msgid "Disable Mega Menu Column Title"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Mega Menu Number of Columns"
+msgstr ""
+
+msgid "Full Width Mega Menu"
+msgstr ""
+
+msgid "Enable Fusion Mega Menu"
+msgstr ""
+
+msgid "terms &amp; conditions"
+msgstr ""
+
+msgid "I have read and accept the"
+msgstr ""
+
+# if( $difference != 1 ) {
+# $periods[$j] .= __( 's', 'Avada' );
+# }
+# wpml-name: 03c7c0ace395d80182db07ae2c30f034
+msgid "s"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 2787910b1b16428d65412fca2718a92e
+msgid "decade"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 84cdc76cabf41bd7c961f6ab12f117d8
+msgid "year"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 7436f942d5ea836cb84f1bb2527d8286
+msgid "month"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 172a8327fcd3685ab3c0f740d031da09
+msgid "week"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 628b7db04235f228d40adc671413a8c8
+msgid "day"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 896c55cc5e46fab38ce9f51ebf7bfcd3
+msgid "hour"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 0a7d55be9d12a369a6a8da0fb517fba4
+msgid "minute"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: a9f0e61a137d86aa9db53465e0801612
+msgid "second"
+msgstr ""
+
+msgid "says"
+msgstr ""
+
+msgid "Recent"
+msgstr "Recente"
+
+msgid "Popular"
+msgstr "Popular"
+
+msgid "Web:"
+msgstr ""
+
+msgid "Fax:"
+msgstr ""
+
+msgid "Mobile:"
+msgstr ""
+
+msgid "Phone:"
+msgstr ""
+
+msgid "Related Posts"
+msgstr "Artigos Relacionados"
+
+msgid "About the Author:"
+msgstr "Sobre o Autor:"
+
+msgid "Related Projects"
+msgstr "Projetos Relacionados"
+
+msgid "Share This Story, Choose Your Platform!"
+msgstr "Compartilhe este Post! Escolha a sua maneira:"
+
+msgid "Copyright"
+msgstr ""
+
+msgid "Project URL"
+msgstr "Ver Projeto"
+
+msgid "Tags"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Skills Needed"
+msgstr ""
+
+msgid "Project Details"
+msgstr "Mostrar detalhes"
+
+msgid "Project Description"
+msgstr ""
+
+# <?php if(is_page($post_parent)): ?><?php endif; ?>
+# <li <?php if(is_page($post_parent)): ?>class="current_page_item"<?php endif; ?>><a href="<?php echo get_permalink($post_parent); ?>" title="<?php echo __('Back to Parent Page', 'Avada'); ?>"><?php echo get_the_title($post_parent); ?></a></li>
+# <?php
+# wpml-name: 13a1c246a6d1a5ae1a40f5260a99ac1e
+msgid "Back to Parent Page"
+msgstr ""
+
+msgid "If you want to rephrase your query, here is your chance:"
+msgstr ""
+
+msgid "Try again!"
+msgstr ""
+
+msgid "Oops!"
+msgstr ""
+
+msgid "Couldn't find what you're looking for!"
+msgstr ""
+
+msgid "View Project"
+msgstr "Ver Projeto"
+
+msgid "Learn More"
+msgstr "Saiba Mais..."
+
+msgid "Please enter correct details for this required field."
+msgstr ""
+
+msgid "Loading FAQ Items..."
+msgstr ""
+
+msgid "Loading Portfolio Items..."
+msgstr ""
+
+msgid "Loading the next set of posts..."
+msgstr ""
+
+msgid "All posts displayed"
+msgstr ""
+
+# 'dropdown_goto' => __('Go to...', 'Avada'),
+# 'mobile_nav_cart' => __('Shopping Cart', 'Avada'),
+# 'page_smoothHeight' => $smoothHeight,
+# wpml-name: b75443a19207ed3a3552edda86536857
+msgid "Shopping Cart"
+msgstr ""
+
+# wp_localize_script('avada', 'js_local_vars', array(
+# 'dropdown_goto' => __('Go to...', 'Avada')
+# )
+msgid "Go to..."
+msgstr ""
+
+msgid "Theme Options"
+msgstr "Opções do Tema"
+
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando aprovação."
+
+# <strong><?php echo get_comment_author_link() ?></strong>
+# <?php printf(__('%1$s at %2$s', 'Avada'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__(' - Edit', 'Avada'),'  ','') ?><?php comment_reply_link(array_merge( $args, array('reply_text' => __(' - Reply', 'Avada'), 'add_below' => 'comment', 'depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+# </div>
+msgid " - Reply"
+msgstr ""
+
+msgid " - Edit"
+msgstr "- Editar"
+
+msgid "%1$s at %2$s"
+msgstr "%1$s em %2$s"
+
+msgid "Edit Account"
+msgstr ""
+
+msgid "Change Address"
+msgstr ""
+
+msgid "View Orders"
+msgstr "Ver Projeto"
+
+msgid "View Downloads"
+msgstr "Opções do Tema"
+
+msgid "Continue"
+msgstr ""
+
+msgid "Review &amp; Payment"
+msgstr ""
+
+msgid "Additional Information"
+msgstr ""
+
+msgid "Shipping Address"
+msgstr ""
+
+msgid "Billing Address"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Have A Promotional Code?"
+msgstr ""
+
+msgid "Hello, %s:"
+msgstr ""
+
+msgid "You Have %d Items In Your Cart"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-envelope-alt"></i>
+# <span><?php echo __('Mail This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Mail This"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-pinterest"></i>
+# <span><?php echo __('Pin This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Pin This"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-twitter"></i>
+# <span><?php echo __('Tweet This', 'Avada'); ?></span><?php echo __('Product', 'Avada'); ?>
+# </a>
+msgid "Tweet This"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-facebook"></i>
+# <span><?php echo __('Share On', 'Avada'); ?></span>Facebook
+# </a>
+msgid "Share On"
+msgstr ""
+
+msgid "Products"
+msgstr "Ver Projeto"
+
+msgid " Products"
+msgstr "Ver Projeto"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Show', 'Avada').' <strong>'.$per_page.' '.__(' Products', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+msgid "Show"
+msgstr "Mostrar"
+
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+# $html .= '</ul>';
+msgid "Rating"
+msgstr "Classificação"
+
+msgid "Popularity"
+msgstr "Popular"
+
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+msgid "Date"
+msgstr "Data"
+
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+msgid "Price"
+msgstr "Preço"
+
+# $html .= '<li class="'.(($pob == 'default') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'default').'">'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'name') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'name').'">'.__('Sort by', 'Avada').' <strong>'.__('Name', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+msgid "Name"
+msgstr "Nome"
+
+msgid "Default Order"
+msgstr "Recente"
+
+# $html .= '<li>';
+# $html .= '<span class="current-li"><a>'.__('Sort by', 'Avada').' <strong>'.__('Default Order', 'Avada').'</strong></a></span>';
+# $html .= '<ul>';
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgid "Search..."
+msgstr "Buscar..."
+
+msgid "Details"
+msgstr "Mostrar detalhes"
+
+msgid "Item(s)"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "Checkout"
+msgstr ""
+
+msgid "View Cart"
+msgstr "Ver Projeto"
+
+msgid "Logout"
+msgstr ""
+
+msgid "Log In"
+msgstr ""
+
+msgid "Remember Me"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+# } elseif ( is_year() ) {
+# $title = __( 'Yearly Archives: %s', 'Avada' ) . '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>';
+# } elseif ( is_author() ) {
+# wpml-name: yearly archives date format: Y
+msgid "Y"
+msgstr ""
+
+# } else if ( is_month() ) {
+# $title = __( 'Monthly Archives: %s', 'Avada' ) . '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>';
+# } elseif ( is_year() ) {
+# wpml-name: monthly archives date format: F Y
+msgid "F Y"
+msgstr ""
+
+msgid "Yearly Archives: %s"
+msgstr ""
+
+msgid "Monthly Archives: %s"
+msgstr ""
+
+msgid "Daily Archives: %s"
+msgstr ""
+
+msgid "Error 404 Page"
+msgstr ""
+
+msgid "Search results for:"
+msgstr "Buscar resultados para:"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "404 - Page not Found"
+msgstr "404 - Página não encontrada"
+
+msgid "Home"
+msgstr "Início"
+
+msgid "Next"
+msgstr "Próximo"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando Plugin  %1$s (%2$d/%3$d)"
+
+msgid "All installations have been completed."
+msgstr "Todas instalações foram completadas."
+
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+msgid "The installation of %1$s failed."
+msgstr "Instalação de %1$s falhou."
+
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Houve um erro durante a instalação %1$s: <strong>%2$s</strong>."
+
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"O processo de instalação está começando. Este processo pode levar algum "
+"tempo, por favor, seja paciente."
+
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e ativando o plugin %1$s (%2$d/%3$d)"
+
+msgid "All installations and activations have been completed."
+msgstr "Todas instalações e ativações foram finalizadas."
+
+msgid "Hide Details"
+msgstr "Ocultar detalhes"
+
+msgid "Show Details"
+msgstr "Mostrar detalhes"
+
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s Instalado e Ativado com sucesso."
+
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"O processo de instalação e ativação está começando. Este processo pode levar "
+"algum tempo, por favor, seja paciente."
+
+msgid "Plugin activation failed."
+msgstr "Falha na ativação do plugin."
+
+msgid "Plugin installed successfully."
+msgstr "Plugin instalado com sucesso."
+
+msgid "Plugin install failed."
+msgstr "Instalação do plugin falhou."
+
+msgid "Installing the plugin&#8230;"
+msgstr "Instalando plugin &#8230;"
+
+msgid "Unpacking the package&#8230;"
+msgstr "Descompactando pacote &#8230;"
+
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Baixando pacote de instalação de <span class=\"code\">%s</span> #8230;"
+
+msgid "Install package not available."
+msgstr "Pacote de instalação não disponível."
+
+msgid "Activate"
+msgstr "Ativar"
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Source"
+msgstr "Origem"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Não há plugins para instalar ou ativar. <a href=\" %1$s\"title=\"Voltar para "
+"o Painel\">Voltar para o Painel</a>"
+
+msgid "Active"
+msgstr "Ativar"
+
+# elseif ( version_compare( $installed_plugins[$plugin['file_path']]['Version'], $plugin['version'], '<' ) )
+# $table_data[$i]['status'] = sprintf( '%1$s', __( 'Not Updated', THEMENAME ) );
+# else
+msgid "Not Updated"
+msgstr ""
+
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não Ativo"
+
+msgid "Not Installed"
+msgstr "Não Instalado"
+
+msgid "Recommended"
+msgstr "Recomendado"
+
+msgid "Required"
+msgstr "Necessário"
+
+msgid "WordPress Repository"
+msgstr "Repositório do WordPress"
+
+msgid "Pre-Packaged"
+msgstr "Pré-embalados"
+
+msgid "Private Repository"
+msgstr "Repositório privado"
+
+msgid "External Link"
+msgstr "Link Externo"
+
+msgid "Dismiss this notice"
+msgstr "Ignorar aviso"
+
+msgid "The following plugin was activated successfully: %s."
+msgstr "O seguinte Plugin foi ativado com sucesso: %s."
+
+msgid "Return to the Dashboard"
+msgstr "Voltar ao Painel"
+
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos plugins instalados e ativados com sucesso. %1$s"
+
+msgid "Plugin activated successfully."
+msgstr "Plugin ativado com sucesso."
+
+msgid "Return to Required Plugins Installer"
+msgstr "Voltar para o instalador de plugins"
+
+msgid "Something went wrong."
+msgstr "Algo eu errado."
+
+msgid "Installing Plugin: %s"
+msgstr "Instalando Plugin: %s"
+
+msgid "Install Plugins"
+msgstr "Instalar Plugins"
+
+msgid "Install Required Plugins"
+msgstr "Instalar Plugins necessários"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "Submit Form"
+msgstr "Enviar Mensagem"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Subject"
+msgstr "Assunto"
+
+msgid "for using my contact form! Your email was successfully sent!"
+msgstr "por entrar em contato! Sua mensagem foi enviada com sucesso!"
+
+msgid "Thank you"
+msgstr "Obrigado"
+
+msgid ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+"Por favor, verifique se você preencheu todos os campos com informações "
+"válidas. Obrigado."
+
+msgid "Comments:"
+msgstr "Comentários"
+
+msgid "Subject:"
+msgstr "Assunto"
+
+msgid "Email:"
+msgstr ""
+
+# $emailTo = $smof_data['email_address']; //Put your own email address here
+# $body = __('Name:', 'Avada')." $name \n\n";
+# $body .= __('Email:', 'Avada')." $email \n\n";
+# wpml-name: 4e140ba723a03baa6948340bf90e2ef6
+msgid "Name:"
+msgstr ""
+
+msgid "Post Comment"
+msgstr "Publicar Comentário"
+
+msgid "Comment..."
+msgstr "Comentário..."
+
+msgid "Log out &raquo;"
+msgstr "Sair &raquo;"
+
+msgid "Log out of this account"
+msgstr ""
+
+msgid "Logged in as"
+msgstr "Conectado como"
+
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+msgid "Leave A Comment"
+msgstr "Deixe seu comentário"
+
+msgid "Website"
+msgstr "Site"
+
+msgid "Email (required)"
+msgstr "Email (necessário mas não publicado)"
+
+msgid "Name (required)"
+msgstr "Nome (necessário)"
+
+msgid "Comments are closed."
+msgstr "Fechado para comentários."
+
+msgid "One Comment"
+msgstr "Um comentário"
+
+msgid "No Comments"
+msgstr "Sem comentários."
+
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Este artigo é protegido por senha. Insira sua senha para ver os comentários."
+
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# </div>
+msgid "Replies Created:"
+msgstr ""
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+msgid "Topics Started:"
+msgstr ""
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+msgid "Forum Role:"
+msgstr ""
+
+msgid "Post count: %s"
+msgstr "Publicar Comentário %s"
+
+msgid "Tags:"
+msgstr ""
+
+msgid "Search the Forum..."
+msgstr "Buscar..."
+
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+# <form class="seach-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr ""
+
+msgid "Need a new search?"
+msgstr "Buscar"
+
+# <div class="author_description">
+# <h3 class='author_title'><?php echo __("About",'Avada').' '.$name; ?>
+# <?php if(current_user_can('edit_users') || get_current_user_id() == $author_id): ?>
+msgid "About"
+msgstr ""
+
+# if(empty($description)) {
+# $description  = __("This author has not yet filled in any details.",'Avada');
+# $description .= '</br>'.sprintf( __( 'So far %s has created %s entries.' ), $name, count_user_posts( $author_id ) );
+msgid "This author has not yet filled in any details."
+msgstr ""
+
+msgid "1"
+msgstr ""
+
+msgid "Read More"
+msgstr "Leia mais..."
+
+msgid "Comments"
+msgstr "Comentários"
+
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+msgid "0 Comments"
+msgstr "0 Comentários"
+
+msgid "Categories:"
+msgstr ""
+
+msgid "By"
+msgstr "Por"
+
+msgid "Search ..."
+msgstr "Buscar..."
+
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr "Não encontrou o que precisa? Faça uma busca no site!"
+
+msgid "Search Our Website"
+msgstr "Buscar no Site"
+
+msgid "Here are some useful links:"
+msgstr "Links úteis:"
+
+msgid "Oops, This Page Could Not Be Found!"
+msgstr "Ops, Página não encontrada!"
+
+#~ msgid "Last Backup : "
+#~ msgstr "Último Bakup :"
+
+#~ msgid "Save All Changes"
+#~ msgstr "Salvar todas alterações"
+
+#~ msgid "Options Reset"
+#~ msgstr "Resetar Opções"
+
+#~ msgid "Search for:"
+#~ msgstr "Buscar resultados para:"
+
+#~ msgid "Submit"
+#~ msgstr "Enviar Mensagem"
+
+#~ msgid "Destination"
+#~ msgstr "Opções"
+
+#~ msgid "Topic Type:"
+#~ msgstr "Tipo"
+
+#~ msgid "Topic Status:"
+#~ msgstr "Status"
+
+#~ msgid "Posts"
+#~ msgstr "Artigos Relacionados"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Opções"
+
+#~ msgid "Edit"
+#~ msgstr "- Editar"
+
+#~ msgid "Slider style"
+#~ msgstr "Galeria"
+
+#~ msgid "Disabled"
+#~ msgstr "Fechado para comentários."
+
+#~ msgid "No action"
+#~ msgstr "Opções"
+
+#~ msgid "Rotate"
+#~ msgstr "Status"
+
+#~ msgid "RotateX"
+#~ msgstr "Status"
+
+#~ msgid "RotateY"
+#~ msgstr "Status"
+
+#~ msgid "Show until"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Custom styles"
+#~ msgstr "Comentários"
+
+#~ msgid "Alt"
+#~ msgstr "Todos"
+
+#~ msgid "Screen Options"
+#~ msgstr "Opções"
+
+#~ msgid "LayerSlider Skin Editor"
+#~ msgstr "- Editar"
+
+#~ msgid "Your changes has been saved!"
+#~ msgstr "Todas instalações foram completadas."
+
+#~ msgid "Skin Editor"
+#~ msgstr "- Editar"
+
+#~ msgid "Choose a skin:"
+#~ msgstr "Opções"
+
+#~ msgid "Save changes"
+#~ msgstr "Salvar todas alterações"
+
+#~ msgid "Slider Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slides"
+#~ msgstr "Opções"
+
+#~ msgid "Slide Options"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "enter URL"
+#~ msgstr "Ver Projeto"
+
+#~ msgid "Slide transition"
+#~ msgstr "Opções"
+
+#~ msgid "Preview"
+#~ msgstr "Anterior"
+
+#~ msgid "Enter Preview"
+#~ msgstr "Anterior"
+
+#~ msgid "Content"
+#~ msgstr "Um comentário"
+
+#~ msgid "Transition"
+#~ msgstr "Opções"
+
+#~ msgid "Other options"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "Custom style settings"
+#~ msgstr "Comentários"
+
+#~ msgid "Order results by"
+#~ msgstr "Buscar resultados para:"
+
+#~ msgid "Slideshow"
+#~ msgstr "Opções"
+
+#~ msgid "Slider dimensions"
+#~ msgstr "Opções"
+
+#~ msgid "Slideshow behavior"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Starting slide options"
+#~ msgstr "Opções"
+
+#~ msgid "Slideshow navigation"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Other settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slideshow timers"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Your settings has been updated."
+#~ msgstr "Todas instalações foram completadas."
+
+#~ msgid "Sliders"
+#~ msgstr "Opções"
+
+#~ msgid "LayerSlider sliders"
+#~ msgstr "Galeria"
+
+#~ msgid "Add New"
+#~ msgstr "Anterior"
+
+#~ msgid "Slider preview"
+#~ msgstr "Opções"
+
+#~ msgid "Choose an action"
+#~ msgstr "Opções"
+
+#~ msgid "Import Sliders"
+#~ msgstr "Opções"
+
+#~ msgid "Export Sliders"
+#~ msgstr "Opções"
+
+#~ msgid "Custom"
+#~ msgstr "Comentários"
+
+#~ msgid "Add font:"
+#~ msgstr "Galeria"
+
+#~ msgid "Choose a font family"
+#~ msgstr "Opções"
+
+#~ msgid "Add font"
+#~ msgstr "Galeria"
+
+#~ msgid "installed"
+#~ msgstr "Instalar"
+
+#~ msgid "Before animation"
+#~ msgstr "Opções"
+
+#~ msgid "Enabled"
+#~ msgstr "Fechado para comentários."
+
+#~ msgid "Add new"
+#~ msgstr "Anterior"
+
+#~ msgid "Animation"
+#~ msgstr "Opções"
+
+#~ msgid "Direction"
+#~ msgstr "Opções"
+
+#~ msgid "After animation"
+#~ msgstr "Opções"
+
+#~ msgid "Transition options"
+#~ msgstr "Opções"
+
+#~ msgid "RotateZ"
+#~ msgstr "Status"
+
+#~ msgid "Slider not found"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "Choose a slider:"
+#~ msgstr "Opções"
+
+#~ msgid "as a new user:"
+#~ msgstr "Buscar"
+
+#~ msgid "Read more"
+#~ msgstr "Leia mais..."
+
+#~ msgid "Contributor"
+#~ msgstr "- Editar"
+
+#~ msgid "Editor"
+#~ msgstr "- Editar"
+
+#~ msgid "Show Examples"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Save Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Settings Page"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slideshow Type"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slideshow Theme"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slideshow ID"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slide Groups"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "Search Slide Groups"
+#~ msgstr "Buscar no Site"
+
+#~ msgid "All Slide Groups"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "Edit %s"
+#~ msgstr "Editar %s"
+
+#~ msgid "View %s"
+#~ msgstr "Ver Projeto %s"
+
+#~ msgid "Search %s"
+#~ msgstr "Buscar %s"
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Comentários"
+
+#~ msgid "Button Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slide Direction"
+#~ msgstr "Opções"
+
+#~ msgid "Slideshow Speed"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "\"Previous\" Link Text"
+#~ msgstr "Anterior"
+
+#~ msgid "\"Play\" Button Text"
+#~ msgstr "Resetar Opções"
+
+#~ msgid "Overview"
+#~ msgstr "Anterior"
+
+#~ msgid "Screen Content"
+#~ msgstr "Um comentário"
+
+#~ msgid "Available Actions"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "Bulk Actions"
+#~ msgstr "Opções"
+
+#~ msgid "Content Editor"
+#~ msgstr "- Editar"
+
+#~ msgid "Text Bottom"
+#~ msgstr "Artigos Relacionados"
+
+#~ msgid "Default"
+#~ msgstr "Recente"
+
+#~ msgid "Slideshow Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Slideshow (FlexSlider)"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Title (optional):"
+#~ msgstr "Opções do Tema"
+
+#~ msgid "Slideshow Theme:"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Customise Advanced Settings"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Show details"
+#~ msgstr "Mostrar detalhes"
+
+#~ msgid "Order Details"
+#~ msgstr "Ocultar detalhes"
+
+#~ msgid "Customer details"
+#~ msgstr "Comentários"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Algo deu errado com a API do plugin."
+
+#~ msgid "All plugins installed and activated successfully. %s"
+#~ msgstr "Todos plugins instalados e ativados com sucesso. %s"
+
+#~ msgid "Order Total"
+#~ msgstr "Ocultar detalhes"
+
+#~ msgid "Order:"
+#~ msgstr "Ver Projeto"
+
+# $html .= '<li class="'.(($pob == 'price') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'price').'">'.__('Sort by', 'Avada').' <strong>'.__('Price', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+#~ msgid "Date:"
+#~ msgstr "Data"
+
+#~ msgid "Choose an option"
+#~ msgstr "Opções"
+
+#~ msgid "Options"
+#~ msgstr "Opções"
+
+#~ msgid "Gallery"
+#~ msgstr "Galeria"
+
+#~ msgid "Previously Uploaded"
+#~ msgstr "Enviado anteriormente"
+
+#~ msgid "Downloading upgrade package from the Envato API&#8230;"
+#~ msgstr ""
+#~ "Baixando pacote de instalação de <span class=\"code\">%s</span> #8230;"
+
+#~ msgid "Downloading install package from the Envato API&#8230;"
+#~ msgstr ""
+#~ "Baixando pacote de instalação de <span class=\"code\">%s</span> #8230;"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#, fuzzy
+#~ msgid "Have a coupon?"
+#~ msgstr "Deixe seu comentário"
+
+#, fuzzy
+#~ msgid "Default sorting"
+#~ msgstr "Recente"
+
+#, fuzzy
+#~ msgid "Sort by popularity"
+#~ msgstr "Popular"
+
+#~ msgid "Recent Orders"
+#~ msgstr "Pedidos recentes"
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "Ver Projeto"
+
+#, fuzzy
+#~ msgid "Search results for &ldquo;"
+#~ msgstr "Buscar resultados para:"
+
+#, fuzzy
+#~ msgid "Reviews"
+#~ msgstr "Anterior"
+
+#, fuzzy
+#~ msgid "Submit Review"
+#~ msgstr "Enviar Mensagem"
+
+#, fuzzy
+#~ msgid "Your Review"
+#~ msgstr "Anterior"
+
+#, fuzzy
+#~ msgid "Return to the dashboard"
+#~ msgstr "Voltar ao Painel"
+
+#, fuzzy
+#~ msgid "The following plugin was activated successfully:"
+#~ msgstr "O seguinte Plugin foi ativado com sucesso: %s."
+
+#, fuzzy
+#~ msgid "Related Products"
+#~ msgstr "Projetos Relacionados"
+
+#, fuzzy
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "Seu comentário está aguardando aprovação."
+
+#, fuzzy
+#~ msgid "Error 404 - page not found"
+#~ msgstr "404 - Página não encontrada"
+
+#, fuzzy
+#~ msgid "Post Number"
+#~ msgstr "Publicar Comentário"
+
+#, fuzzy
+#~ msgid "Clone Column"
+#~ msgstr "Um comentário"
+
+#, fuzzy
+#~ msgid "Form Element Options"
+#~ msgstr "Opções do Tema"
+
+#, fuzzy
+#~ msgid "Edit Gallery"
+#~ msgstr "Galeria"
+
+#, fuzzy
+#~ msgid "Add/Edit Gallery"
+#~ msgstr "Galeria"
+
+#, fuzzy
+#~ msgid "Gallery Columns"
+#~ msgstr "Galeria"
+
+#, fuzzy
+#~ msgid "Message Colors"
+#~ msgstr "Mensagem"
+
+#, fuzzy
+#~ msgid "1 Columns"
+#~ msgstr "1 Comentário"
+
+#, fuzzy
+#~ msgid "Comment"
+#~ msgstr "Comentários"
+
+#, fuzzy
+#~ msgid "Website Link"
+#~ msgstr "Site"
+
+#, fuzzy
+#~ msgid "Website Name"
+#~ msgstr "Site"
+
+#, fuzzy
+#~ msgid "View Product"
+#~ msgstr "Ver Projeto"
+
+#, fuzzy
+#~ msgid "Search Products"
+#~ msgstr "Buscar resultados para:"
+
+#, fuzzy
+#~ msgid "Search Order statuses"
+#~ msgstr "Buscar no Site"
+
+#, fuzzy
+#~ msgid "Search Coupons"
+#~ msgstr "Buscar"
+
+#, fuzzy
+#~ msgid "Search results for &quot;%1$s&quot;"
+#~ msgstr "Buscar resultados para:"
+
+#, fuzzy
+#~ msgid "404 Not Found"
+#~ msgstr "404 - Página não encontrada"
+
+#, fuzzy
+#~ msgid "New Message"
+#~ msgstr "Mensagem"
+
+#, fuzzy
+#~ msgid "Your Message:"
+#~ msgstr "Mensagem"
+
+#, fuzzy
+#~ msgid "search results for:"
+#~ msgstr "Buscar resultados para:"
+
+#, fuzzy
+#~ msgid "search result for:"
+#~ msgstr "Buscar resultados para:"
+
+#, fuzzy
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view any comments."
+#~ msgstr ""
+#~ "Este artigo é protegido por senha. Insira sua senha para ver os "
+#~ "comentários."
+
+#, fuzzy
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Sem comentários."
+
+#, fuzzy
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Sem comentários."
+
+#, fuzzy
+#~ msgid "Comments<br/>Off"
+#~ msgstr "Comentários"
+
+#, fuzzy
+#~ msgid "(Edit)"
+#~ msgstr "- Editar"
+
+#, fuzzy
+#~ msgid "Interesting links"
+#~ msgstr "Instalando Plugin: %s"
+
+#, fuzzy
+#~ msgid "&larr; Older Comments"
+#~ msgstr "Um comentário"
+
+#, fuzzy
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Sem comentários."
+
+#, fuzzy
+#~ msgid "One comment so far"
+#~ msgstr "Um comentário"
+
+#, fuzzy
+#~ msgid "Search Results for: %s"
+#~ msgstr "Buscar resultados para:"
+
+#, fuzzy
+#~ msgid "&larr; Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "You must be <a href=\""
+#~ msgstr "Necessário estar <a href=\""
