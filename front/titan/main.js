@@ -1,25 +1,39 @@
-var express = require('express');
-var path = require('path');
-var configurationHelper = require('./helper/configuration');
+var express = require('express'),
+path = require('path'),
+cookieParser = require('cookie-parser'),
+session = require('express-session'),
+bodyParser = require('body-parser'),
+Routes = require('./routes/routes').Routes,
+ConfigurationHelper = require('./helpers/configuration.helper').ConfigurationHelper;
 
-//import de tous les controllers utilisés
-var indexController = require('./controllers/index.controller');
 
-// Ne pas toucher ce bloc
-var app = express();
-configurationHelper.getConfig(function(configuration){
-	app.set('port', configuration.port || 3000);
-	app.set('views', __dirname + '/views');
-	app.set('view engine', 'jade');
-	app.use(express.static(path.join(__dirname, 'public')));
+var Main = {
 
-	app.get('/', function(req, res){
-	    //debug only route - redirect to dev app id
-	    res.render('ok');
-	});
+	start : function(){
+	
+		ConfigurationHelper.getConfig({application : 'titan', done : function(configuration){
 
-	//lancement du serveur
-	app.listen(configuration.port || 3000, function(){
-	    console.log('titan started on ' + configuration.port || 3000);    
-	});
-});
+			var app = express();
+
+			app.use(cookieParser());
+			app.use(session({ secret: 'giantapp'}));
+			app.set('port', configuration.port);
+			app.set('views', __dirname + '/views');
+			app.set('view engine', 'jade');
+			app.use(express.static(path.join(__dirname, 'public')));
+			app.use(bodyParser());
+
+			Routes.loadRoutes(app, configuration);
+
+			//lancement du serveur
+        	app.listen(configuration.port, function(){
+        	    console.log('titan started on '+(configuration.addressBasePath+":"+configuration.port));    
+        	});
+
+		}});
+
+	}
+
+};
+
+Main.start();

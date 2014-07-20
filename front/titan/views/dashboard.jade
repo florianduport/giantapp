@@ -1,0 +1,11 @@
+extends layout
+block conditionnalHeader
+	link(href="/css/dashboard.css" rel="stylesheet")
+	block pageHeader
+block content
+	.container-fluid
+		.row
+			div(class="col-xs-1 col-sm-1 col-md-2 col-lg-2" id="menuContainer")
+				include blocks/menu.jade
+			div(class="col-xs-11 col-sm-11 col-md-10 col-lg-10")
+				block dashboardContent

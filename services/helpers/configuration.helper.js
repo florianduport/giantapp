@@ -16,17 +16,17 @@ var ConfigurationHelper = {
     getConfig : function(options){
 	
     	DatabaseHelper.getDatabase(function(db){
-            db.collection("Configuration", function(err, configurations){
+            db.collection("Configurations", function(err, configurations){
             	
             	if (err || !configurations)
                 {
-                    LogError("services", "Configuration collection couldn't be found", options, err);
+                    LoggerHelper.logError("services", "Configuration collection couldn't be found", options, err);
                     return options.done(LocalConfig);
                 }
                 configurations.findOne({ application: options.application}, function(err, applicationConfig){
                     if (err || !applicationConfig)
                     {
-                    	LogError("services", "Application configuration document couldn't be found", options, err);
+                    	LoggerHelper.logError("services", "Application configuration document couldn't be found", options, err);
                         return options.done(LocalConfig);
                     }
                     
