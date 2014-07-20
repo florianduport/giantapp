@@ -1,0 +1,418 @@
+#ls-screen-options-form {
+
+	input[type="number"] {
+		width: 50px;
+	}
+
+	button {
+		margin-left: 10px;
+	}
+}
+
+
+.ls-version-number {
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	line-height: 12px;
+	color: red;
+}
+
+// All boxes on the listing page
+#ls-add-slider-template,
+#ls-import-samples-template {
+	display: none;
+	width: 330px;
+	min-height: 0;
+	text-align: center;
+	box-shadow: 0px 0px 10px #666;
+	&:before { box-shadow: 0px 0px 10px #666; }
+	h3.header { text-align: center;}
+	input { width: 200px; margin-right: 10px; }
+}
+
+#ls-import-samples-template a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#ls-import-samples-template ul.sep {
+	border-top: 1px solid #dedede;
+	padding-top: 5px !important;
+}
+
+#ls-import-samples-template div.inner {
+	border-top: 1px solid #dedede;
+	text-align: justify;
+	font-size: 12px;
+	color: #777;
+}
+
+.ls-add-slider-overlay {
+	background: black;
+	opacity: 0.2;
+}
+
+#ls-list-page {
+
+	// All boxes
+	.ls-box {
+		margin-bottom: 30px;
+	}
+}
+
+// Sliders list
+.ls-sliders-list {
+
+	position: relative;
+	margin-bottom: 0px !important;
+	color: #555;
+
+	tr.faded {
+		opacity: 0.5;
+	}
+
+	td {
+		text-align: center;
+		padding: 3px !important;
+
+		input {
+			margin-left: 6px;
+		}
+		&.name { text-align: left; }
+	}
+
+	td.preview {
+		width: 160px;
+		float: none;
+		text-align: center;
+
+		div {
+			width: 150px;
+			height: 36px;
+			position: relative;
+			margin: 0 auto;
+			overflow: hidden;
+			border-radius: 5px;
+		}
+
+		img {
+			width: 100%;
+			min-height: 100%;
+		}
+	}
+
+	span {
+		font-size: 19px;
+		line-height: 19px;
+		-webkit-font-smoothing: none;
+
+		&.dashicons-backup {
+			-webkit-font-smoothing: antialiased;
+			&:hover { color: orange; }
+		}
+
+		&.dashicons-trash:hover {
+			color: #E14D43;
+		}
+	}
+
+	input.ls-shortcode {
+		width: 140px;
+		height: 22px;
+		margin: 0;
+		padding: 5px;
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		background: #fff;
+		font-family: "Lucida Console", Monaco, monospace;
+		font-size: 10px;
+		color: #444;
+		line-height: 22px;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+div.ls-bulk-actions {
+	position: absolute;
+	width: 260px;
+	height: 30px;
+	left: 0;
+	bottom: -45px;
+
+	button {
+		margin-left: 10px !important;
+	}
+}
+
+.ls-pagination {
+	width: 300px;
+	height: 40px;
+	float: right;
+	clear: none !important;
+	margin: 10px 0 0 0;
+	text-align: right;
+	form {
+		display: inline-block;
+	}
+}
+
+.ls-export-wrapper {
+	margin-top: 65px;
+
+	.checkbox {
+		width: 16px;
+	}
+}
+
+
+.ls-import-export-box {
+
+	form.ls-import-box td {
+		border-bottom: 1px solid #e3e3e3 !important;
+	}
+
+	td:first-child {
+		width: 130px;
+		text-align: right;
+	}
+
+	input, select {
+		width: 90%;
+	}
+
+	form.ls-export-form {
+
+		tr:first-child td {
+			padding-top: 8px;
+
+			&:last-child {
+				padding-right: 8px;
+			}
+		}
+
+		select {
+			width: 100%;
+			height: 136px;
+			margin-bottom: 8px;
+			border-radius: 3px;
+			padding: 3px;
+		}
+
+		label {
+			line-height: 30px;
+		}
+
+		tfoot td {
+			line-height: 30px;
+			padding-left: 0 !important;
+			&.available {
+				color: green;
+			}
+
+			&.notavailable {
+				color: red;
+			}
+		}
+	}
+
+	button {
+		float: right;
+		margin-right: 2px !important;
+	}
+}
+
+.ls-news {
+
+	.ls-version {
+		float: right;
+		font-weight: normal;
+	}
+
+	iframe {
+		width: 100%;
+		height: 350px;
+		border: 0;
+	}
+}
+
+#ls-permission-form {
+	margin-bottom: 15px !important;
+}
+
+.ls-auto-update {
+
+	.header figure {
+		display: inline;
+		margin: 0;
+		font-weight: normal;
+		text-shadow: none;
+
+		span {
+			margin: 0px 5px;
+		}
+	}
+
+	tbody td:first-child {
+		width: 130px;
+	}
+
+
+	input {
+		margin: 0 2px 0 5px;
+
+		&.key {
+			width: 260px;
+			font: normal normal normal 13px/15px Arial, sans-serif;
+		}
+	}
+
+	a {
+		float: right;
+	}
+
+	.footer span {
+		margin-left: 10px;
+		line-height: 28px;
+	}
+}
+
+.ls-global-settings {
+
+	.inner {
+		padding: 0;
+	}
+
+	figure {
+		display: inline;
+		margin: 0;
+		color: #999;
+		font-weight: normal;
+		-webkit-transition: color 300ms;
+		-moz-transition: color 300ms;
+		-o-transition: color 300ms;
+		-ms-transition: color 300ms;
+		transition: color 300ms;
+
+		span  {
+			margin: 0 5px;
+			color: #999;
+		}
+	}
+
+
+
+	&:hover figure {
+		color: red;
+	}
+
+	.ls-icon {
+		margin-top: 6px;
+	}
+
+	thead {
+		color: #444;
+	}
+
+	tbody td:first-child {
+		width: 230px;
+		text-align: right;
+	}
+
+	.ls-checkbox {
+		margin: 0 10px;
+	}
+
+	td.desc {
+		font-size: 12px;
+	}
+}
+
+
+// Goggle Fonts search bar
+.ls-font-search {
+
+	.right {
+		float: right;
+	}
+
+	input {
+		width: 180px;
+		margin: 0 10px;
+		font-size: 12px;
+		border-radius: 2px;
+		line-height: 17px;
+	}
+}
+
+// Google Fonts pointer
+.ls-font-search  .ls-pointer {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	right: 30px;
+	width: 280px;
+	margin-top: 40px;
+	box-shadow: 0px 0px 10px #666;
+	&:before { box-shadow: 0px 0px 10px #666; }
+
+	.fonts h4 {
+		padding-top: 10px;
+		font: $fontHelvetica;
+		font-weight: normal;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.variants {
+		display: none;
+		.ls-checkbox { margin: 0 10px -3px 10px; }
+	}
+
+	.inner div { text-align: center; }
+}
+
+// Google Fonts list
+ul.ls-font-list {
+	margin: 0;
+	padding: 0;
+
+	.ls-notice {
+		margin: 5px 0;
+		text-align: center;
+		font: {
+			family: $fontHelvetica;
+			size: 14px;
+		}
+	}
+
+	input {
+		width: 500px;
+		border-radius: 3px;
+		&[readonly] {
+			background-color: white;
+		}
+	}
+
+	.ls-checkbox {
+		margin: 0 10px -3px 10px;
+	}
+
+	a.remove {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border: 1px solid #ad1714;
+		margin: 0 10px;
+		font: normal normal normal 10px/10px Arial, serif;
+		color: #FFF;
+		background-color: #db1b17;
+		border-radius: 6px;
+		text-align: center;
+		-webkit-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+		-moz-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+		box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	}
+}
+

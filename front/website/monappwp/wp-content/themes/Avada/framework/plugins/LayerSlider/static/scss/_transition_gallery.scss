@@ -1,0 +1,59 @@
+
+#ls-transition-window div {
+	height: 529px;
+	overflow-y: auto;
+}
+
+#ls-transition-window table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#ls-transition-window th {
+	padding-left: 10px;
+	color: #888 !important;
+}
+
+#ls-transition-window th .ls-checkbox {
+	height: 16px !important;
+	padding: 0px !important;
+	margin-left: 10px;
+}
+
+#ls-transition-window th span.all {
+	margin-left: 5px;
+	font-weight: normal;
+}
+
+#ls-transition-window tbody td {
+	line-height: 20px;
+	padding: 0px;
+	color: #888 !important;
+}
+
+#ls-transition-window tbody td:first-child {
+	border-right: 1px solid #ddd;
+}
+
+#ls-transition-window tbody a {
+	display: inline-block;
+	height: 20px;
+	padding-left: 36px;
+	line-height: 20px;
+	outline: none;
+}
+
+#ls-transition-window tbody td.added a {
+	background-image: url(../img/sprite.png);
+	background-position: 10px -752px;
+	background-repeat: no-repeat;
+}
+
+.ls-icon-star {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: right;
+	margin: 2px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -810px no-repeat;
+}

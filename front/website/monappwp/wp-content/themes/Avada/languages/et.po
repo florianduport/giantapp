@@ -1,0 +1,1035 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avada v3.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-01 04:46+0500\n"
+"Last-Translator: Haris <info@theme-fusion.com>\n"
+"Language-Team: \n"
+"Language: et_EE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ ambrosite
+msgid "Next Post"
+msgstr ""
+
+# @ ambrosite
+msgid "Previous Post"
+msgstr ""
+
+# 'sbg_box',
+# __( 'Sidebar', 'Avada' ),
+# array('sidebar_generator', 'edit_form'),
+# wpml-name: 219ff7705d67d0c798779951dcf82e95
+msgid "Sidebar"
+msgstr ""
+
+# </p>
+# <a href="#" id="fusion-media-upload-<?php echo $item_id; ?>" class="fusion-open-media button button-primary fusion-megamenu-upload-thumbnail"><?php _e( 'Set Thumbnail', 'Avada' ); ?></a>
+# <p class="field-megamenu-thumbnail description description-wide">
+# wpml-name: 35e9cfa14322e1b3a7d13391e53477ac
+msgid "Set Thumbnail"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Icon (use full font awesome name)', 'Avada' ); ?>
+# <input type="text" id="edit-menu-item-megamenu-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-icon" name="menu-item-fusion-megamenu-icon[<?php echo $item_id; ?>]" value="<?php echo $item->fusion_megamenu_icon; ?>" />
+# wpml-name: ed337b2d405b51264196ba53c363a9f3
+msgid "Mega Menu Icon (use full font awesome name)"
+msgstr ""
+
+# <select id="edit-menu-item-megamenu-widgetarea-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-widgetarea" name="menu-item-fusion-megamenu-widgetarea[<?php echo $item_id; ?>]">
+# <option value="0"><?php _e( 'Select Widget Area', 'Avada' ); ?></option>
+# <?php
+# wpml-name: dd45b8e59a8c54710a6cdba027c9e350
+msgid "Select Widget Area"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-widgetarea-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Widget Area', 'Avada' ); ?>
+# <select id="edit-menu-item-megamenu-widgetarea-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-widgetarea" name="menu-item-fusion-megamenu-widgetarea[<?php echo $item_id; ?>]">
+# wpml-name: 035f4cf9c1c508c76ba0f981287f3ce2
+msgid "Mega Menu Widget Area"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-title-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-title" name="menu-item-fusion-megamenu-title[<?php echo $item_id; ?>]" value="disabled" <?php checked( $item->fusion_megamenu_title, 'disabled' ); ?> />
+# <?php _e( 'Disable Mega Menu Column Title', 'Avada' ); ?>
+# </label>
+# wpml-name: 327be4f1954415dad7cc90cbdffe2ff4
+msgid "Disable Mega Menu Column Title"
+msgstr ""
+
+# <select id="edit-menu-item-megamenu-columns-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-columns" name="menu-item-fusion-megamenu-columns[<?php echo $item_id; ?>]">
+# <option value="auto" <?php selected( $item->fusion_megamenu_columns, 'auto' ); ?>><?php _e( 'Auto', 'Avada' ); ?></option>
+# <option value="1" <?php selected( $item->fusion_megamenu_columns, '1' ); ?>>1</option>
+# wpml-name: 06b9281e396db002010bde1de57262eb
+msgid "Auto"
+msgstr ""
+
+# <label for="edit-menu-item-megamenu-columns-<?php echo $item_id; ?>">
+# <?php _e( 'Mega Menu Number of Columns', 'Avada' ); ?>
+# <select id="edit-menu-item-megamenu-columns-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-columns" name="menu-item-fusion-megamenu-columns[<?php echo $item_id; ?>]">
+# wpml-name: 03d959e709ff7835f42c19e71afd281e
+msgid "Mega Menu Number of Columns"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-width-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-width" name="menu-item-fusion-megamenu-width[<?php echo $item_id; ?>]" value="fullwidth" <?php checked( $item->fusion_megamenu_width, 'fullwidth' ); ?> />
+# <?php _e( 'Full Width Mega Menu', 'Avada' ); ?>
+# </label>
+# wpml-name: 9e2661888f17b075b9ebd47f834268df
+msgid "Full Width Mega Menu"
+msgstr ""
+
+# <input type="checkbox" id="edit-menu-item-megamenu-status-<?php echo $item_id; ?>" class="widefat code edit-menu-item-megamenu-status" name="menu-item-fusion-megamenu-status[<?php echo $item_id; ?>]" value="enabled" <?php checked( $item->fusion_megamenu_status, 'enabled' ); ?> />
+# <strong><?php _e( 'Enable Fusion Mega Menu', 'Avada' ); ?></strong>
+# </label>
+# wpml-name: 1d548d28b4394500d23817f71e43510a
+msgid "Enable Fusion Mega Menu"
+msgstr ""
+
+# @ woocommerce
+msgid "terms &amp; conditions"
+msgstr ""
+
+# @ woocommerce
+msgid "I have read and accept the"
+msgstr ""
+
+# if( $difference != 1 ) {
+# $periods[$j] .= __( 's', 'Avada' );
+# }
+# wpml-name: 03c7c0ace395d80182db07ae2c30f034
+msgid "s"
+msgstr ""
+
+# @ woocommerce
+msgid "ago"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 2787910b1b16428d65412fca2718a92e
+msgid "decade"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 84cdc76cabf41bd7c961f6ab12f117d8
+msgid "year"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 7436f942d5ea836cb84f1bb2527d8286
+msgid "month"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 172a8327fcd3685ab3c0f740d031da09
+msgid "week"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 628b7db04235f228d40adc671413a8c8
+msgid "day"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 896c55cc5e46fab38ce9f51ebf7bfcd3
+msgid "hour"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: 0a7d55be9d12a369a6a8da0fb517fba4
+msgid "minute"
+msgstr ""
+
+# function ago( $time ) {
+# $periods = array( __( 'second', 'Avada' ), __( 'minute', 'Avada' ), __( 'hour', 'Avada' ), __( 'day', 'Avada' ), __( 'week', 'Avada' ), __( 'month', 'Avada' ), __( 'year', 'Avada' ), __( 'decade', 'Avada' ) );
+# $lengths = array( '60', '60', '24', '7', '4.35', '12', '10' );
+# wpml-name: a9f0e61a137d86aa9db53465e0801612
+msgid "second"
+msgstr ""
+
+# @ Avada
+msgid "says"
+msgstr ""
+
+# @ Avada
+msgid "Recent"
+msgstr ""
+
+# @ Avada
+msgid "Popular"
+msgstr ""
+
+# @ Avada
+msgid "Web:"
+msgstr ""
+
+# @ Avada
+msgid "Fax:"
+msgstr ""
+
+# <?php if(isset($instance['mobile']) && $instance['mobile']): ?>
+# <p class="mobile"><?php _e('Mobile:', 'Avada'); ?> <?php echo $instance['mobile']; ?></p>
+# <?php endif; ?>
+# wpml-name: ffcb08c10f0f79e2f023967154ddbeed
+msgid "Mobile:"
+msgstr ""
+
+# @ Avada
+msgid "Phone:"
+msgstr "Telefon:"
+
+# @ Avada
+msgid "Related Posts"
+msgstr ""
+
+# @ Avada
+msgid "About the Author:"
+msgstr ""
+
+# @ Avada
+msgid "Related Projects"
+msgstr ""
+
+# @ Avada
+msgid "Share This Story, Choose Your Platform!"
+msgstr "Jaga seda lugu!"
+
+# @ Avada
+msgid "Copyright"
+msgstr ""
+
+# @ Avada
+msgid "Project URL"
+msgstr ""
+
+# @ wooslider
+msgid "Tags"
+msgstr ""
+
+# @ wooslider
+# @ Avada
+msgid "Categories"
+msgstr ""
+
+# @ Avada
+msgid "Skills Needed"
+msgstr ""
+
+# @ Avada
+msgid "Project Details"
+msgstr ""
+
+# @ Avada
+msgid "Project Description"
+msgstr "Projekti kirjeldus"
+
+# <?php if(is_page($post_parent)): ?><?php endif; ?>
+# <li <?php if(is_page($post_parent)): ?>class="current_page_item"<?php endif; ?>><a href="<?php echo get_permalink($post_parent); ?>" title="<?php echo __('Back to Parent Page', 'Avada'); ?>"><?php echo get_the_title($post_parent); ?></a></li>
+# <?php
+# wpml-name: 13a1c246a6d1a5ae1a40f5260a99ac1e
+msgid "Back to Parent Page"
+msgstr ""
+
+# @ Avada
+msgid "If you want to rephrase your query, here is your chance:"
+msgstr ""
+
+# @ Avada
+msgid "Try again!"
+msgstr ""
+
+# @ Avada
+msgid "Oops!"
+msgstr ""
+
+# @ Avada
+msgid "Couldn't find what you're looking for!"
+msgstr ""
+
+# @ Avada
+msgid "View Project"
+msgstr ""
+
+# @ Avada
+msgid "Learn More"
+msgstr ""
+
+#
+# .woocommerce-invalid:after { content: '<?php echo __('Please enter correct details for this required field.', 'Avada'); ?>'; display: inline-block; margin-top: 7px; color: red; }
+# </style>
+# wpml-name: 158f1bc10f611d14543e1426abfed743
+msgid "Please enter correct details for this required field."
+msgstr ""
+
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# 'faqs_loading_text' => '<em>'. __('Loading FAQ Items...', 'Avada').'</em>',
+# 'order_actions' =>  __('Details', 'Avada')
+# wpml-name: 3b340ac59e178c70f764a4c1313b6a0a
+msgid "Loading FAQ Items..."
+msgstr ""
+
+# 'infinite_blog_text' => '<em>'. __('Loading the next set of posts...', 'Avada').'</em>',
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# 'faqs_loading_text' => '<em>'. __('Loading FAQ Items...', 'Avada').'</em>',
+# wpml-name: e06645be9f00d5cb266104d208c82320
+msgid "Loading Portfolio Items..."
+msgstr ""
+
+# 'infinite_blog_finished_msg' => '<em>'.__('All posts displayed', 'Avada').'</em>',
+# 'infinite_blog_text' => '<em>'. __('Loading the next set of posts...', 'Avada').'</em>',
+# 'portfolio_loading_text' => '<em>'. __('Loading Portfolio Items...', 'Avada').'</em>',
+# wpml-name: 9a1dc1e92f772868a9fd98b5bf52ad2c
+msgid "Loading the next set of posts..."
+msgstr ""
+
+# 'language_flag' => $language_code,
+# 'infinite_blog_finished_msg' => '<em>'.__('All posts displayed', 'Avada').'</em>',
+# 'infinite_blog_text' => '<em>'. __('Loading the next set of posts...', 'Avada').'</em>',
+# wpml-name: 89d2d6748d3d718e6a99fb666368fb84
+msgid "All posts displayed"
+msgstr ""
+
+# @ woocommerce
+#, fuzzy
+msgid "Shopping Cart"
+msgstr "Värskenda ostukorvi"
+
+# 'theme_url' => get_template_directory_uri(),
+# 'dropdown_goto' => __('Go to...', 'Avada'),
+# 'mobile_nav_cart' => __('Shopping Cart', 'Avada'),
+# wpml-name: ec434af0a2786fa23b468584c5622fe1
+msgid "Go to..."
+msgstr ""
+
+# @ Avada
+msgid "Theme Options"
+msgstr ""
+
+# @ Avada
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ Avada
+msgid " - Reply"
+msgstr ""
+
+# @ Avada
+msgid " - Edit"
+msgstr ""
+
+# @ Avada
+msgid "%1$s at %2$s"
+msgstr ""
+
+# <a class="account" href="#">
+# <?php _e('Edit Account' , 'Avada'); ?>
+# </a>
+# wpml-name: cc17c909a9497f9582fdd4d15746cd97
+msgid "Edit Account"
+msgstr ""
+
+# @ Avada
+msgid "Change Address"
+msgstr "Muuda aadressi"
+
+# @ Avada
+msgid "View Orders"
+msgstr ""
+
+# <a class="downloads" href="#">
+# <?php _e('View Downloads' , 'Avada'); ?>
+# </a>
+# wpml-name: e85ffc8d4fe76f12e9cca0811fa45461
+msgid "View Downloads"
+msgstr ""
+
+# @ Avada
+msgid "Continue"
+msgstr "Jätka"
+
+# @ Avada
+msgid "Review &amp; Payment"
+msgstr "Ülevaade &amp; Maksmine"
+
+# @ woocommerce
+msgid "Additional Information"
+msgstr ""
+
+# @ Avada
+# @ woocommerce
+msgid "Shipping Address"
+msgstr "Transpordi aadress"
+
+# @ woocommerce
+# @ Avada
+msgid "Billing Address"
+msgstr "Arve aadress"
+
+# @ woocommerce
+msgid "Apply"
+msgstr ""
+
+# @ woocommerce
+msgid "Have A Promotional Code?"
+msgstr ""
+
+# @ Avada
+msgid "Hello, %s:"
+msgstr "Tere, %s:"
+
+# @ Avada
+#, fuzzy
+msgid "You Have %d Items In Your Cart"
+msgstr "Korvis on %d ost(u)"
+
+# <i class="fontawesome-icon medium circle-yes icon-mail"></i>
+# <span>' . __('Mail This', 'Avada') . '</span>' . __('Product', 'Avada') .'
+# </a>
+# wpml-name: 8498b5e4d8ad0accc065bea8c8d93a11
+msgid "Mail This"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-pinterest"></i>
+# <span>' . __('Pin This', 'Avada') . '</span>' . __('Product', 'Avada') . '
+# </a>
+# wpml-name: 1d8067ce4f707a88d4ee97bc7cebf855
+msgid "Pin This"
+msgstr ""
+
+# @ woocommerce
+msgid "Product"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-twitter"></i>
+# <span>' . __('Tweet This', 'Avada') . '</span>' . __('Product', 'Avada') . '
+# </a>
+# wpml-name: 396874b26083996931681c44fba73cab
+msgid "Tweet This"
+msgstr ""
+
+# <i class="fontawesome-icon medium circle-yes icon-facebook"></i>
+# <span>' . __('Share On', 'Avada') .'</span>Facebook
+# </a>
+# wpml-name: cf48c3336343e0cdd9048c3d255f6468
+msgid "Share On"
+msgstr ""
+
+# @ Avada
+msgid "Products"
+msgstr ""
+
+# @ Avada
+msgid " Products"
+msgstr ""
+
+# @ Avada
+msgid "Show"
+msgstr "Näita"
+
+# @ Avada
+# @ woocommerce
+msgid "Rating"
+msgstr ""
+
+# $html .= '<li class="'.(($pob == 'date') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'date').'">'.__('Sort by', 'Avada').' <strong>'.__('Date', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'popularity') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'popularity').'">'.__('Sort by', 'Avada').' <strong>'.__('Popularity', 'Avada').'</strong></a></li>';
+# $html .= '<li class="'.(($pob == 'rating') ? 'current': '').'"><a href="'.tf_addURLParameter($query_string, 'product_orderby', 'rating').'">'.__('Sort by', 'Avada').' <strong>'.__('Rating', 'Avada').'</strong></a></li>';
+# wpml-name: e22269bb51f9f2394e148716babbafbb
+msgid "Popularity"
+msgstr ""
+
+# @ Avada
+# @ woocommerce
+msgid "Date"
+msgstr ""
+
+# @ Avada
+# @ woocommerce
+msgid "Price"
+msgstr ""
+
+# @ LayerSlider
+# @ wooslider
+# @ Avada
+# @ woocommerce
+msgid "Name"
+msgstr ""
+
+# @ Avada
+msgid "Default Order"
+msgstr ""
+
+# @ Avada
+msgid "Sort by"
+msgstr ""
+
+# <div>
+# <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . __( 'Search...', 'Avada' ) . '" />
+# <input type="hidden" name="post_type" value="product" />
+# wpml-name: 2a37324bb4c331c859044121df3f576b
+msgid "Search..."
+msgstr ""
+
+# @ woocommerce
+msgid "Details"
+msgstr ""
+
+# @ Avada
+msgid "Item(s)"
+msgstr "Tooted"
+
+# @ Avada
+msgid "Cart"
+msgstr ""
+
+# @ Avada
+msgid "Checkout"
+msgstr ""
+
+# @ Avada
+msgid "View Cart"
+msgstr "Vaata ostukorvi"
+
+# @ Avada
+msgid "Logout"
+msgstr ""
+
+# <p class="submit">
+# <input type="submit" name="wp-submit" id="wp-submit" class="button small default comment-submit" value="<?php _e('Log In', 'Avada'); ?>">
+# <input type="hidden" name="redirect_to" value="<?php echo $_SERVER['HTTP_REFERER']; ?>">
+# wpml-name: 3bbbad631029e3575da7a151bba4f37c
+msgid "Log In"
+msgstr ""
+
+# @ Avada
+msgid "Remember Me"
+msgstr ""
+
+# @ woocommerce
+msgid "My Account"
+msgstr ""
+
+# @ Avada
+# @ woocommerce
+msgid "Password"
+msgstr ""
+
+# @ Avada
+msgid "Username"
+msgstr ""
+
+# } elseif ( is_year() ) {
+# $title = __( 'Yearly Archives: %s', 'Avada' ) . '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'Avada' ) ) . '</span>';
+# } elseif ( is_author() ) {
+# wpml-name: yearly archives date format: Y
+msgid "Y"
+msgstr ""
+
+# } else if ( is_month() ) {
+# $title = __( 'Monthly Archives: %s', 'Avada' ) . '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'Avada' ) ) . '</span>';
+# } elseif ( is_year() ) {
+# wpml-name: monthly archives date format: F Y
+msgid "F Y"
+msgstr ""
+
+# @ Avada
+msgid "Yearly Archives: %s"
+msgstr ""
+
+# @ Avada
+msgid "Monthly Archives: %s"
+msgstr ""
+
+# @ Avada
+msgid "Daily Archives: %s"
+msgstr ""
+
+# @ Avada
+msgid "Error 404 Page"
+msgstr ""
+
+# @ Avada
+msgid "Search results for:"
+msgstr ""
+
+# @ Avada
+msgid "Search"
+msgstr ""
+
+# @ Avada
+msgid "404 - Page not Found"
+msgstr ""
+
+# @ Avada
+msgid "Home"
+msgstr ""
+
+# @ Avada
+# @ wooslider
+msgid "Next"
+msgstr ""
+
+# @ Avada
+# @ wooslider
+msgid "Previous"
+msgstr ""
+
+# @ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+# @ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ tgmpa
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+# @ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+# @ tgmpa
+msgid "Show Details"
+msgstr ""
+
+# @ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ tgmpa
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+# @ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+# @ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+# @ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+# @ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+# @ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+# @ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+# @ tgmpa
+msgid "Activate"
+msgstr ""
+
+# @ tgmpa
+msgid "Install"
+msgstr ""
+
+# @ tgmpa
+# @ woocommerce
+msgid "Status"
+msgstr ""
+
+# @ tgmpa
+# @ LayerSlider
+msgid "Type"
+msgstr ""
+
+# @ tgmpa
+msgid "Source"
+msgstr ""
+
+# @ tgmpa
+msgid "Plugin"
+msgstr ""
+
+# @ tgmpa
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+# else
+# $table_data[$i]['status'] = sprintf( '%1$s', __( 'Active', THEMENAME ) );
+#
+# wpml-name: 4d3d769b812b6faa6b76e1a8abaece2d
+msgid "Active"
+msgstr ""
+
+# @ wooslider
+#, fuzzy
+msgid "Not Updated"
+msgstr "%s värskendatud"
+
+# @ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+# @ tgmpa
+msgid "Recommended"
+msgstr ""
+
+# @ tgmpa
+msgid "Required"
+msgstr ""
+
+# @ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+# @ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+# @ tgmpa
+msgid "External Link"
+msgstr ""
+
+# @ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+# if ( ! isset( $_POST[sanitize_key( 'action' )] ) ) {
+# $msg = sprintf( __( 'The following plugin was activated successfully: %s.', THEMENAME ), '<strong>' . $plugin['name'] . '</strong>' );
+# echo '<div id="message" class="updated"><p>' . $msg . '</p></div>';
+# wpml-name: 7b67a32166b29c99019c10dc30f490b2
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+# @ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ tgmpa
+# @ Avada
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ tgmpa
+# @ Avada
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+# @ tgmpa
+# @ Avada
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ tgmpa
+# @ Avada
+msgid "Install Plugins"
+msgstr ""
+
+# @ tgmpa
+# @ Avada
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ Avada
+# @ wooslider
+msgid "All"
+msgstr ""
+
+# @ Avada
+msgid "Submit Form"
+msgstr ""
+
+# @ Avada
+msgid "Message"
+msgstr ""
+
+# @ Avada
+msgid "Subject"
+msgstr ""
+
+# @ Avada
+msgid "for using my contact form! Your email was successfully sent!"
+msgstr ""
+
+# @ Avada
+msgid "Thank you"
+msgstr ""
+
+# @ Avada
+msgid ""
+"Please check if you've filled all the fields with valid information. Thank "
+"you."
+msgstr ""
+
+# @ Avada
+#, fuzzy
+msgid "Comments:"
+msgstr "Kommentaarid"
+
+# $body .= __('Email:', 'Avada')." $email \n\n";
+# $body .= __('Subject:', 'Avada')." $subject \n\n";
+# $body .= __('Comments:', 'Avada')."\n $comments";
+# wpml-name: 47a0be8d1015d526a1fbaa56c3102135
+msgid "Subject:"
+msgstr ""
+
+# @ Avada
+# @ woocommerce
+msgid "Email:"
+msgstr ""
+
+# $emailTo = $smof_data['email_address']; //Put your own email address here
+# $body = __('Name:', 'Avada')." $name \n\n";
+# $body .= __('Email:', 'Avada')." $email \n\n";
+# wpml-name: 4e140ba723a03baa6948340bf90e2ef6
+msgid "Name:"
+msgstr ""
+
+# @ Avada
+msgid "Post Comment"
+msgstr "Postituse kommentaarid"
+
+# @ Avada
+msgid "Comment..."
+msgstr "Kommenteeri..."
+
+# @ Avada
+msgid "Log out &raquo;"
+msgstr ""
+
+# @ Avada
+msgid "Log out of this account"
+msgstr ""
+
+# @ Avada
+msgid "Logged in as"
+msgstr "Logitud sisse kui"
+
+# @ Avada
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+# @ Avada
+msgid "Leave A Comment"
+msgstr "Jäta kommentaar"
+
+# @ Avada
+msgid "Website"
+msgstr ""
+
+# @ Avada
+msgid "Email (required)"
+msgstr ""
+
+# @ Avada
+msgid "Name (required)"
+msgstr ""
+
+# @ Avada
+msgid "Comments are closed."
+msgstr ""
+
+# @ Avada
+msgid "One Comment"
+msgstr "Üks kommentaar"
+
+# @ Avada
+msgid "No Comments"
+msgstr "Kommentaare pole"
+
+# @ Avada
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# </div>
+# wpml-name: 5f868cc7c8691aa5c2ac1f4825b766f0
+msgid "Replies Created:"
+msgstr ""
+
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# <p class="bbp-user-reply-count"><span class="bold"><?php printf( __( 'Replies Created:', 'Avada' )); ?> </span><?php printf(bbp_get_user_reply_count_raw() ); ?></p>
+# wpml-name: bb38e07ef4980e1be771e83c35ce0a44
+msgid "Topics Started:"
+msgstr ""
+
+#
+# <p class="bbp-user-forum-role"><span class="bold"><?php  printf( __( 'Forum Role:',      'Avada' )); ?> </span><?php printf(bbp_get_user_display_role() ); ?></p>
+# <p class="bbp-user-topic-count"><span class="bold"><?php printf( __( 'Topics Started:',  'Avada' )); ?> </span><?php printf(bbp_get_user_topic_count_raw() ); ?></p>
+# wpml-name: 381060983af096312477a998d631fd67
+msgid "Forum Role:"
+msgstr ""
+
+# @ Avada
+#, fuzzy
+msgid "Post count: %s"
+msgstr "Postituse kommentaarid"
+
+#
+# <?php bbp_topic_tag_list( bbp_get_topic_id(), array( 'before' => '<div class="bbp-topic-tags"><p>' . esc_html__( 'Tags:', 'Avada' ) . '&nbsp;', 'sep'    => ' ', 'after'  => '</p></div>' ) ); ?>
+#
+# wpml-name: 32b502f33a535f75dcbf63f6753c631e
+msgid "Tags:"
+msgstr ""
+
+# <input type="hidden" name="action" value="bbp-search-request" />
+# <input tabindex="<?php bbp_tab_index(); ?>" type="text" value="<?php echo esc_attr( bbp_get_search_terms() ); ?>" placeholder="<?php _e( 'Search the Forum...', 'Avada' ); ?>" name="bbp_search" id="bbp_search" />
+# <input tabindex="<?php bbp_tab_index(); ?>" class="button" type="submit" id="bbp_search_submit" value="&#xe610;" />
+# wpml-name: 07b987a0e2b28e3695ffe63e012ea4c0
+msgid "Search the Forum..."
+msgstr ""
+
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+#
+# wpml-name: 0b67b877652b4d63ae07e24d654b8ae9
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr ""
+
+# <div class="search-page-search-form">
+# <h2><?php echo __('Need a new search?', 'Avada'); ?></h2>
+# <p><?php echo __('If you didn\'t find what you were looking for, try a new search!', 'Avada'); ?></p>
+# wpml-name: c1c10b029d1dddb5a28e1f9348decb39
+msgid "Need a new search?"
+msgstr ""
+
+# <div class="author_description">
+# <h3 class='author_title vcard'><?php echo __("About",'Avada'); ?> <span class="fn"><?php echo $name; ?></span>
+# <?php if(current_user_can('edit_users') || get_current_user_id() == $author_id): ?>
+# wpml-name: 8f7f4c1ce7a4f933663d10543562b096
+msgid "About"
+msgstr ""
+
+# if(empty($description)) {
+# $description  = __("This author has not yet filled in any details.",'Avada');
+# $description .= '</br>'.sprintf( __( 'So far %s has created %s entries.' ), $name, count_user_posts( $author_id ) );
+# wpml-name: 8455b6e647ffdb41f1a221fe4dd66c89
+msgid "This author has not yet filled in any details."
+msgstr ""
+
+# @ Avada
+msgid "1"
+msgstr ""
+
+# @ Avada
+# @ woocommerce
+msgid "Read More"
+msgstr ""
+
+# @ Avada
+msgid "Comments"
+msgstr "Kommentaarid"
+
+# @ Avada
+msgid "1 Comment"
+msgstr "1 Kommentaar"
+
+# @ Avada
+msgid "0 Comments"
+msgstr "0 Kommentaari"
+
+# <div class="alignleft vcard">
+# <?php if(!$smof_data['post_meta_author']): ?><?php echo __('By', 'Avada'); ?> <span class="fn"><?php echo the_terms( $post->ID, 'wpfc_preacher', '', ', ', ' ' ); ?></span><span class="sep">|</span><?php endif; ?><?php if(!$smof_data['post_meta_date']): ?><span class="updated"><?php the_time($smof_data['date_format']); ?></span><span class="sep">|</span><?php endif; ?><?php if(!$smof_data['post_meta_cats']): ?><?php if(!$smof_data['post_meta_tags']){ echo __('Categories:', 'Avada') . ' '; } ?><?php the_category(', '); ?><span class="sep">|</span><?php endif; ?><?php if(!$smof_data['post_meta_tags']): ?><span class="meta-tags bottom"><?php the_tags( ); ?></span><span class="sep">|</span><?php endif; ?><?php if(!$smof_data['post_meta_comments']): ?><?php comments_popup_link(__('0 Comments', 'Avada'), __('1 Comment', 'Avada'), '% '.__('Comments', 'Avada')); ?><?php endif; ?></p>
+# </div>
+# wpml-name: 8c38776925f7cf41c090646a43157024
+msgid "Categories:"
+msgstr ""
+
+# @ Avada
+msgid "By"
+msgstr ""
+
+# @ Avada
+msgid "Search ..."
+msgstr ""
+
+# @ Avada
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr ""
+
+# @ Avada
+msgid "Search Our Website"
+msgstr ""
+
+# @ Avada
+msgid "Here are some useful links:"
+msgstr ""
+
+# @ Avada
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""

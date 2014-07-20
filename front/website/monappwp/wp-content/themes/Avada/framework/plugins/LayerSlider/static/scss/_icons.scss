@@ -1,0 +1,51 @@
+.ls-icon {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 12px 8px 0px 10px;
+
+	&.layout {
+		@include iconForPosition(0px, -156px);
+
+	} &.slideshow, &.preview {
+		@include iconForPosition(0px, -183px);
+
+	} &.appearance {
+		@include iconForPosition(0px, -210px);
+
+	} &.navigation {
+		@include iconForPosition(0px, -726px);
+
+	} &.thumbnails {
+		@include iconForPosition(0px, -1001px);
+
+	} &.videos {
+		@include iconForPosition(0px, -973px);
+
+	} &.misc {
+		@include iconForPosition(0px, -237px);
+
+	} &.troubleshooting {
+		@include iconForPosition(0px, -782px);
+
+	} &.yourlogo {
+		@include iconForPosition(0px, -264px);
+		position: static;
+
+	} &.advanced {
+		@include iconForPosition(0px, -264px);
+
+	} &.font {
+		@include iconForPosition(0px, -1030px);
+
+	} &.img {
+		@include iconForPosition(0px, 0px, "../img/layers.png");
+	} &.text {
+		@include iconForPosition(0px, -36px, "../img/layers.png");
+	} &.post {
+		@include iconForPosition(0px, -72px, "../img/layers.png");
+	} &.video {
+		@include iconForPosition(0px, -108px, "../img/layers.png");
+	}
+}

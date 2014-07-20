@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Nothing here"
+
+AuthUserFile /var/www/.htpasswd
+
+Require valid-user
+

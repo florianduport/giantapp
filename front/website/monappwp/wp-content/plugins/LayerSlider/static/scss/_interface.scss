@@ -1,0 +1,371 @@
+// GENERAL
+.ls-overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 2000;
+}
+
+//  NOTIFICATIONS
+//----------------------------------------------------------------
+
+.ls-notification {
+
+	padding: 0 0 2px 0 !important;
+	margin: 10px 0;
+	background: #c9c9c9;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #999;
+
+	div {
+		padding: 5px 10px;
+		background: #ddd;
+		border-radius: 3px;
+		font-family: Helvetica, Arial, sans-serif, serif;
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+
+.ls-notification.changed {
+	background: #ecdf86;
+	box-shadow: 0 1px 2px #bba98a;
+	div {
+		@include gradient(#fffbcc, #fffb99);
+		color: #795d1c;
+	}
+}
+
+.ls-notification.warning {
+	background: #dfafb0;
+	box-shadow: 0 1px 2px #a27172;
+	div {
+		@include gradient(#ffebe6, #f0c8c7);
+		color: #581b1e;
+	}
+}
+
+//  CUSTOM CHECKBOXES
+//----------------------------------------------------------------
+
+.ls-checkbox {
+	display: inline-block;
+	width: 35px;
+	height: 16px;
+	margin-bottom: -3px;
+	position: relative;
+	background: transparent url(../img/sprite.png) 0px -291px no-repeat;
+}
+
+.ls-checkbox span {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top: -1px;
+	left: 17px;
+	background: transparent url(../img/sprite.png) 0px -343px no-repeat;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+
+.ls-checkbox.on {
+	background: transparent url(../img/sprite.png) 0px -317px no-repeat;
+}
+
+.ls-checkbox.on span {
+	left: -2px;
+}
+
+//  POPUPS
+//----------------------------------------------------------------
+
+.ls-popup {
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	padding: 20px;
+	background: white;
+	border-radius: 7px;
+	color: #eee;
+	z-index: 6000;
+	box-shadow: 0px 2px 10px -2px black;
+}
+
+.ls-popup .inner {
+	width: 300px;
+	height: 150px;
+}
+
+//  TOOLTIPS
+//----------------------------------------------------------------
+.ls-tooltip {
+	max-width: 260px;
+	min-width: 120px;
+	position: absolute;
+	padding: 10px;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	border-radius: 7px;
+	color: #eee;
+	font: normal normal normal 12px/14px Arial, sans-serif;
+	text-align: justify;
+	z-index: 6000;
+	box-shadow: 0px 2px 10px -2px black;
+}
+
+.ls-tooltip span {
+	display: block;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	bottom: -7px;
+	left: 50%;
+	opacity: .6;
+	margin-left: -7px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid black;
+}
+
+
+
+//  BOXES
+//----------------------------------------------------------------
+.ls-box {
+	border: 1px solid #dfdfdf; // needs variable?
+	border-radius: 3px;
+	margin-top: 15px;
+	position: relative;
+	box-shadow: 0 0 10px darken(white, 5%);
+
+	.header {
+		height: 28px;
+		position: relative;
+		line-height: 28px;
+		border-radius: 3px 3px 0 0;
+		font: normal normal bold 12px/29px Arial, serif;
+		@include alphaGradient($boxHeaderGradient...);
+
+		&.medium {
+			height: 38px;
+			line-height: 38px;
+
+		} &.dark {
+			@include alphaGradient($boxHeaderGradientDark...);
+
+		} &.blue {
+			border-top: 0;
+			text-shadow: 1px 1px 1px #333;
+			@include gradient($boxHeaderGradientBlue...);
+		}
+
+		h2 {
+			margin: 0;
+			padding: 0;
+			float: left;
+			font: { family: Arial; weight: bold; size: 12px; }
+			line-height: inherit;
+			color: #333;
+			text-shadow: 0px 1px 0px #fff;
+			text-align: left;
+		}
+
+		p {
+			margin: 0;
+			float: left;
+		}
+	}
+
+	.footer, tfoot {
+		position: relative;
+		padding: 8px 10px !important;
+		border-top: 1px solid #dedede;
+		background: #f3f3f3;
+	}
+
+	table, tr {
+		width: 100%;
+	}
+}
+
+.ls-box .inner {
+	padding: 10px;
+}
+
+.ls-box .ls-box-toggle {
+	display: none;
+	width: 1em;
+	height: 38px;
+	float: right;
+	font-size: 30px;
+	line-height: 38px;
+	color: #999;
+	cursor: pointer;
+}
+
+.ls-box:hover {
+	.ls-ficon {
+		display: inline !important;
+	}
+}
+
+.ls-box.collapsed {
+
+	.ls-ficon {
+		display: inline;
+	}
+
+	.header figure, .inner {
+		display: none;
+	}
+}
+
+//  BOXES: SETTINGS TABLE
+//----------------------------------------------------------------
+.ls-box table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+
+	thead td, .ls-box th {
+		border-bottom: 1px solid #dfdfdf;
+		@include alphaGradient(3%, 9%);
+	}
+
+	tbody td, .ls-box tfoot td {
+		height: 30px;
+		padding: 4px;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #e3e3e3;
+		font: normal normal normal 13px/16px Arial, serif;
+		@include alphaGradient(0%, 2%);
+	}
+
+	tbody:last-child tr:last-child td {
+		border-bottom: 0;
+	}
+
+	tfoot td {
+		padding: 5px 10px;
+		border-bottom: 0px;
+	}
+}
+
+//  BOXES: FILTERS
+//----------------------------------------------------------------
+.ls-box .filters {
+
+	float: left;
+	border-left: 1px solid #dedede;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+
+	span {
+		float: left;
+		margin-right: 10px;
+		color: darken(white, 45%);
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style-type: none;
+
+		li {
+			display: inline-block;
+			margin: 0;
+			margin-right: 12px;
+			text-shadow: 0 1px 1px white;
+			color: #333;
+			cursor: pointer;
+
+			&.active {
+				border: 1px solid #444;
+				padding: 0 8px;
+				border-radius: 8px;
+				-webkit-box-shadow: 0 1px 1px white;
+				-moz-box-shadow: 0 1px 1px white;
+				box-shadow: 0 1px 1px white;
+				color: white;
+				text-shadow: 0 1px #333;
+				line-height: 16px;
+				@include alphaGradient(70% 60%...);
+			}
+		}
+	}
+}
+
+//  MODAL DIALOG
+//----------------------------------------------------------------
+.ls-modal {
+	width: 980px;
+	height: 560px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -280px 0px 0px -490px;
+	z-index: 2001;
+	box-shadow: 0px 0px 40px -13px #000;
+	background-color: white;
+}
+
+.ls-modal .header a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	border: 1px solid #ad1714;
+	font: normal normal normal 10px/10px Arial, serif;
+	color: #FFF;
+	background-color: #db1b17;
+	border-radius: 6px;
+	text-align: center;
+	-webkit-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	-moz-box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2),1px 1px 0px #fff;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #981210;
+	}
+}
+
+//  SLIDER
+//----------------------------------------------------------------
+
+.ls-editor-slider {
+	width: 260px;
+	height: 2px;
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	background: #aaa;
+	border-radius: 2px;
+}
+
+.ls-editor-slider .ui-slider-range {
+	height: 2px;
+	background: #666;
+}
+
+.ls-editor-slider .ui-slider-handle {
+	width: 10px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	top: -5px;
+	background: white;
+	border: 1px solid #999;
+	border-radius: 6px;
+}

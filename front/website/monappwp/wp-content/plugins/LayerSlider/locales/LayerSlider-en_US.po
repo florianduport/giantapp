@@ -1,0 +1,1741 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: LayerSlider/views/style_editor.php:60
+msgid "/* You can type here any CSS code that will be loaded both on your admin and front-end pages."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:536
+msgid "2D transitions"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:517
+msgid "3D transitions"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:371
+#: LayerSlider/views/transition_builder.php:926
+msgid "<number> or <min_number>,<max_number> If you specify a value greater than 1, LayerSlider will cut your slide into tiles. You can specify here how many columns of your transition should have. If you specify two numbers separated with a comma, LayerSlider will use that as a range and pick a random number between your values."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:369
+#: LayerSlider/views/transition_builder.php:924
+msgid "<number> or <min_number>,<max_number> If you specify a value greater than 1, LayerSlider will cut your slide into tiles. You can specify here how many rows of your transition should have. If you specify two numbers separated with a comma, LayerSlider will use that as a range and pick a random number between your values."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:451
+msgid ">You have version"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:350
+msgid "Add Media"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:88
+msgid "Add New"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:431
+msgid "Add font"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:417
+msgid "Add font:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:309
+#: LayerSlider/views/transition_builder.php:530
+#: LayerSlider/views/transition_builder.php:549
+#: LayerSlider/views/transition_builder.php:853
+msgid "Add new"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:614
+#: LayerSlider/views/slider_edit_sample.php:407
+msgid "Add new layer"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:129
+msgid "Add new slide"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:117
+msgid "Add slider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:278
+msgid "Admin"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:263
+#: LayerSlider/views/transition_builder.php:794
+msgid "After animation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:445
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/menus.php:1
+#: LayerSlider/views/slider_list.php:245
+msgid "All Sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:267
+msgid "Allow LayerSlider access to users with ..."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:313
+msgid "Although pre-release versions should be fine, they might contain unknown issues, and are not recommended for sites in production."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:187
+#: LayerSlider/views/transition_builder.php:709
+msgid "Animation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:446
+msgid "Announcements"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:18
+#: LayerSlider/views/slider_edit_settings.php:228
+msgid "Appearance"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:197
+msgid "Apply"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:287
+#: LayerSlider/views/slider_edit.php:591
+#: LayerSlider/views/slider_edit_sample.php:131
+#: LayerSlider/views/slider_edit_sample.php:386
+msgid "Attributes"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:280
+msgid "Author"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:303
+msgid "Auto-updates"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:432
+msgid "Back to results"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:85
+#: LayerSlider/views/transition_builder.php:502
+#: LayerSlider/views/skin_editor.php:40
+#: LayerSlider/views/style_editor.php:40
+msgid "Back to the list"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:163
+msgid "Background image"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:359
+#: LayerSlider/views/transition_builder.php:912
+msgid "Basic properties"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:127
+#: LayerSlider/views/transition_builder.php:636
+msgid "Before animation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:1067
+msgid "Before you can save your changes, you need to make writeable your \"/wp-content/uploads\" folder. See the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">Codex</a>"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:314
+msgid "Beta"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:448
+msgid "Beta versions"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:549
+#: LayerSlider/views/slider_edit_sample.php:344
+msgid "Border"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:456
+#: LayerSlider/views/transition_builder.php:1011
+msgid "Bottom"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:461
+#: LayerSlider/views/transition_builder.php:1016
+msgid "Bottom left"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:462
+#: LayerSlider/views/transition_builder.php:1017
+msgid "Bottom right"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/skin_editor.php:71
+msgid "Built-in skins will be overwritten by plugin updates. Making changes should be done through the Custom Styles Editor."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:666
+msgid "Calling when the slider commencing slide change (animation start)."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:696
+msgid "Calling when the slider will change to the next slide by the user."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:686
+msgid "Calling when the slider will change to the previous slide by the user."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:636
+msgid "Calling when the slideshow has started."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:646
+msgid "Calling when the slideshow is stopped by the user."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:289
+msgid "Capability"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:226
+msgid "Choose a LayerSlider export file downloaded previously to import your sliders. To import from older versions, you need to create a file and paste the export code into it. Only the file contents matters, its name does not."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "Choose a file to import sliders."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:424
+msgid "Choose a font family"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/skin_editor.php:59
+msgid "Choose a skin:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/widgets.php:39
+msgid "Choose a slider:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:189
+msgid "Choose an action"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:167
+msgid "Choose slide image"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:179
+msgid "Choose thumbnail"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:538
+msgid "Choose:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:375
+#: LayerSlider/views/slider_edit_sample.php:204
+msgid "Click on one or more post placeholders to insert them into your layer's content. Post placeholders are acting like shortcodes in WP, and they will be filled with the actual content from your posts."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:341
+msgid "Click on the image preview to open WordPress Media Library or"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_sample.php:172
+msgid "Click on the image preview to open WordPress Media Library where you can upload and insert images. "
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:388
+#: LayerSlider/views/transition_builder.php:943
+msgid "Col-forward"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:389
+#: LayerSlider/views/transition_builder.php:944
+msgid "Col-reverse"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:370
+#: LayerSlider/views/transition_builder.php:925
+msgid "Cols"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:362
+msgid "Concatenate output"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:364
+msgid "Concatenating the plugin's output could solve issues caused by custom filters your theme might use."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:357
+msgid "Conditional script loading"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:378
+#: LayerSlider/views/slider_edit_sample.php:207
+msgid "Configure post options"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:283
+#: LayerSlider/views/slider_edit_sample.php:127
+msgid "Content"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/style_editor.php:54
+msgid "Contents of your custom CSS file"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:281
+msgid "Contributor"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/compatibility.php:20
+msgid "Convert Data"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:135
+msgid "Created"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/skin_editor.php:57
+msgid "Ctrl+Q to fold/unfold a block"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:282
+msgid "Custom"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/menus.php:1
+msgid "Custom Styles Editor"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:580
+#: LayerSlider/views/slider_edit_sample.php:375
+msgid "Custom style settings"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:581
+#: LayerSlider/views/slider_edit_sample.php:376
+msgid "Custom styles"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:381
+#: LayerSlider/views/transition_builder.php:314
+#: LayerSlider/views/transition_builder.php:936
+#: LayerSlider/views/transition_builder.php:858
+msgid "Delay"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:191
+msgid "Delete permanently"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:115
+#: LayerSlider/views/transition_builder.php:620
+msgid "Depth"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:451
+#: LayerSlider/views/transition_builder.php:1006
+msgid "Direction"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:103
+msgid "Documentation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:341
+msgid "Don't change these settings without experience. LayerSlider will let you know when it encounters a problem."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:53
+msgid "Don't filter categories"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:65
+msgid "Don't filter tags"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:77
+msgid "Don't filter taxonomies"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:239
+msgid "Downloads an export file that contains your selected sliders to import on your new site."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:506
+#: LayerSlider/views/slider_edit_sample.php:301
+msgid "Duplicate this layer"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:154
+#: LayerSlider/views/slider_edit_sample.php:11
+msgid "Duplicate this slide"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:166
+msgid "Duplicate this slider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:402
+#: LayerSlider/views/transition_builder.php:957
+msgid "Duration"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:311
+msgid "Dynamic content from posts"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:404
+#: LayerSlider/views/transition_builder.php:959
+msgid "Easing"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:83
+msgid "Editing slider:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:279
+msgid "Editor"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:265
+#: LayerSlider/views/transition_builder.php:796
+msgid "Enabled"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:238
+#: LayerSlider/views/transition_builder.php:352
+#: LayerSlider/views/transition_builder.php:905
+#: LayerSlider/views/slider_edit_sample.php:86
+msgid "Enter Preview"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:97
+msgid "Event Callbacks"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:254
+msgid "Export"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:242
+msgid "Export Sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:100
+msgid "FAQ"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:447
+#: LayerSlider/views/transition_builder.php:1002
+msgid "Fade"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:443
+msgid "Filter:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:34
+msgid "Find posts with the above filters"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:676
+msgid "Fireing when the slider finished a slide change (animation end)."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:656
+msgid "Fireing when the slideshow is temporary on hold (e.g.: \"Pause on hover\" feaure)."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:626
+msgid "Fires when LayerSlider has loaded"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:560
+#: LayerSlider/views/slider_edit_sample.php:355
+msgid "Font"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/compatibility.php:18
+msgid "For a faster and more reliable solution, LayerSlider WP needs to convert your data associated with the plugin. Your sliders and settings will remain still, and it only takes a click on this button."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:386
+#: LayerSlider/views/transition_builder.php:941
+msgid "Forward"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:52
+msgid "Full-width slider settings"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:118
+msgid "Get the "
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:114
+msgid "Give a name for your new slider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:320
+#: LayerSlider/views/slider_edit_sample.php:153
+msgid "H1"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:321
+#: LayerSlider/views/slider_edit_sample.php:154
+msgid "H2"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:322
+#: LayerSlider/views/slider_edit_sample.php:155
+msgid "H3"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:323
+#: LayerSlider/views/slider_edit_sample.php:156
+msgid "H4"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:324
+#: LayerSlider/views/slider_edit_sample.php:157
+msgid "H5"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:325
+#: LayerSlider/views/slider_edit_sample.php:158
+msgid "H6"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:310
+msgid "HTML / Video / Audio"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:180
+msgid "Here you can apply your custom CSS style settings to the slider."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:216
+#: LayerSlider/views/slider_edit.php:504
+#: LayerSlider/views/slider_edit_sample.php:64
+#: LayerSlider/views/slider_edit_sample.php:299
+msgid "Hidden"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:279
+#: LayerSlider/views/slider_edit_sample.php:123
+msgid "Hide layer in editor."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:277
+#: LayerSlider/views/slider_edit_sample.php:121
+msgid "Highlight layer in editor."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:233
+#: LayerSlider/views/transition_builder.php:755
+msgid "Horizontal"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:130
+msgid "ID"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:505
+#: LayerSlider/views/slider_edit_sample.php:300
+msgid "If you don't want to use this layer, but you want to keep it, you can hide it with this switch."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:217
+#: LayerSlider/views/slider_edit_sample.php:65
+msgid "If you don't want to use this slide in your front-page, but you want to keep it, you can hide it with this switch."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:577
+#: LayerSlider/views/slider_edit_sample.php:372
+msgid "If you use custom sized layers, you have to enable this setting to wrap your text."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:286
+msgid "If you want to give access for other users than admins to this page, you can specify a custom capability. You can find all the available capabilities on"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:582
+#: LayerSlider/views/slider_edit_sample.php:377
+msgid "If you want to set style settings other then above, you can use here any CSS codes. Please make sure to write valid markup."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:506
+#: LayerSlider/views/slider_edit_sample.php:301
+msgid "If you will use similar settings for other layers or you want to experiment on a copy, you can duplicate this layer."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:308
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:231
+msgid "Import"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:222
+msgid "Import & Export Sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:229
+msgid "Import Sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:89
+msgid "Import sample sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:352
+msgid "Include scripts in the footer"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:354
+msgid "Including resources in the footer could decrease load times, and solve other type of issues, but your theme might not support this method."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:359
+msgid "Increase your site's performance by loading resources only when needed. Outdated themes might not support this method."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/widgets.php:1
+msgid "Insert a slider with LayerSlider WP Widget"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:351
+msgid "Insert self-hosted video or audio"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/shortcodes.php:1
+msgid "Invalid shortcode"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:119
+#: LayerSlider/views/transition_builder.php:624
+msgid "Large depth"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/widgets.php:1
+msgid "LayerSlider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/style_editor.php:39
+msgid "LayerSlider Custom Styles Editor"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:441
+msgid "LayerSlider News"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/skin_editor.php:39
+msgid "LayerSlider Skin Editor"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:501
+msgid "LayerSlider Transition Builder"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/widgets.php:1
+msgid "LayerSlider WP Widget"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:87
+msgid "LayerSlider sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:249
+#: LayerSlider/views/slider_edit_sample.php:97
+msgid "Layers"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:16
+msgid "Layout"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:527
+#: LayerSlider/views/slider_edit_sample.php:322
+msgid "Layout & Positions"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:457
+#: LayerSlider/views/transition_builder.php:1012
+msgid "Left"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/style_editor.php:60
+msgid "Let us help you by giving a few exmaple CSS classes: */"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:376
+#: LayerSlider/views/slider_edit_sample.php:205
+msgid "Limit text length (if any)"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:285
+#: LayerSlider/views/slider_edit_sample.php:129
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:204
+#: LayerSlider/views/slider_edit_sample.php:53
+msgid "Link this slide"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:384
+msgid "Load Google Fonts"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:403
+msgid "Load only on admin interface"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:105
+msgid "Looping"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:107
+msgid "Loops"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:195
+msgid "Merge selected as new"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:211
+#: LayerSlider/views/slider_edit.php:571
+#: LayerSlider/views/slider_edit_sample.php:59
+#: LayerSlider/views/slider_edit_sample.php:366
+#: LayerSlider/views/slider_edit_settings.php:22
+msgid "Misc"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:448
+#: LayerSlider/views/transition_builder.php:1003
+msgid "Mixed"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:136
+msgid "Modified"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/skin_editor.php:79
+msgid "Modifying a skin with bad code can break your sliders' appearance. Changes cannot be reverted after saving."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:132
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:19
+msgid "Navigation Area"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:202
+msgid "Navigation buttons on hover"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:105
+msgid "Need help? Try these:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:545
+msgid "No 2D transitions yet"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:526
+msgid "No 3D transitions yet"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "No sliders were selected to remove."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:115
+msgid "Number of loops if automatically start slideshow is enabled (0 means infinite!)"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:106
+msgid "On this slide"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:105
+msgid "Order results by"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:501
+#: LayerSlider/views/slider_edit_sample.php:296
+msgid "Other options"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:122
+msgid "Other settings"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:538
+#: LayerSlider/views/slider_edit_sample.php:333
+msgid "Padding"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:319
+#: LayerSlider/views/slider_edit_sample.php:152
+msgid "Paragraph"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "Permission changes has been updated."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:278
+#: LayerSlider/views/slider_edit_sample.php:122
+msgid "Prevent layer from dragging in editor."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:226
+#: LayerSlider/views/transition_builder.php:342
+#: LayerSlider/views/transition_builder.php:895
+#: LayerSlider/views/slider_edit_sample.php:74
+msgid "Preview"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:128
+msgid "Preview from currenty matched elements"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:707
+#: LayerSlider/views/transition_builder.php:1060
+msgid "Publish"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:309
+msgid "Purchase code:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:367
+msgid "Put JS includes to body"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:458
+#: LayerSlider/views/transition_builder.php:945
+#: LayerSlider/views/transition_builder.php:1013
+msgid "Random"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:311
+msgid "Release channel:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:447
+msgid "Release log"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:190
+msgid "Remove selected"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:169
+msgid "Remove this slider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:328
+#: LayerSlider/views/transition_builder.php:487
+#: LayerSlider/views/transition_builder.php:872
+#: LayerSlider/views/transition_builder.php:1042
+msgid "Remove transition"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:74
+msgid "Removed sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:41
+msgid "Responsive mode"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:193
+msgid "Restore removed"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:173
+msgid "Restore removed slider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:387
+#: LayerSlider/views/transition_builder.php:942
+msgid "Reverse"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/notices.php:25
+msgid "Review changes & Install"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:455
+#: LayerSlider/views/transition_builder.php:1010
+msgid "Right"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:272
+msgid "Role"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:312
+#: LayerSlider/views/transition_builder.php:242
+#: LayerSlider/views/transition_builder.php:467
+#: LayerSlider/views/transition_builder.php:856
+#: LayerSlider/views/transition_builder.php:1022
+msgid "RotateX"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:313
+#: LayerSlider/views/transition_builder.php:469
+#: LayerSlider/views/transition_builder.php:857
+#: LayerSlider/views/transition_builder.php:1024
+msgid "RotateY"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:473
+#: LayerSlider/views/transition_builder.php:1028
+msgid "RotateZ"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:368
+#: LayerSlider/views/transition_builder.php:923
+msgid "Rows"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:709
+#: LayerSlider/views/transition_builder.php:1063
+#: LayerSlider/views/skin_editor.php:78
+#: LayerSlider/views/style_editor.php:80
+#: LayerSlider/views/slider_list.php:322
+#: LayerSlider/views/slider_list.php:373
+#: LayerSlider/views/slider_list.php:414
+msgid "Save changes"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:475
+#: LayerSlider/views/transition_builder.php:1030
+msgid "Scale"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:311
+#: LayerSlider/views/transition_builder.php:855
+msgid "Scale3D"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:70
+#: LayerSlider/views/transition_builder.php:51
+#: LayerSlider/views/skin_editor.php:30
+#: LayerSlider/views/style_editor.php:31
+#: LayerSlider/views/slider_list.php:81
+msgid "Screen Options"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:419
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:316
+msgid "Search for updates"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:104
+msgid "Send feedback"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:383
+#: LayerSlider/views/transition_builder.php:938
+msgid "Sequence"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:133
+msgid "Shortcode"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:186
+msgid "Show navigation buttons"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:63
+#: LayerSlider/views/transition_builder.php:44
+#: LayerSlider/views/skin_editor.php:23
+#: LayerSlider/views/style_editor.php:24
+#: LayerSlider/views/slider_list.php:72
+msgid "Show on screen"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:138
+msgid "Skin"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/menus.php:1
+#: LayerSlider/views/skin_editor.php:56
+msgid "Skin Editor"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:446
+#: LayerSlider/views/transition_builder.php:1001
+msgid "Slide"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:153
+#: LayerSlider/views/slider_edit_sample.php:10
+msgid "Slide Options"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:197
+#: LayerSlider/views/slider_edit_sample.php:46
+msgid "Slide transition"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:91
+#: LayerSlider/views/slider_edit_settings.php:13
+msgid "Slider Settings"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:30
+msgid "Slider dimensions"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/shortcodes.php:1
+msgid "Slider not found"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:131
+msgid "Slider preview"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:173
+msgid "Slider style"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:76
+msgid "Sliders"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:94
+#: LayerSlider/views/slider_list.php:134
+msgid "Slides"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:17
+msgid "Slideshow"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:72
+msgid "Slideshow behavior"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:94
+msgid "Slideshow navigation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:213
+msgid "Slideshow timers"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:312
+msgid "Stable"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:83
+msgid "Starting slide options"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:286
+#: LayerSlider/views/slider_edit_sample.php:130
+msgid "Styles"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:276
+msgid "Super Admin"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:309
+msgid "Text"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:324
+msgid "Thank you for purchasing LayerSlider WP. You successfully validated your purchase code for auto-updates."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:231
+#: LayerSlider/views/transition_builder.php:753
+msgid "The direction of rotation."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:453
+#: LayerSlider/views/transition_builder.php:1008
+msgid "The direction of the slide or mixed animation if you chose these type in the previous setting."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:475
+msgid "The documentation is here"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:403
+#: LayerSlider/views/transition_builder.php:958
+msgid "The duration of the animation. This value is in millisecs, so the value 1000 measn 1 second."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:273
+#: LayerSlider/views/transition_builder.php:646
+#: LayerSlider/views/transition_builder.php:716
+#: LayerSlider/views/transition_builder.php:804
+msgid "The duration of your animation. This value is in millisecs, so the value 1000 means 1 second."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "The import file seems to be invalid or corrupted."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:365
+#: LayerSlider/views/transition_builder.php:918
+msgid "The name of your custom transition. When you will edit a slider, it will appear with this name, so you can easily identify the individual transitions."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/compatibility.php:16
+msgid "The new version of LayerSlider WP is almost ready!"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:117
+#: LayerSlider/views/transition_builder.php:622
+msgid "The script will try to identify the optimal depth for your rotated objects (tiles). With this option, you can force your objects to have large depth when performing 180 degree (and its multiplies) rotation."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "The selected items were merged together as a new slider."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "The selected sliders were removed."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:406
+#: LayerSlider/views/transition_builder.php:961
+msgid "The timing function of the animation, with it you can manipualte the movement of the animated object. Please click on the link next to this select field to open easings.net for more information and real-time examples."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:445
+#: LayerSlider/views/transition_builder.php:1000
+msgid "The type of the animation, either slide, fade or both (mixed)."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:475
+msgid "This is a WordPress contextual help menu, we use it to give you fast access to our documentation. Please keep in mind that because this menu is contextual, it only shows the relevant information to the page that you are currently viewing. So if you search something, you should visit the corresponding page first and then open this help menu."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:369
+msgid "This is the most common workaround for jQuery related issues, and is recommended when you experience problems with jQuery."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:349
+msgid "This option will likely solve \"Old jQuery\" issues."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:20
+msgid "Thumbnail Navigation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:250
+msgid "Thumbnail appearance"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:239
+msgid "Thumbnail dimensions"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:230
+msgid "Thumbnail navigation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:376
+#: LayerSlider/views/transition_builder.php:931
+msgid "Tiles"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/widgets.php:56
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:1052
+msgid "To create a new transition, click to the \"Add new\" button above this text."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:1092
+msgid "To get started with the LayerSlider WP Transition Builder, please read our documentation by clicking on this \"Help\" menu item."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:310
+msgid "To receive auto-updates, you need to enter your item purchase code. You can find it on your CodeCanyon downloads page, just click on the Download button and choose the \"Licence Certificate\" option. This will download a text file that contains your purchase code."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:46
+#: LayerSlider/views/skin_editor.php:25
+#: LayerSlider/views/style_editor.php:26
+#: LayerSlider/views/slider_list.php:73
+msgid "Tooltips"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:454
+#: LayerSlider/views/transition_builder.php:1009
+msgid "Top"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:459
+#: LayerSlider/views/transition_builder.php:1014
+msgid "Top left"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:460
+#: LayerSlider/views/transition_builder.php:1015
+msgid "Top right"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:284
+#: LayerSlider/views/transition_builder.php:397
+#: LayerSlider/views/transition_builder.php:952
+#: LayerSlider/views/slider_edit_sample.php:128
+msgid "Transition"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/menus.php:1
+msgid "Transition Builder"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:1092
+msgid "Transition Builder documentation"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:423
+#: LayerSlider/views/slider_edit_sample.php:218
+msgid "Transition in"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:364
+#: LayerSlider/views/transition_builder.php:917
+msgid "Transition name"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:481
+#: LayerSlider/views/transition_builder.php:1036
+msgid "Transition options"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:462
+#: LayerSlider/views/slider_edit_sample.php:257
+msgid "Transition out"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:340
+msgid "Troubleshooting & Advanced Settings"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:443
+#: LayerSlider/views/transition_builder.php:998
+msgid "Type"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:348
+#: LayerSlider/views/slider_edit_sample.php:177
+msgid "Type here the contents of your layer. You can use any HTML codes in this field to insert other contents then text. This field is also shortcode-aware, so you can insert content from other plugins as well as video embed codes."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:6
+msgid "Type your slider name here"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:285
+msgid "Update"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/wp/notices.php:20
+msgid "Update available for LayerSlider WP!"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:347
+msgid "Use Google CDN version of jQuery"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/style_editor.php:81
+msgid "Using bad CSS code could break the appearance of your site or your sliders. Changes cannot be reverted after saving."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:103
+msgid "Using beta version"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:232
+#: LayerSlider/views/transition_builder.php:754
+msgid "Vertical"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:21
+msgid "Videos"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:576
+#: LayerSlider/views/slider_edit_sample.php:371
+msgid "Word-wrap"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:382
+#: LayerSlider/views/transition_builder.php:937
+msgid "You can apply a delay between the tiles and postpone their animation relative to each other."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:155
+msgid "You can change the skin of the slider. The 'noskin' skin is a border- and buttonless skin. Your custom skins will appear in the list when you create their folders as well."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:385
+#: LayerSlider/views/transition_builder.php:940
+msgid "You can control the animation order of the tiles here."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:199
+#: LayerSlider/views/slider_edit_sample.php:48
+msgid "You can select your desired slide transitions by clicking on this button."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:407
+msgid "You didn't add any Google font to your library yet."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:1051
+msgid "You didn't create any 2D transitions yet"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:881
+msgid "You didn't create any 3D transitions yet"
+msgstr ""
+
+#. Text in function
+#: LayerSlider/wp/notices.php:22
+msgid "You have version %1$s. Update to version %2$s."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:182
+msgid "You haven\\'t created any a slider yet. Click on the \"Add New\" button above to add one."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/skin_editor.php:76
+msgid "You need to make this file writable before you can save your changes. See the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">Codex</a> for more information."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/style_editor.php:78
+msgid "You need to make your uploads folder writable before you can save your changes. See the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">Codex</a> for more information."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "You need to select at least 2 sliders to merge them."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "Your Google Fonts library has been updated."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "Your account does not have the necessary permission you chose, and your settings have not been saved to prevent locking yourself out of the plugin."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/transition_builder.php:506
+#: LayerSlider/views/skin_editor.php:46
+#: LayerSlider/views/style_editor.php:46
+msgid "Your changes has been saved!"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:324
+msgid "Your purchase code doesn't appear to be valid. Please make sure that you entered your purchase code correctly."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "Your settings has been updated."
+msgstr ""
+
+#. Text in function
+#: LayerSlider/views/slider_list.php:460
+msgid "Your slider has been imported."
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_settings.php:23
+msgid "YourLogo"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:162
+msgid "ago"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:116
+msgid "e.g. Homepage slider"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:180
+msgid "enter URL"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:120
+msgid "following"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:342
+msgid "insert from URL"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:451
+msgid "installed"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit_posts.php:125
+msgid "item in the set of matched selection"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:203
+msgid "items"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:180
+#: LayerSlider/views/transition_builder.php:548
+msgid "or"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_list.php:286
+msgid "this page"
+msgstr ""
+
+#. Text in echo
+#: LayerSlider/views/slider_edit.php:249
+msgid "timeline view"
+msgstr ""
