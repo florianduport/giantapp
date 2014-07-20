@@ -11,6 +11,7 @@ var LocalConfig = {
 	database : {
 		address : "mongodb://giantapp:Answer&&Pigeon2010@94.23.203.174:27017/giantapp"
 	},
+	addressBasePath : "http://94.23.203.174",
 	hmacEnabled : false
 	
 };
