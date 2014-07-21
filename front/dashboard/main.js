@@ -16,7 +16,11 @@ var Main = {
 			var app = express();
 
 			app.use(cookieParser());
-			app.use(session({ secret: 'giantapp'}));
+			app.use(session({ 
+				secret: 'giantapp',
+    			maxAge  : new Date(Date.now() + 3600000), //1 Hour
+    			expires : new Date(Date.now() + 3600000)
+    		}));
 			app.set('port', configuration.port);
 			app.set('views', __dirname + '/views');
 			app.set('view engine', 'jade');

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>MonAppDentiste</name>
+    <name>GiantAppDentiste</name>
     <description>
         Une super application pour un dentiste
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        MonApp Team
+    <author email="contact@giantapp.fr" href="http://giantapp.fr">
+        GiantApp Team
     </author>
-    <content src="https://monapp-dentiste-c9-jewelz.c9.io/index.html" />
+    <content src="http://94.23.203.174:8088/53b70cfdb0937f4e48af3a3c/" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
