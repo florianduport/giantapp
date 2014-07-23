@@ -1,5 +1,6 @@
 var PageController = require('./../controllers/page.controller').PageController,
-LayoutController = require('./../controllers/layout.controller').LayoutController
+LayoutController = require('./../controllers/layout.controller').LayoutController,
+ArticleController = require('./../controllers/article.controller').ArticleController
 /**
 * Charge les routes de account controller
 * @class AccountRoutes
@@ -18,6 +19,9 @@ var Routes = {
 		});
 
 		app.get('/:appId/error', PageController.initializeError);
+
+		app.get('/:appId/articles', ArticleController.initialize);
+		app.get('/:appId/articles/:articleId', ArticleController.initializeArticle);
 
 		app.get('/:appId/:page', PageController.initialize);
 

@@ -16,7 +16,7 @@ var ConfigurationHelper = {
     getConfig : function(options){
     
         DatabaseHelper.getDatabase(function(db){
-            db.collection("Configuration", function(err, configurations){
+            db.collection("Configurations", function(err, configurations){
                 
                 if (err || !configurations)
                 {

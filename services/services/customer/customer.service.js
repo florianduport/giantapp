@@ -16,6 +16,10 @@ var CustomerService = {
     authenticateCustomer : function(username, password, done){
         DatabaseHelper.getDatabase(function(db){
             db.collection("Customers", function(err, customers){
+                if (err || !customers)
+                {
+                    return done(false);
+                } 
                 //password should be sent with sha1 encryption
                 customers.findOne({ username: username, password: password }, function(err, user){
                     if (err || !user)
@@ -37,6 +41,10 @@ var CustomerService = {
     getCustomerByUsername : function(username, done){
         DatabaseHelper.getDatabase(function(db){
             db.collection("Customers", function(err, customers){
+                if (err || !customers)
+                {
+                    return done(false);
+                } 
                 //password should be sent with sha1 encryption
                 customers.findOne({ username: username}, function(err, user){
                     if (err || !user)
