@@ -4,9 +4,7 @@ body{
 .navbar-inverse{
 	background-image : none !important;
 }
-.navbar-toggle:focus,
-.navbar-toggle:hover,
-.navbar-toggle{
+.navbar-toggle:focus, .navbar-toggle:hover, .navbar-toggle{
 	display: block;
 	border: none;
 	background: none !important;
@@ -16,8 +14,7 @@ body{
 	float: none;
 	margin-right: 15px;
 }
-#menuContainer,
-#contentRow{
+#menuContainer, #contentRow{
 	margin-top: 50px;
 }
 #menu{
