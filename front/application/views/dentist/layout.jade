@@ -10,16 +10,17 @@ html
         link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css")
         link(media="screen" rel="stylesheet" type="text/css" href="/css/global.css")
         link(media="screen" rel="stylesheet" type="text/css" href="css/theme.css")
-        link(media="screen" rel="stylesheet" type="text/css" href="css/slidebars.min.css")
+        link(media="screen" rel="stylesheet" type="text/css" href="/css/slidebars.min.css")
         block conditionnalHeader
     body
-    #sb-site
         include blocks/navbar
+        #sb-site
             #contentRow.row
                 block content
-    include blocks/menu
+        include blocks/menu
         script(type="text/javascript" src="/js/libs/jquery.min.js")
         script(type="text/javascript" src="/js/libs/response.min.js")
         script(type="text/javascript" src="/js/libs/slidebars.min.js")
         script(type="text/javascript" src="/js/libs/jquery.cookie.js")
         script(type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+        script(type="text/javascript" src="/js/global.js")
