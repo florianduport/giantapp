@@ -19,7 +19,7 @@ var LoggerRoutes = {
         
     	// get logs : /logger/
     
-    	app.get(configuration.routes.logger.getLogs, HmacHelper.verifyRequest, function(req, res){
+    	app.post(configuration.routes.logger.getLogs, HmacHelper.verifyRequest, function(req, res){
     		var application = "";
     		if(req.body !== undefined && req.body.application !== undefined)
     			application = req.body.application;

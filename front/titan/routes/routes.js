@@ -19,8 +19,9 @@ var Routes = {
 		app.post('/signin', AccountController.signIn);
 		app.get('/signout', AccountController.signOut);
 
-        app.get('/technical', AccountController.checkSignIn, TechnicalController.initialize)
-        app.get('/technical/exportDatabase', AccountController.checkSignIn, TechnicalController.exportDatabase)
+        app.get('/technical', AccountController.checkSignIn, TechnicalController.initialize);
+        app.get('/technical/logs', AccountController.checkSignIn, TechnicalController.showLogs);
+        app.get('/technical/exportDatabase', AccountController.checkSignIn, TechnicalController.exportDatabase);
 
     }
 
