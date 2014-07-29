@@ -7,7 +7,7 @@ LocalConfig = require('./../configuration.local').LocalConfig;
 var DatabaseHelper = {
 
     getDatabase : function(ToExecute){
-        MongoClient.connect(LocalConfig.database.address, {auto_reconnect:true, socketOptions: {keepAlive : 7200}}, function(err, db) {
+        MongoClient.connect(LocalConfig.database.address, function(err, db) {
             if(err)
             	console.log(err);
             ToExecute(db);
