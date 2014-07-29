@@ -2,8 +2,10 @@ extends ../layout
 block conditionnalHeader
 	link(rel="stylesheet" href="/css/dentist/homepage.css")
 block content
-	.row
+	.col-xs12.col-sm12.col-md12.col-lg12
 		img(src="http://www.dr-godet-francois.fr/wp-content/uploads/2010/05/dr-francois-godet-cabinet2.jpg" id="coverImg")
-	#profileImgContainer.row
-		img(src="http://encinitas-dentist.com/wp-content/uploads/2013/05/dentistfemale.jpg" id="profileImg")
-	p ici sera affiché le contenu de la page d'accueil de l'application client
+		#profileImgContainer.row
+			img(src="http://encinitas-dentist.com/wp-content/uploads/2013/05/dentistfemale.jpg" id="profileImg")
+		h3 Dr BLANC Stéphanie
+			small Docteur en chirurgie
+

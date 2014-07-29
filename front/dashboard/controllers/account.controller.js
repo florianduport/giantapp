@@ -85,6 +85,23 @@ var AccountController = {
     },
 
     /**
+    * checkNotSignedIn : Vérifie si l'utilisateur est connecté
+    * @param req : requête http
+    * @param res : reponse http
+    * @param next : méthode de callback
+    */
+    checkNotSignedIn : function(req, res, next){
+        if(req.session.user === undefined)
+        {
+            next();
+        }
+        else
+        {
+            res.redirect('/'); 
+        }
+    },
+
+    /**
     * signIn : Connexion au dashboard
     * @param req : requête http
     * @param res : reponse http

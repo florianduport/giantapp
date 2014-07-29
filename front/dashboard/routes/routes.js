@@ -4,6 +4,7 @@ ShopController = require('./../controllers/shop.controller').ShopController,
 AccountController = require('./../controllers/account.controller').AccountController,
 InvoicesController = require('./../controllers/invoices.controller').InvoicesController,
 MessagesController = require('./../controllers/messages.controller').MessagesController,
+OrderController = require('./../controllers/order.controller').OrderController,
 SubscriptionController = require('./../controllers/subscription.controller').SubscriptionController,
 HelpController = require('./../controllers/help.controller').HelpController;
 /**
@@ -23,6 +24,8 @@ var Routes = {
 
 		app.post('/signin', AccountController.signIn);
 		app.get('/signout', AccountController.signOut);
+
+		app.get('/order', AccountController.checkNotSignedIn, OrderController.initialize);
 
 		app.get('/application', AccountController.checkSignIn, ApplicationController.initialize);
 		app.get('/application/edit', AccountController.checkSignIn, ApplicationController.edit);

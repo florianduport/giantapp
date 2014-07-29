@@ -1,12 +1,8 @@
-#menu
-	div.container-fluid
-		.row
-			div(class="navbar navbar-fixed-top navbar-inverse" role="navigation")
-				div.container-fluid
-				div(class="row navbar-brand") 
-	#menuContainer.container-fluid
-		each navElement in model.navigation
-			.row
-				a(href="#{navElement.link}")
-					img(src="/img/content/icons/#{navElement.link}.png" class="menu_icon")
-					span #{navElement.name}
+.sb-slidebar.sb-left
+	nav
+		ul.sb-menu
+			each navElement in model.navigation
+				li(class="sb-close")
+					a(href="#{navElement.link}") #{navElement.name} 
+						img(src="/img/content/icons/#{navElement.link}.png" class="menu_icon")
+

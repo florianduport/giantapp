@@ -19,7 +19,7 @@ var LoggerService = {
                     return done(false);
                 }
                 if(application === ""){
-                    logsCollection.find({}, {}, {limit : 100}).toArray(function(err, items){
+                    logsCollection.find({}, {}, {limit : 100, sort : {$natural:-1}}).toArray(function(err, items){
                         if (err || !items){
                             return done(false);
                         }

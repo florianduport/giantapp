@@ -4,24 +4,15 @@ div(class="row" id="menuHeaderRow")
 			i(class="fa fa-bolt") 
 			span  TITAN
 .row
-	ul(id="menu")
-		li
-			a(href="/")
-				i(class="fa fa-home") 
-				span Accueil
-		li
-			a(href="/crm")
-				i(class="fa fa-bar-chart-o") 
-				span Analytics
-		li
-			a(href="/crm")
-				i(class="fa fa-group") 
-				span Gestion clients
-		li
-			a(href="/shop")
-				i(class="fa fa-shopping-cart") 
-				span Gestion boutique
-		li
-			a(href="/technical")
-				i(class="fa fa-cube") 
-				span Technique
+	div(id="menu" class="list-group")
+		a(href="#" class="list-group-item") Accueil
+		ul(class="hidden")
+			li 
+				a(href="/") Tableau principal
+		a(href="#" class="list-group-item") Analytics
+		a(href="#" class="list-group-item") Gestion clients
+		a(href="#" class="list-group-item") Gestion boutique
+		a(href="#" class="list-group-item") Technique
+		ul(class="hidden")
+			li 
+				a(href="/technical/logs") Voir les logs
