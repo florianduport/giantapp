@@ -1,6 +1,8 @@
 .sb-slidebar.sb-left
-	each navElement in model.navigation
-		a(href="#{navElement.link}")
-			img(src="/img/content/icons/#{navElement.link}.png" class="menu_icon")
-			span #{navElement.name}
+	nav
+		ul.sb-menu
+			each navElement in model.navigation
+				li(class="sb-close")
+					a(href="#{navElement.link}") #{navElement.name} 
+						img(src="/img/content/icons/#{navElement.link}.png" class="menu_icon")
 

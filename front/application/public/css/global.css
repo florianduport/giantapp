@@ -9,11 +9,7 @@ body{
 	border: none;
 	background: none !important;
 }
-.navbar-brand{
-	text-align: center;
-	float: none;
-	margin-right: 15px;
-}
+
 #menuContainer, #contentRow{
 	margin-top: 50px;
 }
@@ -23,4 +19,45 @@ body{
 .row{
 	margin-left: 0px !important;
 	margin-right: 0px !important;
+}
+
+.navicon-line{
+	background-color: #fff;
+    border-radius: 1px;
+    height: 3px;
+    margin-bottom: 4px;
+    width: 25px;
+}
+.navbar .sb-toggle-left {
+    float: left;
+    padding: 14px;
+    width: 58px;
+}
+#title-navbar{
+	font-size: x-large;
+    line-height: 50px;
+}
+.sb-slidebar {
+    background-color: #FFFFFF !important;
+    }
+.sb-menu {
+    list-style-type: none;
+    padding: 0;
+}
+.sb-menu > li:first-child {
+    border-top: medium none;
+}
+.sb-menu li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sb-menu li a {
+    color: #6e6e6e;
+    display: inline-block;
+    padding: 1em;
+    width: 100%;
+    text-decoration: none;
 }
