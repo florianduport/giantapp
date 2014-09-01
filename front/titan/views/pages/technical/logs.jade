@@ -6,28 +6,28 @@ block dashboardContent
 	.row
 		div(class="col-xs-0 col-sm-0 col-md-1 col-lg-1")
 		div(class="col-xs-12 col-sm-12 col-md-10 col-lg-10 contentContainer")
-		table.table
-			thead
-				tr
-					th Type
-					th Date
-					th Application
-					th Url
-					th Message
-					th Detail
-			tbody 
-				each log in model.logs
-					tr 
-						td #{log.type}
-						if log.params !== undefined
-							td #{log.params.date}
-						else
-							td 
-						td #{log.application}
-						if log.params !== undefined
-							td #{log.params.url}
-						else
-							td
-						td #{log.message}
-						td #{log.errorObject}
+			table.table
+				thead
+					tr
+						th Type
+						th Date
+						th Application
+						th Url
+						th Message
+						th Detail
+				tbody 
+					each log in model.logs
+						tr 
+							td #{log.type}
+							if log.params !== undefined
+								td #{log.params.date}
+							else
+								td 
+							td #{log.application}
+							if log.params !== undefined
+								td #{log.params.url}
+							else
+								td
+							td #{log.message}
+							td #{log.errorObject}
 		div(class="col-xs-0 col-sm-0 col-md-1 col-lg-1")
