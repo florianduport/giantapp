@@ -66,3 +66,8 @@ body{
 .sb-menu-top {
     min-height: 51px;
 }
+.menu_icon {
+    width: 22px;
+    float: left;
+    margin-right: 3px;
+}
