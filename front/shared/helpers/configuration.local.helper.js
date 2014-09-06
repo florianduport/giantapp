@@ -12,9 +12,9 @@ var ConfigurationLocalHelper = {
     getLocalConfigFile : function(moduleId){
         if(moduleId.indexOf("titan") > 0)
             return './../../titan/configuration.local';
-        else if(mmoduleId.indexOf("application") > 0)
+        else if(moduleId.indexOf("application") > 0)
             return './../../application/configuration.local';
-        else if(mmoduleId.indexOf("dashboard") > 0)
+        else if(moduleId.indexOf("dashboard") > 0)
             return './../../dashboard/configuration.local';
     }
 

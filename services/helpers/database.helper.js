@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient,
 LocalConfig = require('./../configuration.local').LocalConfig;
+DatabaseInstance = null;
 /**
  * Connexion à la BDD
  * @class DatabaseHelper
@@ -7,11 +8,15 @@ LocalConfig = require('./../configuration.local').LocalConfig;
 var DatabaseHelper = {
 
     getDatabase : function(ToExecute){
-    	console.log(LocalConfig.database.address);
+    	if(DatabaseInstance) {
+    		ToExecute(DatabaseInstance);
+    		return;
+    	}
         MongoClient.connect(LocalConfig.database.address, function(err, db) {
             if(err)
             	console.log(err);
-            ToExecute(db);
+            DatabaseInstance = db;
+            ToExecute(DatabaseInstance);
         });
     }
 
