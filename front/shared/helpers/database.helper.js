@@ -1,5 +1,6 @@
-var MongoClient = require('mongodb').MongoClient,
-LocalConfig = require('./../configuration.local').LocalConfig;
+var MongoClient = require('mongodb').MongoClient;
+ConfigurationLocalHelper = require('./configuration.local.helper').ConfigurationLocalHelper,
+LocalConfig = require(ConfigurationLocalHelper.getLocalConfigFile(module.parent.parent.id)).LocalConfig,
 DatabaseInstance = null;
 /**
  * Connexion à la BDD
