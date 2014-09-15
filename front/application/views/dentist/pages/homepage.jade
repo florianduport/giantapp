@@ -3,9 +3,9 @@ block conditionnalHeader
 	link(rel="stylesheet" href="/css/dentist/homepage.css")
 block content
 	.col-xs12.col-sm12.col-md12.col-lg12
-		img(src="http://www.dr-godet-francois.fr/wp-content/uploads/2010/05/dr-francois-godet-cabinet2.jpg" id="coverImg")
+		img(src="#{model.page.data.coverPicture}" id="coverImg")
 		#profileImgContainer.row
-			img(src="http://encinitas-dentist.com/wp-content/uploads/2013/05/dentistfemale.jpg" id="profileImg")
-		h3 Dr BLANC Stéphanie
-			small Docteur en chirurgie
+			img(src="#{model.page.data.profilePicture}" id="profileImg")
+		h3=model.page.data.displayName
+			small=model.page.data.shortDescription
 
