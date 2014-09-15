@@ -1,5 +1,9 @@
 body{
 	background-color : "#ffffff";
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    
 }
 .navbar-inverse{
 	background-image : none !important;
@@ -10,15 +14,8 @@ body{
 	background: none !important;
 }
 
-#menuContainer, #contentRow{
-	margin-top: 50px;
-}
 #menu{
 	position: absolute;
-}
-.row{
-	margin-left: 0px !important;
-	margin-right: 0px !important;
 }
 
 .navicon-line{
@@ -37,6 +34,7 @@ body{
 #title-navbar{
 	font-size: x-large;
     line-height: 50px;
+    font-weight: 400;
 }
 .sb-slidebar {
     background-color: #FFFFFF !important;
@@ -62,12 +60,14 @@ body{
     padding: 1em;
     width: 100%;
     text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
 }
 .sb-menu-top {
     min-height: 51px;
 }
-.menu_icon {
-    width: 22px;
+.menu-icon {
+    width: 20px;
     float: left;
-    margin-right: 3px;
+    margin-right: 20px;
 }

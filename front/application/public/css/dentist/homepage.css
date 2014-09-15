@@ -11,3 +11,32 @@
 	border: 4px white solid;
 	margin-top: -18%;
 }
+#footHomepage{
+	background-color: #83b8e2;
+
+}
+#coverImg {
+    max-height: 80%;
+}
+.clickToContainer:first-child {
+	border-top: 1px solid lightgrey;
+	height: 60px;
+}
+.footer-icons {
+	height: 40px;
+	margin: 10px;
+}
+.clickToButton{
+	height: 100%;
+}
+.clickToContent{
+	background-color: white;
+	height: 100%;
+}
+.clickToContent > p {
+	margin-top: 5px;
+	color: grey;
+}
+.clickToContent > p > strong{
+	color: black;
+	}

@@ -2,10 +2,38 @@ extends ../layout
 block conditionnalHeader
 	link(rel="stylesheet" href="/css/dentist/homepage.css")
 block content
-	.col-xs12.col-sm12.col-md12.col-lg12
 		img(src="#{model.page.data.coverPicture}" id="coverImg")
-		#profileImgContainer.row
-			img(src="#{model.page.data.profilePicture}" id="profileImg")
-		h3=model.page.data.displayName
-			small=model.page.data.shortDescription
+		.col-xs-12.col-sm-12.col-md-12.col-lg-12
+			.row
+				#profileImgContainer
+					div.col-xs-12.col-sm-12.col-md-12.col-lg-12
+						img(src="#{model.page.data.profilePicture}" id="profileImg")
+			.row
+				.row.text-center
+					h3=model.page.data.displayName
+
+				.row.text-center
+					small=model.page.data.shortDescription
+
+			.row
+				.navbar-fixed-bottom#footHomepage
+					.col-xs-12.col-sm-12.col-md-6.col-lg-6
+						a(href='tel:#{model.page.data.phoneNumber}') 
+							.row.clickToContainer
+								.clickToButton.col-xs-2.col-sm-2.col-md-2.col-lg-2.text-center
+									img(src="/img/icons/contact.svg" class="footer-icons")
+								.clickToContent.col-xs-10.col-sm-10.col-md-10.col-lg-10
+									p
+										strong Prendre rendez-vous
+									p Horaires : Lundi - Vendredi 9h-12h30 et 14h-19h
+
+					.col-xs-12.col-sm-12.col-md-6.col-lg-6
+						a(href='tel:#{model.page.data.phoneNumber}') 
+							.row.clickToContainer
+								.clickToButton.col-xs-2.col-sm-2.col-md-2.col-lg-2.text-center
+									img(src="/img/icons/appointments.svg" class="footer-icons")
+								.clickToContent.col-xs-10.col-sm-10.col-md-10.col-lg-10
+									p
+										strong Gérer mes rendez-vous
+									p Prochain rendez-vous : demain à 16h (Mardi 16 Septembre)
 
