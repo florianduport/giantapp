@@ -1,0 +1,79 @@
+body {
+    background: none repeat scroll 0 0 #f2f2f2;
+    color: #7f7f7f;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+#home {
+    background-image: url('../img/DeathtoStock.jpg');
+}
+.section {
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.dark.transparent .section-inner {
+    background: none repeat scroll 0 0 rgba(51, 65, 72, 0.75);
+}
+.dark .section-inner {
+    background: none repeat scroll 0 0 #254254;
+    color: #fff;
+}
+.transparent .section-inner {
+    padding: 120px 12px;
+}
+.section.dark h1, .section.dark h2, .section.dark h3, .section.dark h4, .section.dark h5, .section.dark h6, .section.blue h1, .section.blue h2, .section.blue h3, .section.blue h4, .section.blue h5, .section.blue h6, .section.green h1, .section.green h2, .section.green h3, .section.green h4, .section.green h5, .section.green h6, .section.purple h1, .section.purple h2, .section.purple h3, .section.purple h4, .section.purple h5, .section.purple h6, .section.white.transparent h1, .section.white.transparent h2, .section.white.transparent h3, .section.white.transparent h4, .section.white.transparent h5, .section.white.transparent h6 {
+    color: white;
+}
+h1 {
+    color: #738f9d;
+    font-family: "Roboto",sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    margin: 0 0 48px;
+    text-align: left;
+    padding-left: 105px;
+    padding-right: 105px;
+    text-transform: uppercase;
+}
+.line {
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid #e1e1e1;
+    margin: 48px auto 47px;
+    width: 116px;
+}
+.section-inner {
+    padding: 48px 12px;
+    position: relative;
+}
+h3 {
+    color: #565656;
+    font-family: "Roboto",sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 48px;
+    margin-bottom: 72px;
+    margin-top: 48px;
+    text-transform: uppercase;
+}
+.logo-rmp {
+    width: 260px;
+}
+.logo-paces-store {
+    width: 530px;
+}
+.p-logo-rmp{
+    padding-right: 25px;
+}
+#newsletter-form {
+    background-color: #f36c60;
+    padding: 50px;
+}
+#inputmail{
+    width: 375px;
+}
